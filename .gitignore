@@ -1,3 +1,4 @@
-out/*
-.idea/*
-SuperHelp.iml
+/out/
+/.idea/
+/SuperHelp.iml/
+/lib/
