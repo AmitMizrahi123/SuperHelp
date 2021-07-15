@@ -2,6 +2,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.sql.*;
+import java.util.ArrayList;
+import java.util.Map;
 
 public class DBTest {
     private static Connection conn;
@@ -13,7 +15,7 @@ public class DBTest {
     public static void setUp() throws SQLException {
         conn = ConnectDB.connectToMySql();
         stmt = conn.createStatement();
-        rs = stmt.executeQuery("select * from volunteer");
+        rs = stmt.executeQuery("select * from dbso.volunteer");
         rsmd = rs.getMetaData();
     }
 
