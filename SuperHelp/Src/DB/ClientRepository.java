@@ -13,17 +13,17 @@ public class ClientRepository implements ClientRepositoryInterface {
 
     public ClientRepository(Connection conn) throws Exception {
         this.conn = conn;
-        clients = UtilitiesClient.getAllData(conn);
+        this.clients = ClientDB.getAllData(conn);
     }
 
     @Override
     public ArrayList<Client> getAllClients() {
-        return clients;
+        return this.clients;
     }
 
     @Override
     public Client findClientByEmail(String email) {
-        for (Client client : clients) {
+        for (Client client : this.clients) {
             if (email.equals(client.getEmail())) {
                 return client;
             }
@@ -46,7 +46,7 @@ public class ClientRepository implements ClientRepositoryInterface {
             throw new Exception("Email exists");
 
         clients.add(client);
-        UtilitiesClient.insertData(this.conn, client);
+        ClientDB.insertData(this.conn, client);
     }
 
     @Override
@@ -58,7 +58,7 @@ public class ClientRepository implements ClientRepositoryInterface {
         }
 
         clients.remove(client);
-        UtilitiesClient.deleteData(this.conn, client);
+        ClientDB.deleteData(this.conn, client);
     }
 
     @Override
@@ -79,7 +79,7 @@ public class ClientRepository implements ClientRepositoryInterface {
 
     @Override
     public boolean isValidEmail(String email) {
-        String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\."+
+        String emailRegex = "^[a-zA-Z0-9_+&*-]+(?:\\." +
                 "[a-zA-Z0-9_+&*-]+)*@" +
                 "(?:[a-zA-Z0-9-]+\\.)+[a-z" +
                 "A-Z]{2,7}$";

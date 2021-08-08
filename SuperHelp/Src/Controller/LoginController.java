@@ -32,8 +32,6 @@ public class LoginController {
                 if (theModel.validateUserLogin(email, password)) {
                     permission = theModel.getClientPermission(email);
 
-                    theView.displaySuccessMessage("Login was successful");
-
                     if (permission.equals("Admin")) {
                         // TODO Admin screen
                         theView.displaySuccessMessage("Admin");
