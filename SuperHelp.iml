@@ -3,9 +3,9 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Src/UI" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Tests" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/SuperHelp/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/SuperHelp/src/UI" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

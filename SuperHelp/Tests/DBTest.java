@@ -1,4 +1,5 @@
-import DB.UtilitiesClient;
+import DB.ClientDB;
+import DB.Utilities;
 import Model.Client;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -17,7 +18,7 @@ public class DBTest {
 
     @BeforeAll
     public static void setUp() throws SQLException {
-        conn = UtilitiesClient.connectToMySql();
+        conn = Utilities.connectToMySql();
         stmt = conn.createStatement();
         rs = stmt.executeQuery(selectAllDb);
         rsmd = rs.getMetaData();
@@ -45,7 +46,7 @@ public class DBTest {
     void checkInsertAndDelteData(Client client) throws Exception {
         int flag = 0;
 
-        UtilitiesClient.insertData(conn, client);
+        ClientDB.insertData(conn, client);
 
         ResultSet newRs = stmt.executeQuery(selectAllDb);
 
@@ -57,7 +58,7 @@ public class DBTest {
             }
         }
 
-        UtilitiesClient.deleteData(conn, client);
+        ClientDB.deleteData(conn, client);
 
         newRs = stmt.executeQuery(selectAllDb);
 
