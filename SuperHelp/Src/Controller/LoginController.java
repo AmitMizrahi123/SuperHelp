@@ -1,6 +1,7 @@
 package Controller;
 
 import DB.ClientRepository;
+import View.Contact;
 import View.Login;
 import View.Register;
 
@@ -18,6 +19,7 @@ public class LoginController {
         this.theView.setVisible(true);
         this.theView.addLoginListener(new LoginListener());
         this.theView.addRegisterListener(new RegisterListener());
+        this.theView.addContactListener(new ContactListener());
     }
 
     class LoginListener implements ActionListener {
@@ -57,6 +59,21 @@ public class LoginController {
                 Register view = new Register();
                 ClientRepository model = new ClientRepository(theModel.conn);
                 RegisterController controller = new RegisterController(view, model);
+
+                theView.dispose();
+            } catch (Exception exc) {
+                exc.printStackTrace();
+            }
+        }
+    }
+
+    class ContactListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            try {
+                Contact view = new Contact();
+                ClientRepository model = new ClientRepository(theModel.conn);
+                ContactController controller = new ContactController(view, model);
 
                 theView.dispose();
             } catch (Exception exc) {

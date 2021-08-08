@@ -37,7 +37,7 @@ public class Login extends JFrame {
 
     public int getAppWidth() { return 451; }
 
-    public int getAppHeight() { return 470; }
+    public int getAppHeight() { return 430; }
 
     public String mainHeaderText() {
         return "Welcome to Super Help";
@@ -82,6 +82,10 @@ public class Login extends JFrame {
 
         contactUsButton  = new JButton("Contact us");
         contactUsButton.setBounds(328, 136, 99, 23);
+        contactUsButton.setBorderPainted(false);
+        contactUsButton.setFocusPainted(false);
+        contactUsButton.setBackground(SystemColor.activeCaption);
+        contactUsButton.setForeground(Color.WHITE);
         contentPane.add(contactUsButton);
 
         adsButton = new JLabel("want your ads here?");
@@ -114,6 +118,10 @@ public class Login extends JFrame {
 
     public void addRegisterListener(ActionListener actionRegisterListener) {
         registerButton.addActionListener(actionRegisterListener);
+    }
+
+    public void addContactListener(ActionListener actionContactListener) {
+        contactUsButton.addActionListener(actionContactListener);
     }
 
     public void displaySuccessMessage(String msg) {
