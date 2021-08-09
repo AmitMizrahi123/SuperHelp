@@ -11,9 +11,10 @@ public class TestingClient {
     private static String selectAllDb = "select * from dbso.client";
     private static Connection conn;
     private static ClientRepository model;
-    Client yuvalZoosman = new Client("yuval@gmail.com", "Yy123456!", "Yuval",
+
+    private Client yuvalZoosman = new Client("yuval@gmail.com", "Yy123456!", "Yuval",
             "Zoosman", "Tel Aviv", "0541112222", "Volunteer");
-    Client romanSorken = new Client("roman@gmail.com", "Rr123456!", "Roman",
+    private Client romanSorken = new Client("roman@gmail.com", "Rr123456!", "Roman",
             "Sorken", "Tel Aviv", "0541113333", "Admin");
 
     @BeforeClass
@@ -71,9 +72,13 @@ public class TestingClient {
 
     @Test
     public void checkValidName() {
-        String invalidName = "111a";
+        String invalidName1 = "111a";
+        String invalidName2 = "";
+        String invalidName3 = "111!";
 
-        Assert.assertFalse("Invalid Name", model.isValidName(invalidName));
+        Assert.assertFalse("Invalid Name", model.isValidName(invalidName1));
+        Assert.assertFalse("Invalid Name", model.isValidName(invalidName2));
+        Assert.assertFalse("Invalid Name", model.isValidName(invalidName3));
         Assert.assertTrue("Valid Name", model.isValidName(yuvalZoosman.getFirstName()));
         Assert.assertTrue("Valid Name", model.isValidName(romanSorken.getFirstName()));
     }
