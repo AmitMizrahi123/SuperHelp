@@ -100,9 +100,17 @@ public class TestingClient {
 
     @Test
     public void checkValidPhoneNumber() {
-        String invalidNumber = "05011";
+        String invalidNumber1 = "050111111";
+        String invalidNumber2 = "05011111111";
+        String invalidNumber3 = "0501111111!";
+        String invalidNumber4 = "0501111111a";
+        String invalidNumber5 = "0501111111A";
 
-        Assert.assertFalse("Invalid Phone Number", model.isValidPhoneNumber(invalidNumber));
+        Assert.assertFalse("Invalid Phone Number", model.isValidPhoneNumber(invalidNumber1));
+        Assert.assertFalse("Invalid Phone Number", model.isValidPhoneNumber(invalidNumber2));
+        Assert.assertFalse("Invalid Phone Number", model.isValidPhoneNumber(invalidNumber3));
+        Assert.assertFalse("Invalid Phone Number", model.isValidPhoneNumber(invalidNumber4));
+        Assert.assertFalse("Invalid Phone Number", model.isValidPhoneNumber(invalidNumber5));
         Assert.assertTrue("Valid Phone Number", model.isValidPhoneNumber(yuvalZoosman.getPhoneNumber()));
         Assert.assertTrue("Valid Phone Number", model.isValidPhoneNumber(romanSorken.getPhoneNumber()));
     }
