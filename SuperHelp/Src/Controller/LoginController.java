@@ -31,20 +31,26 @@ public class LoginController {
                 email = theView.getEmailField();
                 password = theView.getPasswordField();
 
-                if (theModel.validateUserLogin(email, password)) {
-                    permission = theModel.getClientPermission(email);
+                if (!theModel.isEmailExist(email)) {
 
-                    if (permission.equals("Admin")) {
-                        // TODO Admin screen
-                        theView.displaySuccessMessage("Admin");
-                    } else if (permission.equals("volunteer")) {
-                        // TODO Volunteer screen
-                        theView.displaySuccessMessage("Volunteer");
+                    if (theModel.validateUserPassword(email, password)) {
+                        permission = theModel.getClientPermission(email);
+
+                        if (permission.equals("Admin")) {
+                            // TODO Admin screen
+                            theView.displaySuccessMessage("Admin");
+                        } else if (permission.equals("volunteer")) {
+                            // TODO Volunteer screen
+                            theView.displaySuccessMessage("Volunteer");
+                        }
+
+                        theView.dispose();
+                    } else {
+                        theView.displayErrorMessage("Invalid password");
                     }
 
-                    theView.dispose();
                 } else {
-                    theView.displayErrorMessage("Invalid email or password");
+                    theView.displayErrorMessage("Invalid email");
                 }
             } catch (Exception exc) {
                 exc.printStackTrace();

@@ -62,13 +62,13 @@ public class ClientRepository implements ClientRepositoryInterface {
     }
 
     @Override
-    public String getClientPermission(String email) throws Exception {
+    public String getClientPermission(String email) {
         Client client = findClientByEmail(email);
         return client.getPermission();
     }
 
     @Override
-    public boolean validateUserLogin(String email, String password) {
+    public boolean validateUserPassword(String email, String password) {
         Client client = findClientByEmail(email);
 
         if (client == null)

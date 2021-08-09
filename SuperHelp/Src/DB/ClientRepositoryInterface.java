@@ -17,7 +17,7 @@ public interface ClientRepositoryInterface {
 
     String getClientPermission(String email) throws Exception;
 
-    boolean validateUserLogin(String email, String password);
+    boolean validateUserPassword(String email, String password);
 
     boolean isValidEmail(String email);
 

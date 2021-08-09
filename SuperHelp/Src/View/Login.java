@@ -39,6 +39,8 @@ public class Login extends JFrame {
 
     public int getAppHeight() { return 430; }
 
+    public String title() { return "SuperHelp"; }
+
     public String mainHeaderText() {
         return "Welcome to Super Help";
     }
@@ -46,7 +48,7 @@ public class Login extends JFrame {
     public Login() {
         // TODO Add Images
 
-        setTitle("SuperHelp");
+        setTitle(title());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, getAppWidth(), getAppHeight());
         setLocationRelativeTo(null);

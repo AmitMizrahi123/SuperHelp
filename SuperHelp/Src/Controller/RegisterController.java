@@ -79,7 +79,7 @@ public class RegisterController {
                     counterValid++;
                 }
 
-                if (theModel.isValidAddress(address)) {
+                if (!theModel.isValidAddress(address)) {
                     theView.addressError();
                 } else {
                     theView.removeAddressError();
@@ -98,8 +98,17 @@ public class RegisterController {
                         theModel.add(new Client(email, password, firstName, lastName, address, phoneNumber, permission));
                         theModel.clients.add(new Client(email, password, firstName, lastName, address, phoneNumber, permission));
 
-                        // Todo admin UI
-                        theView.displaySuccessMessage("Success");
+                        theView.displaySuccessMessage("You have successfully registered");
+
+                        if (permission.equals("Admin")) {
+                            // Todo admin UI
+                            theView.displaySuccessMessage("Admin");
+                        } else {
+                            // Todo client UI
+                            theView.displaySuccessMessage("Client");
+                        }
+
+                        theView.dispose();
                     }
                 } else {
                     counterValid = 0;
