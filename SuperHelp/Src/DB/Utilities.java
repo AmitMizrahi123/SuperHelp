@@ -8,10 +8,10 @@ public class Utilities {
         String USER = "root";
         String PASS = "pass123";
         String DB_URL = "jdbc:mysql://localhost:3306/dbso?";
+        String unicode= "useSSL=false&autoReconnect=true&useUnicode=yes&characterEncoding=UTF-8";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver"); // Driver for connection
-            String unicode= "useSSL=false&autoReconnect=true&useUnicode=yes&characterEncoding=UTF-8";
             return DriverManager.getConnection(DB_URL + unicode, USER, PASS);
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
@@ -22,7 +22,7 @@ public class Utilities {
 
     public static void createSchema(Connection conn, String databaseName) throws SQLException {
         String sql = "create database " + databaseName;
-
+        
         Statement statement = conn.createStatement();
         statement.executeUpdate(sql);
         System.out.println("Create schema");
