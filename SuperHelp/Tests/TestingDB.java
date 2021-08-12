@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.sql.*;
 import java.util.stream.Stream;
 
-public class DBTest {
+public class TestingDB {
     private static String selectAllDb = "select * from dbso.client";
     private static Connection conn;
     private static Statement stmt;
