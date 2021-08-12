@@ -96,7 +96,6 @@ public class RegisterController {
                 if (counterValid == 6) {
                     if (theModel.isEmailExist(email)) {
                         theModel.add(new Client(email, password, firstName, lastName, address, phoneNumber, permission));
-                        theModel.clients.add(new Client(email, password, firstName, lastName, address, phoneNumber, permission));
 
                         theView.displaySuccessMessage("You have successfully registered");
 
