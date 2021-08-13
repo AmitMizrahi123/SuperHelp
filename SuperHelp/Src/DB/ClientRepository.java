@@ -8,22 +8,22 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ClientRepository implements ClientRepositoryInterface {
-    public Connection conn;
-    public ArrayList<Client> clients;
+    public Connection _db;
+    private ArrayList<Client> _clients;
 
-    public ClientRepository(Connection conn) throws Exception {
-        this.conn = conn;
-        this.clients = ClientDB.getAllData(conn);
+    public ClientRepository(Connection db) throws Exception {
+        _db = db;
+        _clients = ClientDB.getAllData(_db);
     }
 
     @Override
     public ArrayList<Client> getAllClients() {
-        return this.clients;
+        return _clients;
     }
 
     @Override
     public Client findClientByEmail(String email) {
-        for (Client client : this.clients) {
+        for (Client client : _clients) {
             if (email.equals(client.getEmail())) {
                 return client;
             }
@@ -45,8 +45,8 @@ public class ClientRepository implements ClientRepositoryInterface {
         if (!isEmailExist(client.getEmail()))
             throw new Exception("Email exists");
 
-        clients.add(client);
-        ClientDB.insertData(this.conn, client);
+        _clients.add(client);
+        ClientDB.insertData(this._db, client);
     }
 
     @Override
@@ -57,8 +57,8 @@ public class ClientRepository implements ClientRepositoryInterface {
             throw new Exception("The client that you want to delete is not in clients");
         }
 
-        clients.remove(client);
-        ClientDB.deleteData(this.conn, client);
+        _clients.remove(client);
+        ClientDB.deleteData(this._db, client);
     }
 
     @Override

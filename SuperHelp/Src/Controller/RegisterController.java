@@ -1,7 +1,7 @@
 package Controller;
 
 import DB.ClientRepository;
-import LoggerApp.SingletonLogger;
+import Logger.SingletonLogger;
 import Model.Client;
 import View.Login;
 import View.Register;
@@ -12,17 +12,17 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class RegisterController {
-    Register theView;
-    ClientRepository theModel;
+    Register _theView;
+    ClientRepository _theModel;
     Logger _logger = SingletonLogger.getInstance().getLogger();
 
     public RegisterController(Register view, ClientRepository model) {
-        this.theView = view;
-        this.theModel = model;
+        _theView = view;
+        _theModel = model;
 
-        this.theView.setVisible(true);
-        this.theView.addGoBackListener(new GoBackListener());
-        this.theView.addRegisterListener(new RegisterListener());
+        _theView.setVisible(true);
+        _theView.addGoBackListener(new GoBackListener());
+        _theView.addRegisterListener(new RegisterListener());
     }
 
     private class GoBackListener implements ActionListener {
@@ -32,13 +32,13 @@ public class RegisterController {
                 _logger.log(Level.INFO, "Go Back to Login screen from Register screen");
 
                 Login view = new Login();
-                ClientRepository model = new ClientRepository(theModel.conn);
+                ClientRepository model = new ClientRepository(_theModel._db);
                 LoginController controller = new LoginController(view, model);
 
-                theView.dispose();
+                _theView.dispose();
             } catch (Exception exception) {
                 _logger.log(Level.WARNING, "Failed to create Login screen");
-                theView.displayErrorMessage("404");
+                _theView.displayErrorMessage("404");
                 exception.printStackTrace();
             }
         }
@@ -51,74 +51,74 @@ public class RegisterController {
             int counterValid = 0;
 
             try {
-                email = theView.getEmailField();
-                password = theView.getPasswordField();
-                firstName = theView.getFirstNameField();
-                lastName = theView.getLastNameField();
-                phoneNumber = theView.getPhoneNumberField();
-                address = theView.getAddressField();
-                permission = theView.getPermissionComboBox();
+                email = _theView.getEmailField();
+                password = _theView.getPasswordField();
+                firstName = _theView.getFirstNameField();
+                lastName = _theView.getLastNameField();
+                phoneNumber = _theView.getPhoneNumberField();
+                address = _theView.getAddressField();
+                permission = _theView.getPermissionComboBox();
 
-                if (!theModel.isValidEmail(email)) {
-                    theView.emailError();
+                if (!_theModel.isValidEmail(email)) {
+                    _theView.emailError();
                 } else {
-                    theView.removeEmailError();
+                    _theView.removeEmailError();
                     counterValid++;
                 }
 
-                if (!theModel.isValidPassword(password)) {
-                    theView.passwordError();
+                if (!_theModel.isValidPassword(password)) {
+                    _theView.passwordError();
                 } else {
-                    theView.removePasswordError();
+                    _theView.removePasswordError();
                     counterValid++;
                 }
 
-                if (!theModel.isValidName(firstName)) {
-                    theView.firstNameError();
+                if (!_theModel.isValidName(firstName)) {
+                    _theView.firstNameError();
                 } else {
-                    theView.removeFirstNameError();
+                    _theView.removeFirstNameError();
                     counterValid++;
                 }
 
-                if (!theModel.isValidName(lastName)) {
-                    theView.lastNameError();
+                if (!_theModel.isValidName(lastName)) {
+                    _theView.lastNameError();
                 } else {
-                    theView.removeLastNameError();
+                    _theView.removeLastNameError();
                     counterValid++;
                 }
 
-                if (!theModel.isValidAddress(address)) {
-                    theView.addressError();
+                if (!_theModel.isValidAddress(address)) {
+                    _theView.addressError();
                 } else {
-                    theView.removeAddressError();
+                    _theView.removeAddressError();
                     counterValid++;
                 }
 
-                if (!theModel.isValidPhoneNumber(phoneNumber)) {
-                    theView.phoneNumberError();
+                if (!_theModel.isValidPhoneNumber(phoneNumber)) {
+                    _theView.phoneNumberError();
                 } else {
-                    theView.removePhoneNumberError();
+                    _theView.removePhoneNumberError();
                     counterValid++;
                 }
 
                 if (counterValid == 6) {
-                    if (theModel.isEmailExist(email)) {
-                        theModel.add(new Client(email, password, firstName, lastName, address, phoneNumber, permission));
+                    if (_theModel.isEmailExist(email)) {
+                        _theModel.add(new Client(email, password, firstName, lastName, address, phoneNumber, permission));
 
-                        theView.displaySuccessMessage("You have successfully registered");
+                        _theView.displaySuccessMessage("You have successfully registered");
 
                         if (permission.equals("Admin")) {
                             // Todo admin UI
-                            theView.displaySuccessMessage("Admin");
+                            _theView.displaySuccessMessage("Admin");
                         } else {
                             // Todo client UI
-                            theView.displaySuccessMessage("Client");
+                            _theView.displaySuccessMessage("Client");
                         }
 
-                        theView.dispose();
+                        _theView.dispose();
                     } else {
                         _logger.log(Level.WARNING, "Register failed, email exists");
-                        theView.displayErrorMessage("Email exists");
+                        _theView.displayErrorMessage("Email exists");
                     }
                 } else {
                     _logger.log(Level.WARNING, "Register failed, input wrong");
@@ -126,7 +126,7 @@ public class RegisterController {
                 }
             } catch (Exception exception) {
                 _logger.log(Level.WARNING, "Failed to get data from user!!");
-                theView.displayErrorMessage("404");
+                _theView.displayErrorMessage("404");
                 exception.printStackTrace();
             }
         }
