@@ -11,12 +11,16 @@ public class MainWindow {
 
         Connection conn = Utilities.connectToMySql();
 
-        if (!Utilities.checkIfSchemaExists(conn, databaseName)) {
+        if (!Utilities.checkIfSchemaExists(conn, databaseName)) { // Validation dbso schema
             Utilities.createSchema(conn, databaseName);
         }
 
-        if (!Utilities.checkIfTableExists(conn, tableNameClient)) {
+        if (!Utilities.checkIfTableExists(conn, tableNameClient)) { // Validation client table
             Utilities.createTable(conn, tableNameClient);
+        }
+
+        if (!Utilities.checkIfTableExists(conn, tableNameVolunteer)) { // Validation volunteer table
+            Utilities.createTable(conn, tableNameVolunteer);
         }
 
         Login theView = new Login();
