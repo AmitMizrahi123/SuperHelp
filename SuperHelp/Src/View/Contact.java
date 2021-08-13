@@ -71,4 +71,8 @@ public class Contact extends JFrame {
     public void addGoBackListener(ActionListener actionGoBackListener) {
         goBackButton.addActionListener(actionGoBackListener);
     }
+
+    public void displayErrorMessage(String errorMsg) {
+        JOptionPane.showMessageDialog(this,errorMsg);
+    }
 }

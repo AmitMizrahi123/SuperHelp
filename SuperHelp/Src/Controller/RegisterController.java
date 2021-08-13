@@ -1,16 +1,20 @@
 package Controller;
 
 import DB.ClientRepository;
+import LoggerApp.SingletonLogger;
 import Model.Client;
 import View.Login;
 import View.Register;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class RegisterController {
     Register theView;
     ClientRepository theModel;
+    Logger _logger = SingletonLogger.getInstance().getLogger();
 
     public RegisterController(Register view, ClientRepository model) {
         this.theView = view;
@@ -25,12 +29,16 @@ public class RegisterController {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
+                _logger.log(Level.INFO, "Go Back to Login screen from Register screen");
+
                 Login view = new Login();
                 ClientRepository model = new ClientRepository(theModel.conn);
                 LoginController controller = new LoginController(view, model);
 
                 theView.dispose();
             } catch (Exception exception) {
+                _logger.log(Level.SEVERE, "Failed to create Login screen");
+                theView.displayErrorMessage("404");
                 exception.printStackTrace();
             }
         }
@@ -108,11 +116,16 @@ public class RegisterController {
                         }
 
                         theView.dispose();
+                    } else {
+                        _logger.log(Level.SEVERE, "Register failed, email exists");
+                        theView.displayErrorMessage("Email exists");
                     }
                 } else {
+                    _logger.log(Level.SEVERE, "Register failed, input wrong");
                     counterValid = 0;
                 }
             } catch (Exception exception) {
+                _logger.log(Level.SEVERE, "Failed to get data from user!!");
                 theView.displayErrorMessage("404");
                 exception.printStackTrace();
             }
