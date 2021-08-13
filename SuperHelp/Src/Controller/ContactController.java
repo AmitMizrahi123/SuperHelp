@@ -35,7 +35,7 @@ public class ContactController {
 
                 theView.dispose();
             } catch (Exception exception) {
-                _logger.log(Level.SEVERE, "Failed to create Login screen");
+                _logger.log(Level.WARNING, "Failed to create Login screen");
                 theView.displayErrorMessage("404");
                 exception.printStackTrace();
             }

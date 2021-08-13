@@ -55,15 +55,15 @@ public class LoginController {
                         theView.dispose();
                     } else {
                         theView.displayErrorMessage("Invalid password");
-                        _logger.log(Level.SEVERE, "Log in failed, invalid password");
+                        _logger.log(Level.WARNING, "Log in failed, invalid password");
                     }
 
                 } else {
-                    _logger.log(Level.SEVERE, "Log in failed, invalid email");
+                    _logger.log(Level.WARNING, "Log in failed, invalid email");
                     theView.displayErrorMessage("Invalid email");
                 }
             } catch (Exception exc) {
-                _logger.log(Level.SEVERE, "Failed to get data from user!!");
+                _logger.log(Level.WARNING, "Failed to get data from user!!");
                 theView.displayErrorMessage("404");
                 exc.printStackTrace();
             }
@@ -82,7 +82,7 @@ public class LoginController {
 
                 theView.dispose();
             } catch (Exception exc) {
-                _logger.log(Level.SEVERE, "Failed to create Register screen");
+                _logger.log(Level.WARNING, "Failed to create Register screen");
                 theView.displayErrorMessage("404");
                 exc.printStackTrace();
             }
@@ -101,7 +101,7 @@ public class LoginController {
 
                 theView.dispose();
             } catch (Exception exc) {
-                _logger.log(Level.SEVERE, "Failed to create Contact screen");
+                _logger.log(Level.WARNING, "Failed to create Contact screen");
                 theView.displayErrorMessage("404");
                 exc.printStackTrace();
             }
