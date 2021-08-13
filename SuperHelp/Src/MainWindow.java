@@ -7,7 +7,7 @@ import java.sql.Connection;
 
 public class MainWindow {
     public static void main(String[] args) throws Exception {
-        String databaseName = "dbso", tableName = "client";
+        final String databaseName = "dbso", tableNameClient = "client", tableNameVolunteer = "volunteer";
 
         Connection conn = Utilities.connectToMySql();
 
@@ -15,8 +15,8 @@ public class MainWindow {
             Utilities.createSchema(conn, databaseName);
         }
 
-        if (!Utilities.checkIfTableExists(conn, tableName)) {
-            Utilities.createTable(conn, tableName);
+        if (!Utilities.checkIfTableExists(conn, tableNameClient)) {
+            Utilities.createTable(conn, tableNameClient);
         }
 
         Login theView = new Login();

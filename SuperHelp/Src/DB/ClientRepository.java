@@ -99,7 +99,7 @@ public class ClientRepository implements ClientRepositoryInterface {
         Password should contain at least one uppercase letter(A-Z).
         Password should contain at least one special character ( @, #, %, &, !, $, etc….).
         */
-        if (password.length() < 8 && password.length() > 15) {
+        if (password.length() < 8 || password.length() > 15) {
             return false;
         }
 
@@ -177,6 +177,20 @@ public class ClientRepository implements ClientRepositoryInterface {
 
     @Override
     public boolean isValidAddress(String address) {
+        if (address.contains("@") || address.contains("#")
+                || address.contains("!") || address.contains("~")
+                || address.contains("$") || address.contains("%")
+                || address.contains("^") || address.contains("&")
+                || address.contains("*") || address.contains("(")
+                || address.contains(")") || address.contains("-")
+                || address.contains("+") || address.contains("/")
+                || address.contains(":") || address.contains(".")
+                || address.contains(", ") || address.contains("<")
+                || address.contains(">") || address.contains("?")
+                || address.contains("|") || address.equals("")) {
+            return false;
+        }
+
         return address != null;
     }
 
