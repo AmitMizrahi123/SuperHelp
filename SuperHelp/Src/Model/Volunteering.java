@@ -1,79 +1,81 @@
 package Model;
 
+import java.util.Date;
+
 public class Volunteering {
-    private int volunteerId;
-    private String firstName;
-    private String lastName;
-    private String phoneNumber;
-    private String address;
-    private String problem;
-    private String time;
+    private int _volunteerId;
+    private String _firstName;
+    private String _lastName;
+    private String _phoneNumber;
+    private String _address;
+    private String _problem;
+    private Date _time;
 
     public Volunteering(int volunteerId, String phoneNumber, String address,
-                        String firstName, String lastName, String problem, String time) {
-        this.volunteerId = volunteerId;
-        this.phoneNumber = phoneNumber;
-        this.address = address;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.problem = problem;
-        this.time = time;
+                        String firstName, String lastName, String problem, Date time) {
+        _volunteerId = volunteerId;
+        _phoneNumber = phoneNumber;
+        _address = address;
+        _firstName = firstName;
+        _lastName = lastName;
+        _problem = problem;
+        _time = time;
     }
 
     public int getVolunteerId() {
-        return volunteerId;
+        return _volunteerId;
     }
 
     public void setVolunteerId(int volunteerId) {
-        this.volunteerId = volunteerId;
+        _volunteerId = volunteerId;
     }
 
     public String getPhoneNumber() {
-        return phoneNumber;
+        return _phoneNumber;
     }
 
     public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+        _phoneNumber = phoneNumber;
     }
 
     public String getAddress() {
-        return address;
+        return _address;
     }
 
     public void setAddress(String address) {
-        this.address = address;
+        _address = address;
     }
 
     public String getFirstName() {
-        return firstName;
+        return _firstName;
     }
 
     public void setFirstName(String firstName) {
-        this.firstName = firstName;
+        _firstName = firstName;
     }
 
     public String getLastName() {
-        return lastName;
+        return _lastName;
     }
 
     public void setLastName(String lastName) {
-        this.lastName = lastName;
+        _lastName = lastName;
     }
 
     public String getProblem() {
-        return problem;
+        return _problem;
     }
 
     public void setProblem(String problem) {
-        this.problem = problem;
+        _problem = problem;
     }
 
-    public String getTime() {
-        return time;
+    public Date getTime() {
+        return _time;
     }
 
-    public void setTime(String time) {
-        this.time = time;
+    public void setTime(Date time) {
+        _time = time;
     }
 
     @Override
