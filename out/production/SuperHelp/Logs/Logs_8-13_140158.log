@@ -1,0 +1,12 @@
+אוג׳ 13, 2021 2:01:58 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 13, 2021 2:01:58 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 13, 2021 2:01:58 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 13, 2021 2:02:00 אחה״צ Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
+אוג׳ 13, 2021 2:02:01 אחה״צ Controller.ContactController$GoBackListener actionPerformed
+INFO: Go Back to Login screen from Contact screen
+אוג׳ 13, 2021 2:02:02 אחה״צ Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
