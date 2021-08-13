@@ -1,6 +1,6 @@
 package DB;
 
-import LoggerApp.SingletonLogger;
+import Logger.SingletonLogger;
 
 import java.sql.*;
 import java.util.logging.Level;
