@@ -3,15 +3,16 @@ package DB;
 import Model.Volunteering;
 
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class VolunteeringRepository implements VolunteeringRepositoryInterface {
     public Connection _db;
     public ArrayList<Volunteering> _volunteerings;
 
-    public VolunteeringRepository(Connection db) {
+    public VolunteeringRepository(Connection db) throws SQLException {
         _db = db;
-        // Todo get data from database
+        _volunteerings = VolunteeringDB.getAllVolunteeringData(_db);
     }
 
     @Override

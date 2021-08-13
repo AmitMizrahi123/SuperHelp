@@ -18,6 +18,15 @@ public class VolunteeringDB {
         PreparedStatement ps = db.prepareStatement(sql);
         ResultSet rs = ps.executeQuery();
 
+        while (rs.next()) {
+            Volunteering volunteering = new Volunteering(rs.getInt("volunteeringId"),
+                    rs.getString("FirstName"), rs.getString("LastName"),
+                    rs.getString("Address"), rs.getString("PhoneNumber"),
+                    rs.getString("Problem"), rs.getDate("Time"));
+
+            volunteerings.add(volunteering);
+        }
+
         return volunteerings;
     }
 }

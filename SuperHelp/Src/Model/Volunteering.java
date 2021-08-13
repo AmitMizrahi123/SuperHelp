@@ -11,8 +11,8 @@ public class Volunteering {
     private String _problem;
     private Date _time;
 
-    public Volunteering(int volunteerId, String phoneNumber, String address,
-                        String firstName, String lastName, String problem, Date time) {
+    public Volunteering(int volunteerId, String firstName, String lastName, String address,
+                        String phoneNumber,String problem, Date time) {
         _volunteerId = volunteerId;
         _phoneNumber = phoneNumber;
         _address = address;
