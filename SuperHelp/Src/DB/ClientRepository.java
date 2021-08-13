@@ -40,13 +40,13 @@ public class ClientRepository implements ClientRepositoryInterface {
     @Override
     public void add(Client client) throws Exception {
         if (client == null)
-            throw new Exception("Must have a value");
+            throw new Exception("Mlient must have a value");
 
         if (!isEmailExist(client.getEmail()))
             throw new Exception("Email exists");
 
         _clients.add(client);
-        ClientDB.insertData(this._db, client);
+        ClientDB.insertData(_db, client);
     }
 
     @Override
@@ -58,7 +58,7 @@ public class ClientRepository implements ClientRepositoryInterface {
         }
 
         _clients.remove(client);
-        ClientDB.deleteData(this._db, client);
+        ClientDB.deleteData(_db, client);
     }
 
     @Override

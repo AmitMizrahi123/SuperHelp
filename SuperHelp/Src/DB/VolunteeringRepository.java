@@ -21,27 +21,49 @@ public class VolunteeringRepository implements VolunteeringRepositoryInterface {
     }
 
     @Override
-    public void add(Volunteering volunteering) {
+    public void add(Volunteering volunteering) throws Exception {
+        if (volunteering == null)
+            throw new Exception("Volunteering musht have a value");
 
+        if (isVolunteeringExists(volunteering.getVolunteerId()))
+            throw new Exception("Volunteering exists");
+
+        _volunteerings.add(volunteering);
+        VolunteeringDB.insertData(_db, volunteering);
     }
 
     @Override
-    public void delete(int id) {
+    public void delete(int id) throws Exception {
+        Volunteering volunteering = findVolunteeringById(id);
 
-    }
+        if (volunteering == null) {
+            throw new Exception("The volunteering not found!");
+        }
 
-    @Override
-    public void update(int id) {
-
+        _volunteerings.remove(volunteering);
+        VolunteeringDB.deleteData(_db, volunteering);
     }
 
     @Override
     public Volunteering findVolunteeringById(int id) {
+        for (Volunteering volunteering : _volunteerings) {
+            if (id == volunteering.getVolunteerId()) {
+                return volunteering;
+            }
+        }
+
         return null;
     }
 
     @Override
     public String getVoluneeringAddress(int id) {
-        return null;
+        Volunteering volunteering = findVolunteeringById(id);
+
+        return volunteering.getAddress();
+    }
+
+    @Override
+    public boolean isVolunteeringExists(int id) {
+        return findVolunteeringById(id) != null;
     }
 }
