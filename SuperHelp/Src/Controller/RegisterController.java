@@ -37,7 +37,7 @@ public class RegisterController {
 
                 theView.dispose();
             } catch (Exception exception) {
-                _logger.log(Level.SEVERE, "Failed to create Login screen");
+                _logger.log(Level.WARNING, "Failed to create Login screen");
                 theView.displayErrorMessage("404");
                 exception.printStackTrace();
             }
@@ -117,15 +117,15 @@ public class RegisterController {
 
                         theView.dispose();
                     } else {
-                        _logger.log(Level.SEVERE, "Register failed, email exists");
+                        _logger.log(Level.WARNING, "Register failed, email exists");
                         theView.displayErrorMessage("Email exists");
                     }
                 } else {
-                    _logger.log(Level.SEVERE, "Register failed, input wrong");
+                    _logger.log(Level.WARNING, "Register failed, input wrong");
                     counterValid = 0;
                 }
             } catch (Exception exception) {
-                _logger.log(Level.SEVERE, "Failed to get data from user!!");
+                _logger.log(Level.WARNING, "Failed to get data from user!!");
                 theView.displayErrorMessage("404");
                 exception.printStackTrace();
             }
