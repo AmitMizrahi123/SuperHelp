@@ -7,7 +7,7 @@ import java.sql.Connection;
 
 public class MainWindow {
     public static void main(String[] args) throws Exception {
-        final String databaseName = "dbso", tableNameClient = "client", tableNameVolunteer = "volunteer";
+        final String databaseName = "dbso", tableNameClient = "client", tableNameVolunteer = "volunteering";
 
         Connection conn = Utilities.connectToMySql();
 
