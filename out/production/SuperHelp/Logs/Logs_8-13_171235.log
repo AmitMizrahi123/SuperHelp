@@ -1,0 +1,22 @@
+אוג׳ 13, 2021 5:12:35 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 13, 2021 5:12:36 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 13, 2021 5:12:36 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 13, 2021 5:12:47 אחה״צ Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
+אוג׳ 13, 2021 5:13:11 אחה״צ Controller.ContactController$GoBackListener actionPerformed
+INFO: Go Back to Login screen from Contact screen
+אוג׳ 13, 2021 5:13:14 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 13, 2021 5:13:14 אחה״צ Controller.LoginController$LoginListener actionPerformed
+WARNING: Log in failed, invalid email
+אוג׳ 13, 2021 5:13:25 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 13, 2021 5:13:27 אחה״צ Controller.LoginController$LoginListener actionPerformed
+WARNING: Log in failed, invalid password
+אוג׳ 13, 2021 5:13:31 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 13, 2021 5:13:31 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Admin screen

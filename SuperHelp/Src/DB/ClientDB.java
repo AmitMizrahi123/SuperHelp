@@ -6,12 +6,12 @@ import java.sql.*;
 import java.util.ArrayList;
 
 public class ClientDB {
-    public static ArrayList<Client> getAllData(Connection conn) throws SQLException {
+    public static ArrayList<Client> getAllData(Connection db) throws SQLException {
         String sql = "SELECT * FROM dbso.client;";
 
         ArrayList<Client> clients = new ArrayList<Client>();
 
-        PreparedStatement ps = conn.prepareStatement(sql);
+        PreparedStatement ps = db.prepareStatement(sql);
         ResultSet resultSet = ps.executeQuery();
 
         while (resultSet.next()) {
@@ -26,10 +26,10 @@ public class ClientDB {
         return clients;
     }
 
-    public static void insertData(Connection conn, Client client) throws SQLException {
+    public static void insertData(Connection db, Client client) throws SQLException {
         String sql = "INSERT INTO client (Email, Password, FirstName, LastName, Address, PhoneNumber, Permission) VALUES (?, ?, ?, ?, ?, ?, ?);";
 
-        PreparedStatement ps = conn.prepareStatement(sql);
+        PreparedStatement ps = db.prepareStatement(sql);
         ps.setString(1, client.getEmail());
         ps.setString(2, client.getPassword());
         ps.setString(3, client.getFirstName());
@@ -40,10 +40,10 @@ public class ClientDB {
         ps.executeUpdate();
     }
 
-    public static void deleteData(Connection conn, Client client) throws SQLException {
+    public static void deleteData(Connection db, Client client) throws SQLException {
         String sql = "DELETE FROM client WHERE email=?;";
 
-        PreparedStatement ps = conn.prepareStatement(sql);
+        PreparedStatement ps = db.prepareStatement(sql);
         ps.setString(1, client.getEmail());
         ps.executeUpdate();
     }

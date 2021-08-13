@@ -31,8 +31,7 @@ public class Utilities {
         String sql = "create database " + schemaName;
 
         _logger.log(Level.INFO, "Trying to create {0} schema", schemaName);
-        PreparedStatement statement = conn.prepareStatement(sql);
-        statement.executeUpdate();
+        conn.prepareStatement(sql).executeUpdate();
         _logger.log(Level.INFO, "schema {0} created", schemaName);
     }
 
@@ -54,12 +53,11 @@ public class Utilities {
         return false;
     }
 
-    public static void createTable(Connection conn, String tableName) throws SQLException {
-        String sql = "create table " + tableName + " (Email varchar(40) primary key not null unique, Password varchar(40) not null, FirstName varchar(40) not null, LastName varchar(40) not null, Address varchar(40) not null, PhoneNumber varchar(40) unique not null, Permission varchar(40) not null)";
+    public static void createTable(Connection conn, String tableName, String createClientSql) throws SQLException {
+        String sql = "create table " + tableName + createClientSql;
 
         _logger.log(Level.INFO, "Trying to create {0} table", tableName);
-        PreparedStatement statement = conn.prepareStatement(sql);
-        statement.executeUpdate();
+        conn.prepareStatement(sql).executeUpdate();
         _logger.log(Level.INFO, "table {0} created", tableName);
     }
 
