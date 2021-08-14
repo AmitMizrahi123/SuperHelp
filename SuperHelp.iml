@@ -42,6 +42,14 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="Src" level="project" />
+    <orderEntry type="module-library">
+      <library name="Src">
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/SuperHelp/Src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
