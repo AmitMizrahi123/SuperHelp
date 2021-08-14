@@ -1,15 +1,18 @@
 package View;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
 import java.io.IOException;
 
 public class Contact extends JFrame {
     JPanel contentPane;
     JLabel phoneLabel;
     JLabel emailLabel;
+    JLabel imageLabel;
     JButton goBackButton;
 
     public static void main(String[] args) {
@@ -65,7 +68,18 @@ public class Contact extends JFrame {
         goBackButton.setForeground(Color.WHITE);
         contentPane.add(goBackButton);
 
-        // Todo add image
+        imageLabel = new JLabel("");
+        BufferedImage img = null;
+        try {
+            img = ImageIO.read(Login.class.getResource("/Images/contact.jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Image dimg = img.getScaledInstance(getAppWidth(), getAppHeight(), Image.SCALE_SMOOTH);
+        ImageIcon imageIcon = new ImageIcon(dimg);
+        imageLabel.setIcon(imageIcon);
+        imageLabel.setBounds(0, 0, getAppWidth(), getAppHeight());
+        contentPane.add(imageLabel);
     }
 
     public void addGoBackListener(ActionListener actionGoBackListener) {
