@@ -1,6 +1,9 @@
 package Model;
 
+import java.sql.Timestamp;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.Random;
 
 public class Volunteering {
     private int _volunteerId;
@@ -9,25 +12,45 @@ public class Volunteering {
     private String _phoneNumber;
     private String _address;
     private String _problem;
-    private Date _time;
+    private Timestamp _time;
 
-    public Volunteering(int volunteerId, String firstName, String lastName, String address,
-                        String phoneNumber,String problem, Date time) {
+    public Volunteering(String firstName, String lastName, String address,
+                        String phoneNumber, String problem) {
+        _volunteerId = setVolunteerId();
+        setFirstName(firstName);
+        setLastName(lastName);
+        setAddress(address);
+        setPhoneNumber(phoneNumber);
+        setProblem(problem);
+        _time = setTime();
+    }
+
+    // Cons for testing
+    public Volunteering(int volunteerId, String firstName, String lastName, String phoneNumber,
+                        String address, String problem) {
         _volunteerId = volunteerId;
-        _phoneNumber = phoneNumber;
-        _address = address;
-        _firstName = firstName;
-        _lastName = lastName;
-        _problem = problem;
-        _time = time;
+        setFirstName(firstName);
+        setLastName(lastName);
+        setPhoneNumber(phoneNumber);
+        setAddress(address);
+        setProblem(problem);
+        _time = setTime();
+    }
+
+    public int setVolunteerId() {
+        Random random = new Random();
+        return random.nextInt(10000000);
+    }
+
+    public Timestamp setTime() {
+        Calendar calendar = Calendar.getInstance();
+        Date currentTime  = calendar.getTime();
+        long time = currentTime.getTime();
+        return new Timestamp(time);
     }
 
     public int getVolunteerId() {
         return _volunteerId;
-    }
-
-    public void setVolunteerId(int volunteerId) {
-        _volunteerId = volunteerId;
     }
 
     public String getPhoneNumber() {
@@ -70,12 +93,8 @@ public class Volunteering {
         _problem = problem;
     }
 
-    public Date getTime() {
+    public Timestamp getTime() {
         return _time;
-    }
-
-    public void setTime(Date time) {
-        _time = time;
     }
 
     @Override

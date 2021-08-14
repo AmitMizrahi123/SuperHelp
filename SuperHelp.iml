@@ -43,6 +43,5 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="Src" level="project" />
-    <orderEntry type="library" name="Logger" level="project" />
   </component>
 </module>

@@ -16,10 +16,9 @@ public class VolunteeringDB {
         ResultSet rs = ps.executeQuery();
 
         while (rs.next()) {
-            Volunteering volunteering = new Volunteering(rs.getInt("volunteeringId"),
-                    rs.getString("FirstName"), rs.getString("LastName"),
-                    rs.getString("Address"), rs.getString("PhoneNumber"),
-                    rs.getString("Problem"), rs.getDate("Time"));
+            Volunteering volunteering = new Volunteering( rs.getString("FirstName"),
+                    rs.getString("LastName"), rs.getString("Address"),
+                    rs.getString("PhoneNumber"), rs.getString("Problem"));
 
             volunteerings.add(volunteering);
         }
@@ -28,7 +27,7 @@ public class VolunteeringDB {
     }
 
     public static void insertData(Connection db, Volunteering volunteering) throws SQLException {
-        String sql = "INSERT INTO client (volunteerId, FirstName, LastName, Address, PhoneNumber, Problem, Time) VALUES (?, ?, ?, ?, ?, ?, ?);";
+        String sql = "INSERT INTO volunteering (volunteerId, FirstName, LastName, Address, PhoneNumber, Problem, Time) VALUES (?, ?, ?, ?, ?, ?, ?);";
 
         PreparedStatement ps = db.prepareStatement(sql);
         ps.setInt(1, volunteering.getVolunteerId());
@@ -37,12 +36,12 @@ public class VolunteeringDB {
         ps.setString(4, volunteering.getAddress());
         ps.setString(5, volunteering.getPhoneNumber());
         ps.setString(6, volunteering.getProblem());
-        ps.setDate(7, (Date) volunteering.getTime());
+        ps.setTimestamp(7, volunteering.getTime());
         ps.executeUpdate();
     }
 
     public static void deleteData(Connection db, Volunteering volunteering) throws SQLException {
-        String sql = "DELETE FROM client WHERE volunteerId=?;";
+        String sql = "DELETE FROM volunteering WHERE volunteerId=?;";
 
         PreparedStatement ps = db.prepareStatement(sql);
         ps.setInt(1, volunteering.getVolunteerId());
