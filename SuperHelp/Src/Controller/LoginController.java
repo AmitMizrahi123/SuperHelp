@@ -3,6 +3,7 @@ package Controller;
 import DB.ClientRepository;
 import View.Contact;
 import View.Login;
+import View.Manager;
 import View.Register;
 import Logger.SingletonLogger;
 
@@ -50,6 +51,12 @@ public class LoginController {
                             // TODO Volunteer screen
                             _logger.log(Level.INFO, "Log in success, going to Volunteer screen");
                             _theView.displaySuccessMessage("Volunteer");
+                        } else if (permission.equals("Manager")) {
+                            _logger.log(Level.INFO, "Log in success, going to Manager screen");
+
+                            Manager view = new Manager();
+                            ClientRepository model = new ClientRepository(_theModel._db);
+                            ManagerController controller = new ManagerController(view, model);
                         }
 
                         _theView.dispose();

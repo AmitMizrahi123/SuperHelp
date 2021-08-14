@@ -11,9 +11,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class ContactController {
-    private Contact _theView;
-    private ClientRepository _theModel;
-    private Logger _logger = SingletonLogger.getInstance().getLogger();
+    private static Contact _theView;
+    private static ClientRepository _theModel;
+    private static Logger _logger = SingletonLogger.getInstance().getLogger();
 
     public ContactController(Contact view, ClientRepository model) {
         _theView = view;
@@ -23,7 +23,7 @@ public class ContactController {
         _theView.addGoBackListener(new GoBackListener());
     }
 
-    private class GoBackListener implements ActionListener {
+    static class GoBackListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {

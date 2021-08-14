@@ -66,7 +66,7 @@ public class Client extends User {
     @Override
     public String toString() {
         return "FirstName: " + getFirstName() + ", LastName: " + getLastName() + ", Address: " + getAddress()
-                + ", PhoneNumber: " + getPhoneNumber();
+                + ", PhoneNumber: " + getPhoneNumber() + ", Permission: " + getPermission();
     }
 
 }
