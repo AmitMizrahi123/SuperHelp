@@ -1,9 +1,12 @@
 package View;
 
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
 import java.io.Serial;
 
 
@@ -17,10 +20,11 @@ public class Login extends JFrame {
     JButton loginButton;
     JButton registerButton;
     JButton contactUsButton;
-    JLabel adsButton;
+    JLabel adLabel;
     JLabel mainHeader;
     JLabel emailLabel;
     JLabel passwordLabel;
+    JLabel adImageLabel;
 
     public static void main(String[] args) {
         EventQueue.invokeLater(new Runnable() {
@@ -37,7 +41,7 @@ public class Login extends JFrame {
 
     public int getAppWidth() { return 451; }
 
-    public int getAppHeight() { return 430; }
+    public int getAppHeight() { return 480; }
 
     public String title() { return "SuperHelp"; }
 
@@ -57,13 +61,30 @@ public class Login extends JFrame {
         setContentPane(contentPane);
         contentPane.setLayout(null);
 
+        mainHeader = new JLabel(mainHeaderText());
+        mainHeader.setForeground(SystemColor.activeCaption);
+        mainHeader.setFont(new Font("Georgia", Font.BOLD | Font.ITALIC, 28));
+        mainHeader.setBounds(40, 0, 360, 43);
+        contentPane.add(mainHeader);
+
+        emailLabel = new JLabel("Email:");
+        emailLabel.setForeground(SystemColor.activeCaptionText);
+        emailLabel.setFont(new Font("Georgia", Font.BOLD, 22));
+        emailLabel.setBounds(10, 229, 194, 43);
+        contentPane.add(emailLabel);
+
+        passwordLabel = new JLabel("Password:");
+        passwordLabel.setFont(new Font("Georgia", Font.BOLD, 22));
+        passwordLabel.setBounds(11, 251, 129, 60);
+        contentPane.add(passwordLabel);
+
         emailField = new JTextField();
-        emailField.setBounds(180, 220, 170, 25);
+        emailField.setBounds(180, 240, 200, 25);
         contentPane.add(emailField);
         emailField.setColumns(10);
 
         passwordField = new JPasswordField();
-        passwordField.setBounds(180, 251, 170, 25);
+        passwordField.setBounds(180, 271, 200, 25);
         contentPane.add(passwordField);
 
         loginButton = new JButton("Log in");
@@ -82,34 +103,30 @@ public class Login extends JFrame {
         registerButton.setForeground(Color.WHITE);
         contentPane.add(registerButton);
 
-        contactUsButton  = new JButton("Contact us");
-        contactUsButton.setBounds(328, 136, 99, 23);
+        contactUsButton  = new JButton("C o n t a c t   u s");
+        contactUsButton.setBounds(150, 390, 145, 40);
         contactUsButton.setBorderPainted(false);
         contactUsButton.setFocusPainted(false);
         contactUsButton.setBackground(SystemColor.activeCaption);
         contactUsButton.setForeground(Color.WHITE);
         contentPane.add(contactUsButton);
 
-        adsButton = new JLabel("want your ads here?");
-        adsButton.setBounds(315, 114, 133, 14);
-        contentPane.add(adsButton);
+        adLabel = new JLabel("A D s :");
+        adLabel.setBounds(190, 54, 133, 14);
+        contentPane.add(adLabel);
 
-        mainHeader = new JLabel(mainHeaderText());
-        mainHeader.setForeground(SystemColor.activeCaption);
-        mainHeader.setFont(new Font("Georgia", Font.BOLD | Font.ITALIC, 28));
-        mainHeader.setBounds(40, 0, 360, 43);
-        contentPane.add(mainHeader);
-
-        emailLabel = new JLabel("Email:");
-        emailLabel.setForeground(SystemColor.activeCaptionText);
-        emailLabel.setFont(new Font("Georgia", Font.BOLD, 22));
-        emailLabel.setBounds(10, 209, 194, 43);
-        contentPane.add(emailLabel);
-
-        passwordLabel = new JLabel("Password:");
-        passwordLabel.setFont(new Font("Georgia", Font.BOLD, 22));
-        passwordLabel.setBounds(11, 231, 129, 60);
-        contentPane.add(passwordLabel);
+        adImageLabel = new JLabel("");
+        BufferedImage img = null;
+        try {
+            img = ImageIO.read(Login.class.getResource("/Images/screen.jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Image dimg = img.getScaledInstance(400, 130, Image.SCALE_SMOOTH);
+        ImageIcon imageIcon = new ImageIcon(dimg);
+        adImageLabel.setIcon(imageIcon);
+        adImageLabel.setBounds(17, 80, 445, 130);
+        contentPane.add(adImageLabel);
 
         // TODO Add Images
     }
