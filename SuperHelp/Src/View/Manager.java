@@ -87,6 +87,12 @@ public class Manager extends JFrame {
     public String addClientEmail() {
         JFrame f = new JFrame();
         String email = JOptionPane.showInputDialog("Enter email");
+
+        if (email == null || (email != null && ("".equals(email)))) {
+            f.dispose();
+            return null;
+        }
+
         return email;
     }
 
