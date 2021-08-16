@@ -27,5 +27,7 @@ public interface ClientRepositoryInterface {
 
     boolean isValidAddress(String address);
 
+    boolean isValidPermission(String permission);
+
     boolean isValidPhoneNumber(String phoneNumber);
 }

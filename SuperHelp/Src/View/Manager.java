@@ -1,0 +1,160 @@
+package View;
+
+import java.awt.*;
+import javax.swing.*;
+
+import javax.swing.border.EmptyBorder;
+
+import DB.ClientRepository;
+import Model.Client;
+
+import java.awt.event.ActionListener;
+import java.awt.font.TextAttribute;
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class Manager extends JFrame {
+    private DefaultListModel DLM_result;
+    private JList list;
+    private JPanel contentPane;
+    private JButton logoutButton;
+    private JButton deleteButton;
+    private JButton addButton;
+
+    public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                try {
+                    Manager frame = new Manager();
+                    frame.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
+
+    public Manager() {
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setBounds(100, 100, 700, 550);
+        setLocationRelativeTo(null);
+        contentPane = new JPanel();
+        contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+        setContentPane(contentPane);
+        contentPane.setLayout(null);
+
+        Map<TextAttribute, Object> attributes = new HashMap<TextAttribute, Object>(); // Letter spacing
+        attributes.put(TextAttribute.TRACKING, 0.3);
+
+        DLM_result = new DefaultListModel();
+
+        list = new JList();
+        list.setBounds(20, 20, 645, 356);
+        list.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
+        contentPane.add(list);
+
+        addButton = new JButton("Add");
+        addButton.setBounds(80, 395, 120, 30);
+        addButton.setBorderPainted(false);
+        addButton.setFocusPainted(false);
+        addButton.setBackground(SystemColor.activeCaption);
+        addButton.setForeground(Color.WHITE);
+        addButton.setFont(addButton.getFont().deriveFont(attributes));
+        contentPane.add(addButton);
+
+        deleteButton = new JButton("Remove");
+        deleteButton.setBounds(485, 395, 120, 30);
+        deleteButton.setBorderPainted(false);
+        deleteButton.setFocusPainted(false);
+        deleteButton.setBackground(SystemColor.activeCaption);
+        deleteButton.setForeground(Color.WHITE);
+        deleteButton.setForeground(Color.WHITE);
+        deleteButton.setFont(deleteButton.getFont().deriveFont(attributes));
+        contentPane.add(deleteButton);
+
+        logoutButton = new JButton("logout");
+        logoutButton.setBounds(260, 450, 150, 40);
+        logoutButton.setBorderPainted(false);
+        logoutButton.setFocusPainted(false);
+        logoutButton.setBackground(SystemColor.activeCaption);
+        logoutButton.setForeground(Color.WHITE);
+        logoutButton.setForeground(Color.WHITE);
+        logoutButton.setFont(logoutButton.getFont().deriveFont(attributes));
+        contentPane.add(logoutButton);
+    }
+
+    public String addClientEmail() {
+        JFrame f = new JFrame();
+        String email = JOptionPane.showInputDialog("Enter email");
+        return email;
+    }
+
+    public String addClientPassword() {
+        JFrame f = new JFrame();
+        String password = JOptionPane.showInputDialog("Enter password");
+        return password;
+    }
+
+    public String addClientFirstName() {
+        JFrame f = new JFrame();
+        String firstName = JOptionPane.showInputDialog("Enter first name");
+        return firstName;
+    }
+
+    public String addClientLastName() {
+        JFrame f = new JFrame();
+        String lastName = JOptionPane.showInputDialog("Enter last name");
+        return lastName;
+    }
+
+    public String addClientAddress() {
+        JFrame f = new JFrame();
+        String address = JOptionPane.showInputDialog("Enter address");
+        return address;
+    }
+
+    public String addClientPermission() {
+        JFrame f = new JFrame();
+        String permission = JOptionPane.showInputDialog("Enter permission");
+        return permission;
+    }
+
+    public String addClientPhoneNumber() {
+        JFrame f = new JFrame();
+        String phoneNumber = JOptionPane.showInputDialog("Enter phone number");
+        return phoneNumber;
+    }
+
+    public void addGoBackListener(ActionListener goBack) {
+        logoutButton.addActionListener(goBack);
+    }
+
+    public void deleteClientListener(ActionListener deleteCleint) { deleteButton.addActionListener(deleteCleint); }
+
+    public void addClientListener(ActionListener addClient) { addButton.addActionListener(addClient); }
+
+    public void displayErrorMessage(String errorMsg) {
+        JOptionPane.showMessageDialog(this, errorMsg);
+    }
+
+    public void setListResult() {
+        list.setModel(DLM_result);
+    }
+
+    public void addClientToListElement(Client client) {
+        DLM_result.addElement(client);
+    }
+
+    public Client getSelectedItem() {
+        return (Client) list.getSelectedValue();
+    }
+
+    public void removeItemFromList(int index) {
+        DLM_result.removeElementAt(index);
+    }
+
+    public int getSelectedIndex() {
+        return list.getSelectedIndex();
+    }
+}

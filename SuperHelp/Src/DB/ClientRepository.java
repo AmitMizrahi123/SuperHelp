@@ -4,12 +4,13 @@ import Model.Client;
 
 import java.sql.Connection;
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ClientRepository implements ClientRepositoryInterface {
     public Connection _db;
-    private ArrayList<Client> _clients;
+    public ArrayList<Client> _clients;
 
     public ClientRepository(Connection db) throws Exception {
         _db = db;
@@ -192,6 +193,11 @@ public class ClientRepository implements ClientRepositoryInterface {
         }
 
         return address != null;
+    }
+
+    @Override
+    public boolean isValidPermission(String permission) {
+        return permission.toUpperCase().equals("Admin") || permission.toUpperCase().equals("Volunteer");
     }
 
     @Override
