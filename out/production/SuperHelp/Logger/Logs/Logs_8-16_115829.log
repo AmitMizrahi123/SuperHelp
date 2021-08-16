@@ -1,0 +1,42 @@
+אוג׳ 16, 2021 11:58:29 לפנה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 16, 2021 11:58:30 לפנה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 16, 2021 11:58:30 לפנה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 16, 2021 11:58:30 לפנה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 16, 2021 11:58:30 לפנה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+אוג׳ 16, 2021 11:58:42 לפנה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 16, 2021 11:58:42 לפנה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Manager screen
+אוג׳ 16, 2021 11:58:42 לפנה״צ Controller.ManagerController showAllUsers
+INFO: Show all users in list
+אוג׳ 16, 2021 11:58:42 לפנה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Amit, LastName: Mizrahi, Address: Modiin, PhoneNumber: 0502713302, Permission: Manager to the list
+אוג׳ 16, 2021 11:58:42 לפנה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Itzik, LastName: Israeli, Address: Yavne, PhoneNumber: 0501112231, Permission: Volunteer to the list
+אוג׳ 16, 2021 11:58:42 לפנה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Or, LastName: Ezra, Address: Gan Yavne, PhoneNumber: 0503331111, Permission: Admin to the list
+אוג׳ 16, 2021 11:58:42 לפנה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Yossi, LastName: Bengaev, Address: Kfat Shumal, PhoneNumber: 0501113333, Permission: Volunteer to the list
+אוג׳ 16, 2021 11:58:44 לפנה״צ Controller.ManagerController$AddClientListener actionPerformed
+INFO: Trying to add new client
+אוג׳ 16, 2021 11:58:44 לפנה״צ Controller.ManagerController validEmail
+SEVERE: Check if email valid for create new client from manager
+אוג׳ 16, 2021 11:58:47 לפנה״צ Controller.ManagerController validEmail
+SEVERE: Manager insert invalid email
+אוג׳ 16, 2021 11:58:59 לפנה״צ Controller.ManagerController validPassword
+SEVERE: Check if password valid for create new client from manager
+אוג׳ 16, 2021 11:59:06 לפנה״צ Controller.ManagerController validFirsName
+SEVERE: Check if first name valid for create new client from manager
+אוג׳ 16, 2021 11:59:09 לפנה״צ Controller.ManagerController validLastName
+SEVERE: Check if last name valid for create new client from manager
+אוג׳ 16, 2021 11:59:13 לפנה״צ Controller.ManagerController validAdress
+SEVERE: Check if address valid for create new client from manager
+אוג׳ 16, 2021 11:59:18 לפנה״צ Controller.ManagerController validPermission
+SEVERE: Check if permission valid for create new client from manager
+אוג׳ 16, 2021 11:59:23 לפנה״צ Controller.ManagerController validPermission
+SEVERE: Manager insert invalid permission
