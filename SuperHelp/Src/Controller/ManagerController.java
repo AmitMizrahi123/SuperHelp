@@ -85,20 +85,21 @@ public class ManagerController {
         @Override
         public void actionPerformed(ActionEvent arg0) {
             _logger.log(Level.INFO, "Trying to add new client from Manager screen");
+
             String email = validEmail();
-            if (email == null) { return; }
+            if (email == null) { _logger.log(Level.INFO, "Manager cancel the new client"); return; }
             String password = validPassword();
-            if (password == null) { return; }
+            if (password == null) { _logger.log(Level.INFO, "Manager cancel the new client"); return; }
             String firstName = validFirsName();
-            if (firstName == null) { return; }
+            if (firstName == null) { _logger.log(Level.INFO, "Manager cancel the new client"); return; }
             String lastName = validLastName();
-            if (lastName == null) { return; }
+            if (lastName == null) { _logger.log(Level.INFO, "Manager cancel the new client"); return; }
             String address = validAdress();
-            if (address == null) { return; }
+            if (address == null) { _logger.log(Level.INFO, "Manager cancel the new client"); return; }
             String permission = validPermission();
-            if (permission == null) { return; }
+            if (permission == null) { _logger.log(Level.INFO, "Manager cancel the new client"); return; }
             String phoneNumber = validPhoneNumber();
-            if (phoneNumber == null) { return; }
+            if (phoneNumber == null) { _logger.log(Level.INFO, "Manager cancel the new client"); return; }
 
             Client client = new Client(email, password, firstName, lastName, address, phoneNumber, permission);
 
