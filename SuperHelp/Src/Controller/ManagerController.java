@@ -31,9 +31,13 @@ public class ManagerController {
     }
 
     private void showAllUsers(ArrayList<Client> clients) {
-        _logger.log(Level.INFO, "Show all users in list");
+        _logger.log(Level.INFO, "Show all clients in list");
         if(!clients.isEmpty()) {
             for(Client client : clients) {
+                if (client.getPermission().equals("Manager")) {
+                    continue;
+                }
+
                 _logger.log(Level.INFO, "Adding {0} to the list", client);
                 _theView.addClientToListElement(client);
             }
