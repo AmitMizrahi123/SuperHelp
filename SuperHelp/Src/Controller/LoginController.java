@@ -55,6 +55,7 @@ public class LoginController {
                             _logger.log(Level.INFO, "Log in success, going to Manager screen");
 
                             Manager view = new Manager();
+                            view.setTitle("Welcome to Super help - " + email);
                             ClientRepository model = new ClientRepository(_theModel._db);
                             ManagerController controller = new ManagerController(view, model);
                         }
