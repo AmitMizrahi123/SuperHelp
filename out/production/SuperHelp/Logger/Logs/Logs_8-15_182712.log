@@ -1,6 +1,0 @@
-אוג׳ 15, 2021 6:27:12 אחה״צ DB.Utilities connectToMySql
-INFO: Trying to connect database
-אוג׳ 15, 2021 6:27:17 אחה״צ MainWindow main
-INFO: dbso connected
-אוג׳ 15, 2021 6:27:17 אחה״צ DB.Utilities checkIfSchemaExists
-INFO: Check if dbso schema exists

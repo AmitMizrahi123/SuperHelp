@@ -86,12 +86,19 @@ public class ManagerController {
         public void actionPerformed(ActionEvent arg0) {
             _logger.log(Level.INFO, "Trying to add new client from Manager screen");
             String email = validEmail();
+            if (email == null) { return; }
             String password = validPassword();
+            if (password == null) { return; }
             String firstName = validFirsName();
+            if (firstName == null) { return; }
             String lastName = validLastName();
+            if (lastName == null) { return; }
             String address = validAdress();
+            if (address == null) { return; }
             String permission = validPermission();
+            if (permission == null) { return; }
             String phoneNumber = validPhoneNumber();
+            if (phoneNumber == null) { return; }
 
             Client client = new Client(email, password, firstName, lastName, address, phoneNumber, permission);
 
@@ -111,78 +118,105 @@ public class ManagerController {
     private String validEmail() {
         _logger.log(Level.SEVERE, "Check if email valid for create new client from manager");
         String email = _theView.addClientEmail();
-        while (!_theModel.isValidEmail(email)) {
-            _logger.log(Level.SEVERE, "Manager insert invalid email");
-            _theView.displayErrorMessage("Inavalid email");
-            email = _theView.addClientEmail();
+
+        if (email != null) {
+            while (!_theModel.isValidEmail(email)) {
+                _logger.log(Level.SEVERE, "Manager insert invalid email");
+                _theView.displayErrorMessage("Inavalid email");
+                email = _theView.addClientEmail();
+            }
         }
+
         return email;
     }
 
     private String validPassword() {
         _logger.log(Level.SEVERE, "Check if password valid for create new client from manager");
         String password = _theView.addClientPassword();
-        while (!_theModel.isValidPassword(password)) {
-            _logger.log(Level.SEVERE, "Manager insert invalid password");
-            _theView.displayErrorMessage("Inavalid password");
-            password = _theView.addClientPassword();
+
+        if (password != null) {
+            while (!_theModel.isValidPassword(password)) {
+                _logger.log(Level.SEVERE, "Manager insert invalid password");
+                _theView.displayErrorMessage("Inavalid password");
+                password = _theView.addClientPassword();
+            }
         }
+
         return password;
     }
 
     private String validFirsName() {
         _logger.log(Level.SEVERE, "Check if first name valid for create new client from manager");
         String firstName = _theView.addClientFirstName();
-        while (!_theModel.isValidName(firstName)) {
-            _logger.log(Level.SEVERE, "Manager insert invalid first name");
-            _theView.displayErrorMessage("Inavalid first name");
-            firstName = _theView.addClientFirstName();
+
+        if (firstName != null) {
+            while (!_theModel.isValidName(firstName)) {
+                _logger.log(Level.SEVERE, "Manager insert invalid first name");
+                _theView.displayErrorMessage("Inavalid first name");
+                firstName = _theView.addClientFirstName();
+            }
         }
+
         return firstName;
     }
 
     private String validLastName() {
         _logger.log(Level.SEVERE, "Check if last name valid for create new client from manager");
         String lastName = _theView.addClientLastName();
-        while (!_theModel.isValidName(lastName)) {
-            _logger.log(Level.SEVERE, "Manager insert invalid last name");
-            _theView.displayErrorMessage("Inavalid last name");
-            lastName = _theView.addClientLastName();
+
+        if (lastName != null) {
+            while (!_theModel.isValidName(lastName)) {
+                _logger.log(Level.SEVERE, "Manager insert invalid last name");
+                _theView.displayErrorMessage("Inavalid last name");
+                lastName = _theView.addClientLastName();
+            }
         }
+
         return lastName;
     }
 
     private String validAdress() {
         _logger.log(Level.SEVERE, "Check if address valid for create new client from manager");
         String address = _theView.addClientAddress();
-        while (!_theModel.isValidAddress(address)) {
-            _logger.log(Level.SEVERE, "Manager insert invalid address");
-            _theView.displayErrorMessage("Inavalid address");
-            address = _theView.addClientAddress();
+
+        if (address != null) {
+            while (!_theModel.isValidAddress(address)) {
+                _logger.log(Level.SEVERE, "Manager insert invalid address");
+                _theView.displayErrorMessage("Inavalid address");
+                address = _theView.addClientAddress();
+            }
         }
+
         return address;
     }
 
     private String validPermission() {
         _logger.log(Level.SEVERE, "Check if permission valid for create new client from manager");
         String permission = _theView.addClientPermission();
-        Boolean validPermission = _theModel.isValidPermission(permission);
-        while (validPermission) {
-            _logger.log(Level.SEVERE, "Manager insert invalid permission");
-            _theView.displayErrorMessage("Inavalid permission");
-            permission = _theView.addClientPermission();
+
+        if (permission != null) {
+            while (_theModel.isValidPermission(permission)) {
+                _logger.log(Level.SEVERE, "Manager insert invalid permission");
+                _theView.displayErrorMessage("Inavalid permission");
+                permission = _theView.addClientPermission();
+            }
         }
+
         return permission;
     }
 
     private String validPhoneNumber() {
         _logger.log(Level.SEVERE, "Check if phone number valid for create new client from manager");
         String phoneNumber = _theView.addClientPhoneNumber();
-        while (!_theModel.isValidPhoneNumber(phoneNumber)) {
-            _logger.log(Level.SEVERE, "Manager insert invalid phone number");
-            _theView.displayErrorMessage("Inavalid phone number");
-            phoneNumber = _theView.addClientPhoneNumber();
+
+        if (phoneNumber != null) {
+            while (!_theModel.isValidPhoneNumber(phoneNumber)) {
+                _logger.log(Level.SEVERE, "Manager insert invalid phone number");
+                _theView.displayErrorMessage("Inavalid phone number");
+                phoneNumber = _theView.addClientPhoneNumber();
+            }
         }
+
         return phoneNumber;
     }
 }
