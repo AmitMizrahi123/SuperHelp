@@ -123,6 +123,8 @@ public class Volunteering {
     public String toString() {
         return  "firstName='" + getFirstName() + '\'' +
                 ", lastName='" + getLastName() + '\'' +
+                ", age='" + getAge() + '\'' +
+                ", gender='" + getGender() + '\'' +
                 ", phoneNumber='" + getPhoneNumber() + '\'' +
                 ", address='" + getAddress() + '\'' +
                 ", problem='" + getProblem();
