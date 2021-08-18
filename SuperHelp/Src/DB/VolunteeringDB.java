@@ -17,7 +17,8 @@ public class VolunteeringDB {
 
         while (rs.next()) {
             Volunteering volunteering = new Volunteering( rs.getString("FirstName"),
-                    rs.getString("LastName"), rs.getString("Address"),
+                    rs.getString("LastName"), rs.getInt("Age"),
+                    rs.getString("Gender"), rs.getString("Address"),
                     rs.getString("PhoneNumber"), rs.getString("Problem"));
 
             volunteerings.add(volunteering);
@@ -27,16 +28,18 @@ public class VolunteeringDB {
     }
 
     public static void insertData(Connection db, Volunteering volunteering) throws SQLException {
-        String sql = "INSERT INTO volunteering (volunteerId, FirstName, LastName, Address, PhoneNumber, Problem, Time) VALUES (?, ?, ?, ?, ?, ?, ?);";
+        String sql = "INSERT INTO volunteering (volunteerId, FirstName, LastName, Age, Gender, Address, PhoneNumber, Problem, Time) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);";
 
         PreparedStatement ps = db.prepareStatement(sql);
         ps.setInt(1, volunteering.getVolunteerId());
         ps.setString(2, volunteering.getFirstName());
         ps.setString(3, volunteering.getLastName());
-        ps.setString(4, volunteering.getAddress());
-        ps.setString(5, volunteering.getPhoneNumber());
-        ps.setString(6, volunteering.getProblem());
-        ps.setTimestamp(7, volunteering.getTime());
+        ps.setInt(4, volunteering.getAge());
+        ps.setString(5, volunteering.getGender());
+        ps.setString(6, volunteering.getAddress());
+        ps.setString(7, volunteering.getPhoneNumber());
+        ps.setString(8, volunteering.getProblem());
+        ps.setTimestamp(9, volunteering.getTime());
         ps.executeUpdate();
     }
 

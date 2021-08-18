@@ -9,16 +9,20 @@ public class Volunteering {
     private int _volunteerId;
     private String _firstName;
     private String _lastName;
+    private int _age;
+    private String _gender;
     private String _phoneNumber;
     private String _address;
     private String _problem;
     private Timestamp _time;
 
-    public Volunteering(String firstName, String lastName, String address,
+    public Volunteering(String firstName, String lastName, int age, String gender, String address,
                         String phoneNumber, String problem) {
         _volunteerId = setVolunteerId();
         setFirstName(firstName);
         setLastName(lastName);
+        setAge(age);
+        setGender(gender);
         setAddress(address);
         setPhoneNumber(phoneNumber);
         setProblem(problem);
@@ -26,11 +30,13 @@ public class Volunteering {
     }
 
     // Cons for testing
-    public Volunteering(int volunteerId, String firstName, String lastName, String phoneNumber,
+    public Volunteering(int volunteerId, String firstName, int age, String gender, String lastName, String phoneNumber,
                         String address, String problem) {
         _volunteerId = volunteerId;
         setFirstName(firstName);
         setLastName(lastName);
+        setAge(age);
+        setGender(gender);
         setPhoneNumber(phoneNumber);
         setAddress(address);
         setProblem(problem);
@@ -95,6 +101,22 @@ public class Volunteering {
 
     public Timestamp getTime() {
         return _time;
+    }
+
+    public int getAge() {
+        return _age;
+    }
+
+    public void setAge(int _age) {
+        this._age = _age;
+    }
+
+    public String getGender() {
+        return _gender;
+    }
+
+    public void setGender(String _gender) {
+        this._gender = _gender;
     }
 
     @Override
