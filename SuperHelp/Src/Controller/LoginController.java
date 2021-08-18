@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 public class LoginController {
     private Login _theView;
     private ClientRepository _theModel;
-    private Logger _logger = SingletonLogger.getInstance().getLogger();
+    private Logger _logger = SingletonLogger.getInstance().configLogger();
 
     public LoginController(Login view, ClientRepository model) {
         _theView = view;

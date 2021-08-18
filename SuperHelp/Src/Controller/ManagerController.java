@@ -1,7 +1,6 @@
 package Controller;
 
 import DB.ClientRepository;
-import DB.VolunteeringRepository;
 import Logger.SingletonLogger;
 import Model.Client;
 import View.Login;
@@ -9,15 +8,14 @@ import View.Manager;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class ManagerController {
-    private static Manager _theView;
-    private static ClientRepository _theModel;
-    private static final Logger _logger = SingletonLogger.getInstance().getLogger();
+    private Manager _theView;
+    private ClientRepository _theModel;
+    private Logger _logger = SingletonLogger.getInstance().configLogger();
 
     public ManagerController(Manager view, ClientRepository model) {
         _theView = view;
@@ -45,7 +43,7 @@ public class ManagerController {
         }
     }
 
-    private class GoBackListener implements ActionListener {
+    class GoBackListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent arg0) {
             try {
@@ -64,7 +62,7 @@ public class ManagerController {
         }
     }
 
-    private class DeleteClientListener implements ActionListener {
+    class DeleteClientListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent arg0) {
             _logger.log(Level.INFO, "Trying to delete client from Manager screen");
@@ -85,7 +83,7 @@ public class ManagerController {
         }
     }
 
-    private class AddClientListener implements ActionListener {
+    class AddClientListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent arg0) {
             _logger.log(Level.INFO, "Trying to add new client from Manager screen");

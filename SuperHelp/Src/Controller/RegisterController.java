@@ -12,9 +12,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class RegisterController {
-    Register _theView;
-    ClientRepository _theModel;
-    Logger _logger = SingletonLogger.getInstance().getLogger();
+    private Register _theView;
+    private ClientRepository _theModel;
+    private Logger _logger = SingletonLogger.getInstance().configLogger();
 
     public RegisterController(Register view, ClientRepository model) {
         _theView = view;
@@ -25,7 +25,7 @@ public class RegisterController {
         _theView.addRegisterListener(new RegisterListener());
     }
 
-    private class GoBackListener implements ActionListener {
+    class GoBackListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
             try {
@@ -44,7 +44,7 @@ public class RegisterController {
         }
     }
 
-    private class RegisterListener implements ActionListener {
+    class RegisterListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
             String email, password, firstName, lastName, address, phoneNumber, permission;

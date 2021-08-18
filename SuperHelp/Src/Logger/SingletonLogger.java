@@ -18,7 +18,7 @@ public class SingletonLogger {
         return _firstInstance;
     }
 
-    public Logger getLogger() {
+    public Logger configLogger() {
         if (_createTemplate) {
             FileHandler fh = null;
             SimpleDateFormat format = new SimpleDateFormat("M-d_HHmmss");

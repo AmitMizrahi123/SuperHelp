@@ -10,7 +10,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class MainWindow {
-    static private Logger _logger = SingletonLogger.getInstance().getLogger();
+    static private Logger _logger = SingletonLogger.getInstance().configLogger();
 
     public static void main(String[] args) throws Exception {
         final String databaseName = "dbso", tableNameClient = "client", tableNameVolunteer = "volunteering",

@@ -7,7 +7,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Utilities {
-    static private Logger _logger = SingletonLogger.getInstance().getLogger();
+    static private Logger _logger = SingletonLogger.getInstance().configLogger();
 
     // Connect to MySql
     public static Connection connectToMySql() {
