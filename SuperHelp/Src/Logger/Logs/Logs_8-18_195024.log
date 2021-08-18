@@ -1,0 +1,64 @@
+אוג׳ 18, 2021 7:50:24 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 18, 2021 7:50:24 אחה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 18, 2021 7:50:24 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 18, 2021 7:50:24 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 18, 2021 7:50:24 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+אוג׳ 18, 2021 7:50:44 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 18, 2021 7:50:44 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Manager screen
+אוג׳ 18, 2021 7:50:44 אחה״צ Controller.ManagerController showAllUsers
+INFO: Show all clients in list
+אוג׳ 18, 2021 7:50:44 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Itzik, LastName: Israeli, Address: Yavne, PhoneNumber: 0501112231, Permission: Volunteer to the list
+אוג׳ 18, 2021 7:50:44 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Or, LastName: Ezra, Address: Gan Yavne, PhoneNumber: 0503331111, Permission: Admin to the list
+אוג׳ 18, 2021 7:50:44 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Yossi, LastName: Bengaev, Address: Kfat Shumal, PhoneNumber: 0501113333, Permission: Volunteer to the list
+אוג׳ 18, 2021 7:51:05 אחה״צ Controller.ManagerController$AddClientListener actionPerformed
+INFO: Trying to add new client from Manager screen
+אוג׳ 18, 2021 7:51:05 אחה״צ Controller.ManagerController validEmail
+SEVERE: Check if email valid for create new client from manager
+אוג׳ 18, 2021 7:51:09 אחה״צ Controller.ManagerController$AddClientListener actionPerformed
+INFO: Manager cancel the new client
+אוג׳ 18, 2021 7:51:10 אחה״צ Controller.ManagerController$AddClientListener actionPerformed
+INFO: Trying to add new client from Manager screen
+אוג׳ 18, 2021 7:51:10 אחה״צ Controller.ManagerController validEmail
+SEVERE: Check if email valid for create new client from manager
+אוג׳ 18, 2021 7:51:18 אחה״צ Controller.ManagerController validPassword
+SEVERE: Check if password valid for create new client from manager
+אוג׳ 18, 2021 7:51:22 אחה״צ Controller.ManagerController validFirsName
+SEVERE: Check if first name valid for create new client from manager
+אוג׳ 18, 2021 7:51:28 אחה״צ Controller.ManagerController validLastName
+SEVERE: Check if last name valid for create new client from manager
+אוג׳ 18, 2021 7:51:30 אחה״צ Controller.ManagerController validAdress
+SEVERE: Check if address valid for create new client from manager
+אוג׳ 18, 2021 7:51:37 אחה״צ Controller.ManagerController validPermission
+SEVERE: Check if permission valid for create new client from manager
+אוג׳ 18, 2021 7:51:44 אחה״צ Controller.ManagerController validPhoneNumber
+SEVERE: Check if phone number valid for create new client from manager
+אוג׳ 18, 2021 7:51:52 אחה״צ Controller.ManagerController$AddClientListener actionPerformed
+INFO: Insert FirstName: Kobi, LastName: Kobi, Address: Tel Aviv, PhoneNumber: 0501122333, Permission: Admin to db
+אוג׳ 18, 2021 7:51:52 אחה״צ Controller.ManagerController$AddClientListener actionPerformed
+INFO: Insert FirstName: Kobi, LastName: Kobi, Address: Tel Aviv, PhoneNumber: 0501122333, Permission: Admin to list
+אוג׳ 18, 2021 7:51:57 אחה״צ Controller.ManagerController$DeleteClientListener actionPerformed
+INFO: Trying to delete client from Manager screen
+אוג׳ 18, 2021 7:51:57 אחה״צ Controller.ManagerController$DeleteClientListener actionPerformed
+INFO: Get client FirstName: Kobi, LastName: Kobi, Address: Tel Aviv, PhoneNumber: 0501122333, Permission: Admin that selected from list
+אוג׳ 18, 2021 7:51:57 אחה״צ Controller.ManagerController$DeleteClientListener actionPerformed
+INFO: Get index {} from client
+אוג׳ 18, 2021 7:51:57 אחה״צ Controller.ManagerController$DeleteClientListener actionPerformed
+INFO: delete FirstName: Kobi, LastName: Kobi, Address: Tel Aviv, PhoneNumber: 0501122333, Permission: Admin from db
+אוג׳ 18, 2021 7:51:57 אחה״צ Controller.ManagerController$DeleteClientListener actionPerformed
+INFO: delete FirstName: Kobi, LastName: Kobi, Address: Tel Aviv, PhoneNumber: 0501122333, Permission: Admin from list
+אוג׳ 18, 2021 7:51:59 אחה״צ Controller.ManagerController$GoBackListener actionPerformed
+INFO: Go back to Login screen from Manager Screnn
+אוג׳ 18, 2021 7:52:01 אחה״צ Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+אוג׳ 18, 2021 7:52:03 אחה״צ Controller.RegisterController$GoBackListener actionPerformed
+INFO: Go Back to Login screen from Register screen
