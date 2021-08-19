@@ -4,7 +4,7 @@ import DB.ClientRepository;
 import Logger.SingletonLogger;
 import Model.Client;
 import View.Login;
-import View.Manager;
+import View.ManagerUI;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -13,11 +13,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class ManagerController {
-    private Manager _theView;
+    private ManagerUI _theView;
     private ClientRepository _theModel;
     private Logger _logger = SingletonLogger.getInstance().configLogger();
 
-    public ManagerController(Manager view, ClientRepository model) {
+    public ManagerController(ManagerUI view, ClientRepository model) {
         _theView = view;
         _theModel = model;
         showAllUsers(_theModel._clients);

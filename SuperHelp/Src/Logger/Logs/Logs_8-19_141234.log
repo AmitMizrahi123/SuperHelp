@@ -1,0 +1,86 @@
+אוג׳ 19, 2021 2:12:34 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 19, 2021 2:12:35 אחה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 19, 2021 2:12:35 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 19, 2021 2:12:35 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 19, 2021 2:12:35 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+אוג׳ 19, 2021 2:15:31 אחה״צ Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
+אוג׳ 19, 2021 2:15:32 אחה״צ Controller.ContactController$GoBackListener actionPerformed
+INFO: Go Back to Login screen from Contact screen
+אוג׳ 19, 2021 2:15:34 אחה״צ Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+אוג׳ 19, 2021 2:15:35 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, input wrong
+אוג׳ 19, 2021 2:15:45 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, input wrong
+אוג׳ 19, 2021 2:15:50 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, input wrong
+אוג׳ 19, 2021 2:15:58 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, input wrong
+אוג׳ 19, 2021 2:16:06 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, input wrong
+אוג׳ 19, 2021 2:16:18 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, input wrong
+אוג׳ 19, 2021 2:16:25 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, input wrong
+אוג׳ 19, 2021 2:16:31 אחה״צ Controller.RegisterController$GoBackListener actionPerformed
+INFO: Go Back to Login screen from Register screen
+אוג׳ 19, 2021 2:16:35 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 19, 2021 2:16:35 אחה״צ Controller.LoginController$LoginListener actionPerformed
+WARNING: Log in failed, invalid email
+אוג׳ 19, 2021 2:16:44 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 19, 2021 2:16:44 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Manager screen
+אוג׳ 19, 2021 2:16:44 אחה״צ Controller.ManagerController showAllUsers
+INFO: Show all clients in list
+אוג׳ 19, 2021 2:16:44 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Itzik, LastName: Israeli, Address: Yavne, PhoneNumber: 0501112231, Permission: Volunteer to the list
+אוג׳ 19, 2021 2:16:44 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Or, LastName: Ezra, Address: Gan Yavne, PhoneNumber: 0503331111, Permission: Admin to the list
+אוג׳ 19, 2021 2:16:44 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Yossi, LastName: Bengaev, Address: Kfat Shumal, PhoneNumber: 0501113333, Permission: Volunteer to the list
+אוג׳ 19, 2021 2:16:47 אחה״צ Controller.ManagerController$AddClientListener actionPerformed
+INFO: Trying to add new client from Manager screen
+אוג׳ 19, 2021 2:16:47 אחה״צ Controller.ManagerController validEmail
+SEVERE: Check if email valid for create new client from manager
+אוג׳ 19, 2021 2:16:49 אחה״צ Controller.ManagerController validEmail
+SEVERE: Manager insert invalid email
+אוג׳ 19, 2021 2:16:54 אחה״צ Controller.ManagerController validPassword
+SEVERE: Check if password valid for create new client from manager
+אוג׳ 19, 2021 2:16:57 אחה״צ Controller.ManagerController validFirsName
+SEVERE: Check if first name valid for create new client from manager
+אוג׳ 19, 2021 2:16:59 אחה״צ Controller.ManagerController validLastName
+SEVERE: Check if last name valid for create new client from manager
+אוג׳ 19, 2021 2:17:01 אחה״צ Controller.ManagerController validAdress
+SEVERE: Check if address valid for create new client from manager
+אוג׳ 19, 2021 2:17:06 אחה״צ Controller.ManagerController validPermission
+SEVERE: Check if permission valid for create new client from manager
+אוג׳ 19, 2021 2:17:10 אחה״צ Controller.ManagerController validPhoneNumber
+SEVERE: Check if phone number valid for create new client from manager
+אוג׳ 19, 2021 2:17:15 אחה״צ Controller.ManagerController$AddClientListener actionPerformed
+INFO: Insert FirstName: Kobi, LastName: Kobi, Address: Tel Aviv, PhoneNumber: 0533331111, Permission: Admin to db
+אוג׳ 19, 2021 2:17:15 אחה״צ Controller.ManagerController$AddClientListener actionPerformed
+INFO: Insert FirstName: Kobi, LastName: Kobi, Address: Tel Aviv, PhoneNumber: 0533331111, Permission: Admin to list
+אוג׳ 19, 2021 2:17:25 אחה״צ Controller.ManagerController$DeleteClientListener actionPerformed
+INFO: Trying to delete client from Manager screen
+אוג׳ 19, 2021 2:17:25 אחה״צ Controller.ManagerController$DeleteClientListener actionPerformed
+INFO: Get client FirstName: Kobi, LastName: Kobi, Address: Tel Aviv, PhoneNumber: 0533331111, Permission: Admin that selected from list
+אוג׳ 19, 2021 2:17:25 אחה״צ Controller.ManagerController$DeleteClientListener actionPerformed
+INFO: Get index {} from client
+אוג׳ 19, 2021 2:17:25 אחה״צ Controller.ManagerController$DeleteClientListener actionPerformed
+INFO: delete FirstName: Kobi, LastName: Kobi, Address: Tel Aviv, PhoneNumber: 0533331111, Permission: Admin from db
+אוג׳ 19, 2021 2:17:25 אחה״צ Controller.ManagerController$DeleteClientListener actionPerformed
+INFO: delete FirstName: Kobi, LastName: Kobi, Address: Tel Aviv, PhoneNumber: 0533331111, Permission: Admin from list
+אוג׳ 19, 2021 2:17:33 אחה״צ Controller.ManagerController$GoBackListener actionPerformed
+INFO: Go back to Login screen from Manager Screnn
+אוג׳ 19, 2021 2:17:42 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 19, 2021 2:17:42 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Admin screen

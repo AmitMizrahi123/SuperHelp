@@ -15,7 +15,7 @@ public class MainWindow {
     public static void main(String[] args) throws Exception {
         final String databaseName = "dbso", tableNameClient = "client", tableNameVolunteer = "volunteering",
                 createClientSql = " (Email varchar(40) primary key not null unique, Password varchar(40) not null, FirstName varchar(40) not null, LastName varchar(40) not null, Address varchar(40) not null, PhoneNumber varchar(40) unique not null, Permission varchar(40) not null)",
-                createVoluneeringSql = " (volunteerId int primary key not null unique, FirstName varchar(40) not null, LastName varchar(40) not null, Age int not null, Gender varchar(6) not null, Address varchar(40) not null, PhoneNumber varchar(40) not null, Problem varchar(255) not null, Time DateTime not null)";
+                createVoluneeringSql = " (volunteerId int primary key not null unique, Name varchar(40) not null, Age int not null, Gender varchar(6) not null, Address varchar(40) not null, PhoneNumber varchar(40) not null, Problem varchar(255) not null, Time DateTime not null)";
 
         Connection db = Utilities.connectToMySql();
 
