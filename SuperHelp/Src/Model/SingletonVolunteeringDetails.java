@@ -13,9 +13,9 @@ public class SingletonVolunteeringDetails {
     private static SingletonVolunteeringDetails firstInstance = new SingletonVolunteeringDetails();
 
     private final String _url = "https://www.science.co.il/municipal/Cities.php";
-    private List<Integer> _ages = setAge();
-    private List<String> _locations = setLocation();
-    private final String[] _gender = {"male", "female"};
+    private List<Integer> _ages = setAges();
+    private List<String> _locations = setLocations();
+    private final String[] _gender = { "male", "female" };
 
     private SingletonVolunteeringDetails() { }
 
@@ -23,15 +23,15 @@ public class SingletonVolunteeringDetails {
         return firstInstance;
     }
 
-    private List<Integer> setAge() {
-        List<Integer> ages = new ArrayList<Integer>();
+    private List<Integer> setAges() {
+        List<Integer> ages = new ArrayList<>();
         for (int i = 16; i <= 120; i++) {
             ages.add(i);
         }
         return ages;
     }
 
-    private List<String> setLocation() {
+    private List<String> setLocations() {
         List<String> locatinos = new ArrayList<>();
 
         try {
@@ -42,7 +42,6 @@ public class SingletonVolunteeringDetails {
                     locatinos.add(el.text());
                 });
             });
-
         } catch (IOException e) {
             e.printStackTrace();
         }
