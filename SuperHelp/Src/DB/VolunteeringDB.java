@@ -28,17 +28,17 @@ public class VolunteeringDB {
     }
 
     public static void insertData(Connection db, Volunteering volunteering) throws SQLException {
-        String sql = "INSERT INTO volunteering (volunteerId, Name, Age, Gender, Address, PhoneNumber, Problem, Time) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);";
+        String sql = "INSERT INTO volunteering (volunteerId, Name, Age, Gender, Address, PhoneNumber, Problem, Time) VALUES (?, ?, ?, ?, ?, ?, ?, ?);";
 
         PreparedStatement ps = db.prepareStatement(sql);
         ps.setInt(1, volunteering.getVolunteerId());
         ps.setString(2, volunteering.getName());
-        ps.setInt(4, volunteering.getAge());
-        ps.setString(5, volunteering.getGender());
-        ps.setString(6, volunteering.getAddress());
-        ps.setString(7, volunteering.getPhoneNumber());
-        ps.setString(8, volunteering.getProblem());
-        ps.setTimestamp(9, volunteering.getTime());
+        ps.setInt(3, volunteering.getAge());
+        ps.setString(4, volunteering.getGender());
+        ps.setString(5, volunteering.getAddress());
+        ps.setString(6, volunteering.getPhoneNumber());
+        ps.setString(7, volunteering.getProblem());
+        ps.setTimestamp(8, volunteering.getTime());
         ps.executeUpdate();
     }
 

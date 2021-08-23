@@ -16,4 +16,8 @@ public interface VolunteeringRepositoryInterface {
     String getVoluneeringAddress(int id);
 
     boolean isVolunteeringExists(int id);
+
+    boolean isValidName(String name);
+
+    boolean isValidPhoneNumber(String phoneNumber);
 }

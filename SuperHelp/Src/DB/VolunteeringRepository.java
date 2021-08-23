@@ -5,6 +5,8 @@ import Model.Volunteering;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class VolunteeringRepository implements VolunteeringRepositoryInterface {
     public Connection _db;
@@ -65,5 +67,20 @@ public class VolunteeringRepository implements VolunteeringRepositoryInterface {
     @Override
     public boolean isVolunteeringExists(int id) {
         return findVolunteeringById(id) != null;
+    }
+
+    @Override
+    public boolean isValidName(String name) {
+        String namRegExpVar = "[A-Z][A-Za-z ]{1,}";
+        Pattern pVar = Pattern.compile(namRegExpVar);
+        Matcher mVar = pVar.matcher(name);
+        return mVar.matches();
+    }
+
+    @Override
+    public boolean isValidPhoneNumber(String phoneNumber) {
+        Pattern pattern = Pattern.compile("\\d{10}");
+        Matcher matcher = pattern.matcher(phoneNumber);
+        return matcher.matches();
     }
 }

@@ -1,0 +1,10 @@
+אוג׳ 23, 2021 2:38:33 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 23, 2021 2:38:34 אחה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 23, 2021 2:38:34 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 23, 2021 2:38:34 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 23, 2021 2:38:34 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
