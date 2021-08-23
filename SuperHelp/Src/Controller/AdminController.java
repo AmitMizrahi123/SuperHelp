@@ -94,7 +94,7 @@ public class AdminController {
                     _theView.displayMessage("Volunteering has been added!");
                     _logger.log(Level.INFO, "{0} has been added", volunteering);
 
-                    if (_theView.getListSize() == 0) {
+                    if (_theView.getListSize() > 0) {
                         _theView.enabledDeleteButton(true);
                         _theView.enabledyUpdateButton(true);
                     }
@@ -141,19 +141,21 @@ public class AdminController {
     private class MouseClick implements MouseListener {
         @Override
         public void mouseClicked(MouseEvent event) {
-            if (event.getClickCount() == 2 && event.getButton() == MouseEvent.BUTTON1) {
-                Volunteering volunteering = _theView.getSelectedItem();
+            if (_theView.getListSize() > 0) {
+                if (event.getClickCount() == 2 && event.getButton() == MouseEvent.BUTTON1) {
+                    Volunteering volunteering = _theView.getSelectedItem();
 
-                _theView.displayMessage(
-                        "Volunteering Information:\n\n\n"
-                                + "Name:  " + volunteering.getName()
-                                + "\n\n" + "Age:  " + volunteering.getAge()
-                                + "\n\n" + "Gender:  " + volunteering.getGender()
-                                + "\n\n" + "Adress:  " + volunteering.getAddress()
-                                + "\n\n" + "Phone Number:  " + volunteering.getPhoneNumber()
-                                + "\n\n" + "Problem:  " + volunteering.getProblem()
-                                + "\n"
-                );
+                    _theView.displayMessage(
+                            "Volunteering Information:\n\n\n"
+                                    + "Name:  " + volunteering.getName()
+                                    + "\n\n" + "Age:  " + volunteering.getAge()
+                                    + "\n\n" + "Gender:  " + volunteering.getGender()
+                                    + "\n\n" + "Adress:  " + volunteering.getAddress()
+                                    + "\n\n" + "Phone Number:  " + volunteering.getPhoneNumber()
+                                    + "\n\n" + "Problem:  " + volunteering.getProblem()
+                                    + "\n"
+                    );
+                }
             }
         }
 
