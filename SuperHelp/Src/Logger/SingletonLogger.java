@@ -1,5 +1,6 @@
 package Logger;
 
+import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -20,11 +21,17 @@ public class SingletonLogger {
 
     public Logger configLogger() {
         if (_createTemplate) {
+            String path = "C:\\Users\\97250\\IdeaProjects\\SuperHelp\\SuperHelp\\Src\\Logger\\Logs";
             FileHandler fh = null;
             SimpleDateFormat format = new SimpleDateFormat("M-d_HHmmss");
 
+            File dir = new File(path);
+            if (!dir.exists()) {
+                dir.mkdir();
+            }
+
             try {
-                fh = new FileHandler("C:\\Users\\97250\\IdeaProjects\\SuperHelp\\SuperHelp\\Src\\Logger\\Logs\\Logs_"
+                fh = new FileHandler(path + "\\Logs_"
                         + format.format(Calendar.getInstance().getTime()) + ".log");
             } catch (IOException e) {
                 e.printStackTrace();
