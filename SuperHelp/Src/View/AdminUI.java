@@ -30,6 +30,20 @@ public class AdminUI extends JFrame {
     private DefaultListModel DLM_result;
     private JButton deleteButton;
     private JButton logoutButton;
+    private JButton updateButton;
+
+    public static void main(String[] args) {
+        EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                try {
+                    AdminUI frame = new AdminUI();
+                    frame.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+    }
 
     private Font headerFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 28); }
 
@@ -41,7 +55,7 @@ public class AdminUI extends JFrame {
         SingletonVolunteeringDetails details = SingletonVolunteeringDetails.getInstance();
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setBounds(100, 100, 1300, 650);
+        setBounds(100, 100, 1100, 580);
         setLocationRelativeTo(null);
         contentPane = new JPanel();
         contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -66,6 +80,7 @@ public class AdminUI extends JFrame {
 
         nameText = new JTextField();
         nameText.setBounds(120, 80, 195, 22);
+        nameText.setText("Enter your name..");
         nameText.addFocusListener(new FocusListener() {
             @Override
             public void focusGained(FocusEvent e) {
@@ -134,10 +149,27 @@ public class AdminUI extends JFrame {
 
         phoneNumberText = new JTextField();
         phoneNumberText.setBounds(120, 270, 195, 22);
+        phoneNumberText.setText("Enter phone number..");
+        phoneNumberText.addFocusListener(new FocusListener() {
+            @Override
+            public void focusGained(FocusEvent e) {
+                if (phoneNumberText.getText().equals("Enter phone number..")) {
+                    phoneNumberText.setText("");
+                }
+            }
+
+            @Override
+            public void focusLost(FocusEvent e) {
+                if (phoneNumberText.getText().isEmpty()) {
+                    phoneNumberText.setText("Enter phone number..");
+                }
+            }
+        });
         contentPane.add(phoneNumberText);
 
         problemText = new JTextPane();
         problemText.setBounds(15, 310, 300, 150);
+        problemText.setText("Enter the problem..");
         problemText.addFocusListener(new FocusListener() {
             @Override
             public void focusGained(FocusEvent e) {
@@ -166,20 +198,28 @@ public class AdminUI extends JFrame {
         DLM_result = new DefaultListModel();
 
         list = new JList();
-        list.setBounds(380, 60, 890, 400);
+        list.setBounds(380, 60, 690, 400);
         list.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
         contentPane.add(list);
 
         deleteButton = new JButton("Delete");
-        deleteButton.setBounds(710, 480, 240, 50);
+        deleteButton.setBounds(820, 480, 200, 50);
         deleteButton.setBorderPainted(false);
         deleteButton.setFocusPainted(false);
         deleteButton.setBackground(SystemColor.activeCaption);
         deleteButton.setForeground(Color.WHITE);
         contentPane.add(deleteButton);
 
+        updateButton = new JButton("Update");
+        updateButton.setBounds(500, 480, 200, 50);
+        updateButton.setBorderPainted(false);
+        updateButton.setFocusPainted(false);
+        updateButton.setBackground(SystemColor.activeCaption);
+        updateButton.setForeground(Color.WHITE);
+        contentPane.add(updateButton);
+
         logoutButton = new JButton("Log out");
-        logoutButton.setBounds(480, 550, 300, 50);
+        logoutButton.setBounds(900, 20, 100, 20);
         logoutButton.setBorderPainted(false);
         logoutButton.setFocusPainted(false);
         logoutButton.setBackground(SystemColor.activeCaption);
@@ -204,6 +244,8 @@ public class AdminUI extends JFrame {
     public void deleteVolunteeringListener(ActionListener delete) { deleteButton.addActionListener(delete); }
 
     public void addMouseListener(MouseListener click) { list.addMouseListener(click); }
+
+    public void updateVolunteeringListener(ActionListener update) { updateButton.addActionListener(update); }
 
     public String getName() { return nameText.getText(); }
 
@@ -245,5 +287,25 @@ public class AdminUI extends JFrame {
 
     public void removeItemFromList(int index) {
         DLM_result.remove(index);
+    }
+
+    public int getListElementsSize() {
+        return DLM_result.size();
+    }
+
+    public void enabledDeleteButton(boolean enable) {
+        if (enable) {
+            deleteButton.setEnabled(true);
+        } else {
+            deleteButton.setEnabled(false);
+        }
+    }
+
+    public void enabledyUpdateButton(boolean enable) {
+        if (enable) {
+            updateButton.setEnabled(true);
+        } else {
+            updateButton.setEnabled(false);
+        }
     }
 }

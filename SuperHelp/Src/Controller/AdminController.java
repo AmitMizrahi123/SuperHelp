@@ -32,6 +32,7 @@ public class AdminController {
         _theView.addVolunteeringListener(new addVolunteeringListener());
         _theView.deleteVolunteeringListener(new DeleteVolunteeringListener());
         _theView.addMouseListener(new MouseClick());
+        _theView.updateVolunteeringListener(new UpdateListener());
     }
 
     private void showAllVolunteering(ArrayList<Volunteering> volunteerings) {
@@ -156,6 +157,13 @@ public class AdminController {
 
         @Override
         public void mouseExited(MouseEvent e) {
+
+        }
+    }
+
+    private class UpdateListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
 
         }
     }

@@ -1,0 +1,14 @@
+אוג׳ 23, 2021 5:24:16 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 23, 2021 5:24:16 אחה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 23, 2021 5:24:16 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 23, 2021 5:24:16 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 23, 2021 5:24:16 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+אוג׳ 23, 2021 5:24:19 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Show all clients in list
+אוג׳ 23, 2021 5:24:19 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Adding firstName='Amit Mizrahi', age='25', gender='male', phoneNumber='0502713302', address='Modiin', problem='I need... to the list
