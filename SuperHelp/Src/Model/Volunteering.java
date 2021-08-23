@@ -7,8 +7,7 @@ import java.util.Random;
 
 public class Volunteering {
     private int _volunteerId;
-    private String _firstName;
-    private String _lastName;
+    private String _name;
     private int _age;
     private String _gender;
     private String _phoneNumber;
@@ -16,11 +15,23 @@ public class Volunteering {
     private String _problem;
     private Timestamp _time;
 
-    public Volunteering(String firstName, String lastName, int age, String gender, String address,
+    // Cons for get selected item
+    public Volunteering(int volunteerId, String name, int age, String gender, String phoneNumber,
+                        String address, String problem, Timestamp time) {
+        _volunteerId = volunteerId;
+        setName(name);
+        setAge(age);
+        setGender(gender);
+        setPhoneNumber(phoneNumber);
+        setAddress(address);
+        setProblem(problem);
+        _time = time;
+    }
+
+    public Volunteering(String name, int age, String gender, String address,
                         String phoneNumber, String problem) {
         _volunteerId = setVolunteerId();
-        setFirstName(firstName);
-        setLastName(lastName);
+        setName(name);
         setAge(age);
         setGender(gender);
         setAddress(address);
@@ -30,11 +41,10 @@ public class Volunteering {
     }
 
     // Cons for testing
-    public Volunteering(int volunteerId, String firstName, int age, String gender, String lastName, String phoneNumber,
+    public Volunteering(int volunteerId, String name, int age, String gender, String phoneNumber,
                         String address, String problem) {
         _volunteerId = volunteerId;
-        setFirstName(firstName);
-        setLastName(lastName);
+        setName(name);
         setAge(age);
         setGender(gender);
         setPhoneNumber(phoneNumber);
@@ -75,20 +85,12 @@ public class Volunteering {
         _address = address;
     }
 
-    public String getFirstName() {
-        return _firstName;
+    public String getName() {
+        return _name;
     }
 
-    public void setFirstName(String firstName) {
-        _firstName = firstName;
-    }
-
-    public String getLastName() {
-        return _lastName;
-    }
-
-    public void setLastName(String lastName) {
-        _lastName = lastName;
+    public void setName(String name) {
+        _name = name;
     }
 
     public String getProblem() {
@@ -121,8 +123,7 @@ public class Volunteering {
 
     @Override
     public String toString() {
-        return  "firstName='" + getFirstName() + '\'' +
-                ", lastName='" + getLastName() + '\'' +
+        return  "firstName='" + getName() + '\'' +
                 ", age='" + getAge() + '\'' +
                 ", gender='" + getGender() + '\'' +
                 ", phoneNumber='" + getPhoneNumber() + '\'' +

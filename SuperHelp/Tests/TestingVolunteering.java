@@ -26,7 +26,7 @@ public class TestingVolunteering {
     public static void setUp() throws SQLException {
         _db = Utilities.connectToMySql();
         _model = new VolunteeringRepository(_db);
-        _volunteering = new Volunteering(Integer.MAX_VALUE, "Admin", 22, "Male", "Admin",
+        _volunteering = new Volunteering(Integer.MAX_VALUE, "Admin Admin", 22, "Male",
                 "0000000001", "Admin", "Admin");
     }
 

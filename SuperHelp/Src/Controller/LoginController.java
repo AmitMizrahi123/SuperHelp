@@ -1,10 +1,8 @@
 package Controller;
 
 import DB.ClientRepository;
-import View.Contact;
-import View.Login;
-import View.Manager;
-import View.Register;
+import DB.VolunteeringRepository;
+import View.*;
 import Logger.SingletonLogger;
 
 import java.awt.event.ActionEvent;
@@ -46,7 +44,11 @@ public class LoginController {
                         if (permission.equals("Admin")) {
                             // TODO Admin screen
                             _logger.log(Level.INFO, "Log in success, going to Admin screen");
-                            _theView.displaySuccessMessage("Admin");
+
+                            AdminUI view = new AdminUI();
+                            view.setTitle("Welcome to Super Help - " + email);
+                            VolunteeringRepository model = new VolunteeringRepository(_theModel._db);
+                            AdminController controller = new AdminController(view, model);
                         } else if (permission.equals("volunteer")) {
                             // TODO Volunteer screen
                             _logger.log(Level.INFO, "Log in success, going to Volunteer screen");
@@ -54,7 +56,7 @@ public class LoginController {
                         } else if (permission.equals("Manager")) {
                             _logger.log(Level.INFO, "Log in success, going to Manager screen");
 
-                            Manager view = new Manager();
+                            ManagerUI view = new ManagerUI();
                             view.setTitle("Welcome to Super help - " + email);
                             ClientRepository model = new ClientRepository(_theModel._db);
                             ManagerController controller = new ManagerController(view, model);

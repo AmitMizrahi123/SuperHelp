@@ -13,7 +13,7 @@ public class SingletonVolunteeringDetails {
     private static SingletonVolunteeringDetails firstInstance = new SingletonVolunteeringDetails();
 
     private final String _url = "https://www.science.co.il/municipal/Cities.php";
-    private List<Integer> _ages = setAges();
+    private Integer[] _ages = setAges();
     private List<String> _locations = setLocations();
     private final String[] _gender = { "male", "female" };
 
@@ -23,11 +23,14 @@ public class SingletonVolunteeringDetails {
         return firstInstance;
     }
 
-    private List<Integer> setAges() {
-        List<Integer> ages = new ArrayList<>();
-        for (int i = 16; i <= 120; i++) {
-            ages.add(i);
+    private Integer[] setAges() {
+        Integer[] ages = new Integer[80 - 16 + 1];
+        int j = 0;
+
+        for (int i = 16; i <= 80; i++) {
+            ages[j++] = i;
         }
+
         return ages;
     }
 
@@ -49,7 +52,7 @@ public class SingletonVolunteeringDetails {
         return locatinos;
     }
 
-    public List<Integer> getAge() {
+    public Integer[] getAge() {
         return _ages;
     }
 

@@ -5,7 +5,6 @@ import javax.swing.*;
 
 import javax.swing.border.EmptyBorder;
 
-import DB.ClientRepository;
 import Model.Client;
 
 import java.awt.event.ActionListener;
@@ -14,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class Manager extends JFrame {
+public class ManagerUI extends JFrame {
     private DefaultListModel DLM_result;
     private JList list;
     private JPanel contentPane;
@@ -26,7 +25,7 @@ public class Manager extends JFrame {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    Manager frame = new Manager();
+                    ManagerUI frame = new ManagerUI();
                     frame.setVisible(true);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -35,7 +34,7 @@ public class Manager extends JFrame {
         });
     }
 
-    public Manager() {
+    public ManagerUI() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 700, 550);
         setLocationRelativeTo(null);
