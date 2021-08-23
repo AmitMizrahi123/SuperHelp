@@ -36,16 +36,11 @@ public class MainWindow {
             Utilities.createTable(db, tableNameVolunteer, createVoluneeringSql);
         }
 
-//        new ProgressBarPage();
+        new ProgressBarPage();
 
-//        Login theView = new Login();
-//        ClientRepository theModel = new ClientRepository(db);
-//        LoginController theController = new LoginController(theView, theModel);
-//        theView.setVisible(true);
-
-        AdminUI view = new AdminUI();
-        view.setTitle("Welcome to Super Help - ");
-        VolunteeringRepository model = new VolunteeringRepository(db);
-        AdminController controller = new AdminController(view, model);
+        Login theView = new Login();
+        ClientRepository theModel = new ClientRepository(db);
+        LoginController theController = new LoginController(theView, theModel);
+        theView.setVisible(true);
     }
 }
