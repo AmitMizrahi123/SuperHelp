@@ -16,10 +16,10 @@ public class VolunteeringDB {
         ResultSet rs = ps.executeQuery();
 
         while (rs.next()) {
-            Volunteering volunteering = new Volunteering( rs.getString("Name"),
-                    rs.getInt("Age"), rs.getString("Gender"),
+            Volunteering volunteering = new Volunteering(rs.getInt("volunteerid"),
+                    rs.getString("Name"), rs.getInt("Age"), rs.getString("Gender"),
                     rs.getString("Address"), rs.getString("PhoneNumber"),
-                    rs.getString("Problem"));
+                    rs.getString("Problem"), rs.getTimestamp("Time"));
 
             volunteerings.add(volunteering);
         }

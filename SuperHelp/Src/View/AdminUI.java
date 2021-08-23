@@ -204,6 +204,8 @@ public class AdminUI extends JFrame {
 
     public void addVolunteeringListener(ActionListener add) { addButton.addActionListener(add); }
 
+    public void deleteVolunteeringListener(ActionListener delete) { deleteButton.addActionListener(delete); }
+
     public String getName() { return nameText.getText(); }
 
     public String getGender() {
@@ -234,5 +236,15 @@ public class AdminUI extends JFrame {
         list.setModel(DLM_result);
     }
 
-    public Volunteering getSelectedItem() { return (Volunteering) list.getSelectedValue(); }
+    public Volunteering getSelectedItem() {
+        return (Volunteering) list.getSelectedValue();
+    }
+
+    public int getSelectedIndex() {
+        return list.getSelectedIndex();
+    }
+
+    public void removeItemFromList(int index) {
+        DLM_result.remove(index);
+    }
 }

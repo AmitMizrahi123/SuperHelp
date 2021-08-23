@@ -28,6 +28,7 @@ public class AdminController {
         _theView.setVisible(true);
         _theView.addLogoutListener(new logoutListener());
         _theView.addVolunteeringListener(new addVolunteeringListener());
+        _theView.deleteVolunteeringListener(new DeleteVolunteeringListener());
     }
 
     private void showAllVolunteering(ArrayList<Volunteering> volunteerings) {
@@ -90,6 +91,28 @@ public class AdminController {
                 exc.printStackTrace();
                 _theView.displayErrorMessage("404");
                 _logger.log(Level.SEVERE, "Error to add new volunteering");
+            }
+        }
+    }
+
+    private class DeleteVolunteeringListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            _logger.log(Level.INFO, "Trying to delete volunteering from Admin screen");
+            Volunteering volunteering = _theView.getSelectedItem();
+            _logger.log(Level.INFO, "Get volunteering {0} that selected from list", volunteering);
+            int index = _theView.getSelectedIndex();
+            _logger.log(Level.INFO, "Get index {} from volunteering", index);
+
+            try {
+                _theModel.delete(volunteering.getVolunteerId());
+                _logger.log(Level.INFO, "delete {0} from db", volunteering);
+                _theView.removeItemFromList(index);
+                _logger.log(Level.INFO, "delete {0} from list", volunteering);
+            } catch (Exception exc) {
+                _logger.log(Level.SEVERE, "Cannot delete {0} from db", volunteering);
+                _theView.displayErrorMessage("404");
+                exc.printStackTrace();
             }
         }
     }

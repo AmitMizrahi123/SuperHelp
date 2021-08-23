@@ -70,6 +70,7 @@ public class ManagerController {
             _logger.log(Level.INFO, "Get client {0} that selected from list", client);
             int index = _theView.getSelectedIndex();
             _logger.log(Level.INFO, "Get index {} from client", index);
+
             try {
                 _theModel.delete(client.getEmail());
                 _logger.log(Level.INFO, "delete {0} from db", client);

@@ -15,6 +15,19 @@ public class Volunteering {
     private String _problem;
     private Timestamp _time;
 
+    // Cons for get selected item
+    public Volunteering(int volunteerId, String name, int age, String gender, String phoneNumber,
+                        String address, String problem, Timestamp time) {
+        _volunteerId = volunteerId;
+        setName(name);
+        setAge(age);
+        setGender(gender);
+        setPhoneNumber(phoneNumber);
+        setAddress(address);
+        setProblem(problem);
+        _time = time;
+    }
+
     public Volunteering(String name, int age, String gender, String address,
                         String phoneNumber, String problem) {
         _volunteerId = setVolunteerId();

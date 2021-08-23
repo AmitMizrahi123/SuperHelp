@@ -1,0 +1,28 @@
+אוג׳ 23, 2021 5:02:26 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 23, 2021 5:02:27 אחה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 23, 2021 5:02:27 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 23, 2021 5:02:27 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 23, 2021 5:02:27 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+אוג׳ 23, 2021 5:02:29 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Show all clients in list
+אוג׳ 23, 2021 5:02:29 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Adding firstName='Amit Mizrahi', age='25', gender='male', phoneNumber='0502713302', address='Modiin', problem='I need... to the list
+אוג׳ 23, 2021 5:02:29 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Adding firstName='Amit Mizrahi', age='25', gender='male', phoneNumber='0502713302', address='Modiin', problem='I need... to the list
+אוג׳ 23, 2021 5:02:29 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Adding firstName='Amit Mizrahi', age='16', gender='male', phoneNumber='0502713302', address='Modiin', problem='I need.. to the list
+אוג׳ 23, 2021 5:02:31 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Trying to delete volunteering from Admin screen
+אוג׳ 23, 2021 5:02:31 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Get volunteering firstName='Amit Mizrahi', age='25', gender='male', phoneNumber='0502713302', address='Modiin', problem='I need... that selected from list
+אוג׳ 23, 2021 5:02:31 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Get index {} from volunteering
+אוג׳ 23, 2021 5:02:43 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: delete firstName='Amit Mizrahi', age='25', gender='male', phoneNumber='0502713302', address='Modiin', problem='I need... from db
+אוג׳ 23, 2021 5:02:43 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: delete firstName='Amit Mizrahi', age='25', gender='male', phoneNumber='0502713302', address='Modiin', problem='I need... from list
