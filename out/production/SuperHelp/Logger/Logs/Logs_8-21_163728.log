@@ -1,0 +1,14 @@
+אוג׳ 21, 2021 4:37:28 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 21, 2021 4:37:29 אחה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 21, 2021 4:37:29 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 21, 2021 4:37:29 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 21, 2021 4:37:29 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+אוג׳ 21, 2021 4:37:41 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 21, 2021 4:37:41 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Admin screen

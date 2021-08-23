@@ -3,9 +3,11 @@ package View;
 import Model.SingletonVolunteeringDetails;
 
 import javax.swing.*;
+import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
-import java.util.List;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class AdminUI extends JFrame {
     private JPanel contentPane;
@@ -20,25 +22,12 @@ public class AdminUI extends JFrame {
     private JComboBox<Integer> ageCB;
     private JRadioButton genderMaleRB;
     private JRadioButton genderFemaleRB;
+    private ButtonGroup genderBG;
     private JComboBox<String> addressCB;
     private JList list;
     private DefaultListModel DLM_result;
     private JButton deleteButton;
     private JButton logoutButton;
-
-
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    AdminUI frame = new AdminUI();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
 
     private Font headerFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 28); }
 
@@ -105,6 +94,10 @@ public class AdminUI extends JFrame {
         genderFemaleRB.setActionCommand(details.getGender()[1]);
         contentPane.add(genderFemaleRB);
 
+        genderBG = new ButtonGroup();
+        genderBG.add(genderMaleRB);
+        genderBG.add(genderFemaleRB);
+
         adressLabel = new JLabel();
         adressLabel.setText("Address:");
         adressLabel.setFont(labelFont());
@@ -130,7 +123,6 @@ public class AdminUI extends JFrame {
 
         list = new JList();
         list.setBounds(400, 60, 460, 330);
-        list.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
         contentPane.add(list);
 
         deleteButton = new JButton("Delete");
@@ -148,5 +140,17 @@ public class AdminUI extends JFrame {
         logoutButton.setBackground(SystemColor.activeCaption);
         logoutButton.setForeground(Color.WHITE);
         contentPane.add(logoutButton);
+    }
+
+    public void displayErrorMessage(String errorMsg) {
+        JOptionPane.showMessageDialog(this,errorMsg);
+    }
+
+    public void displayMessage(String msg) {
+        JOptionPane.showMessageDialog(this,msg);
+    }
+
+    public void addLogoutListener(ActionListener logout) {
+        logoutButton.addActionListener(logout);
     }
 }

@@ -1,6 +1,9 @@
+import Controller.AdminController;
 import Controller.LoginController;
 import DB.ClientRepository;
 import DB.Utilities;
+import DB.VolunteeringRepository;
+import View.AdminUI;
 import View.Login;
 import Logger.SingletonLogger;
 import View.ProgressBarPage;
@@ -33,11 +36,16 @@ public class MainWindow {
             Utilities.createTable(db, tableNameVolunteer, createVoluneeringSql);
         }
 
-        new ProgressBarPage();
+//        new ProgressBarPage();
 
-        Login theView = new Login();
-        ClientRepository theModel = new ClientRepository(db);
-        LoginController theController = new LoginController(theView, theModel);
-        theView.setVisible(true);
+//        Login theView = new Login();
+//        ClientRepository theModel = new ClientRepository(db);
+//        LoginController theController = new LoginController(theView, theModel);
+//        theView.setVisible(true);
+
+        AdminUI view = new AdminUI();
+        view.setTitle("Welcome to Super Help - ");
+        VolunteeringRepository model = new VolunteeringRepository(db);
+        AdminController controller = new AdminController(view, model);
     }
 }
