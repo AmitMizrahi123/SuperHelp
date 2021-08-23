@@ -22,6 +22,10 @@ public class ProgressBarPage extends JFrame {
     public static Font getMainHeaderFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 28); }
 
     public ProgressBarPage() {
+        ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
+        setIconImage(image.getImage());
+        setResizable(false);
+
         mainHeaderLabel = new JLabel(getMainHeaderText());
         mainHeaderLabel.setBounds(10, -60, 400, 167);
         mainHeaderLabel.setFont(getMainHeaderFont());

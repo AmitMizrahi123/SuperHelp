@@ -59,6 +59,7 @@ public class SingletonVolunteeringDetails {
     public List<String> getLocation() {
         return _locations;
     }
+
     public String[] getGender() {
         return _gender;
     }

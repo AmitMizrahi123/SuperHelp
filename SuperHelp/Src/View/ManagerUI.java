@@ -35,6 +35,9 @@ public class ManagerUI extends JFrame {
     }
 
     public ManagerUI() {
+        ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
+        setIconImage(image.getImage());
+        setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 700, 550);
         setLocationRelativeTo(null);

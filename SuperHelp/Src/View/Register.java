@@ -65,6 +65,9 @@ public class Register extends JFrame {
     private Color errorColor() { return Color.red; }
 
     public Register() {
+        ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
+        setIconImage(image.getImage());
+        setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, 840, 660);
         setTitle("SuperHelp");

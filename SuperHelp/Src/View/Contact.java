@@ -39,7 +39,10 @@ public class Contact extends JFrame {
     public int getAppHeight() { return 240; }
 
     public Contact() throws IOException {
+        ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
+        setIconImage(image.getImage());
         setTitle(title());
+        setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, getAppWidth(), getAppHeight());
         setLocationRelativeTo(null);

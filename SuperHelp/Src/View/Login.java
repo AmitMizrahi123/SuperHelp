@@ -57,6 +57,9 @@ public class Login extends JFrame {
     }
 
     public Login() {
+        ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
+        setIconImage(image.getImage());
+        setResizable(false);
         setTitle(title());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(100, 100, getAppWidth(), getAppHeight());
