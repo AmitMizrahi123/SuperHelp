@@ -7,10 +7,7 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.*;
 
 public class AdminUI extends JFrame {
     private JPanel contentPane;
@@ -205,6 +202,8 @@ public class AdminUI extends JFrame {
     public void addVolunteeringListener(ActionListener add) { addButton.addActionListener(add); }
 
     public void deleteVolunteeringListener(ActionListener delete) { deleteButton.addActionListener(delete); }
+
+    public void addMouseListener(MouseListener click) { list.addMouseListener(click); }
 
     public String getName() { return nameText.getText(); }
 

@@ -10,6 +10,8 @@ import View.Login;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.logging.Level;
@@ -29,6 +31,7 @@ public class AdminController {
         _theView.addLogoutListener(new logoutListener());
         _theView.addVolunteeringListener(new addVolunteeringListener());
         _theView.deleteVolunteeringListener(new DeleteVolunteeringListener());
+        _theView.addMouseListener(new MouseClick());
     }
 
     private void showAllVolunteering(ArrayList<Volunteering> volunteerings) {
@@ -114,6 +117,46 @@ public class AdminController {
                 _theView.displayErrorMessage("404");
                 exc.printStackTrace();
             }
+        }
+    }
+
+    private class MouseClick implements MouseListener {
+        @Override
+        public void mouseClicked(MouseEvent event) {
+            if (event.getClickCount() == 2 && event.getButton() == MouseEvent.BUTTON1) {
+                Volunteering volunteering = _theView.getSelectedItem();
+
+                _theView.displayMessage(
+                        "Volunteering Information:\n\n\n"
+                                + "Name:  " + volunteering.getName()
+                                + "\n\n" + "Age:  " + volunteering.getAge()
+                                + "\n\n" + "Gender:  " + volunteering.getGender()
+                                + "\n\n" + "Adress:  " + volunteering.getAddress()
+                                + "\n\n" + "Phone Number:  " + volunteering.getPhoneNumber()
+                                + "\n\n" + "Problem:  " + volunteering.getProblem()
+                                + "\n"
+                );
+            }
+        }
+
+        @Override
+        public void mousePressed(MouseEvent e) {
+
+        }
+
+        @Override
+        public void mouseReleased(MouseEvent e) {
+
+        }
+
+        @Override
+        public void mouseEntered(MouseEvent e) {
+
+        }
+
+        @Override
+        public void mouseExited(MouseEvent e) {
+
         }
     }
 }
