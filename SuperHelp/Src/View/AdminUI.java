@@ -309,6 +309,10 @@ public class AdminUI extends JFrame {
         }
     }
 
+    public int getListSize() {
+        return DLM_result.size();
+    }
+
     public void clearFields() {
         nameText.setText("");
         ageCB.setSelectedIndex(0);

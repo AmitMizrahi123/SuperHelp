@@ -27,6 +27,11 @@ public class AdminController {
         _theModel = model;
         showAllVolunteering(_theModel._volunteerings);
 
+        if (_theView.getListSize() == 0) {
+            _theView.enabledDeleteButton(false);
+            _theView.enabledyUpdateButton(false);
+        }
+
         _theView.setVisible(true);
         _theView.addLogoutListener(new logoutListener());
         _theView.addVolunteeringListener(new addVolunteeringListener());
@@ -88,6 +93,12 @@ public class AdminController {
                     _theView.clearFields();
                     _theView.displayMessage("Volunteering has been added!");
                     _logger.log(Level.INFO, "{0} has been added", volunteering);
+
+                    if (_theView.getListSize() == 0) {
+                        _theView.enabledDeleteButton(true);
+                        _theView.enabledyUpdateButton(true);
+                    }
+
                 } else {
                     _theView.displayErrorMessage("Please make sure to fill all fileds!");
                     _logger.log(Level.INFO, "Add new voulnteering fileds, there are empty fills");
@@ -114,6 +125,11 @@ public class AdminController {
                 _logger.log(Level.INFO, "delete {0} from db", volunteering);
                 _theView.removeItemFromList(index);
                 _logger.log(Level.INFO, "delete {0} from list", volunteering);
+
+                if (_theView.getListSize() == 0) {
+                    _theView.enabledDeleteButton(false);
+                    _theView.enabledyUpdateButton(false);
+                }
             } catch (Exception exc) {
                 _logger.log(Level.SEVERE, "Cannot delete {0} from db", volunteering);
                 _theView.displayErrorMessage("404");
