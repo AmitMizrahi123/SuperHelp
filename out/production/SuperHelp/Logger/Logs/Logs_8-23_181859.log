@@ -1,0 +1,36 @@
+אוג׳ 23, 2021 6:18:59 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 23, 2021 6:18:59 אחה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 23, 2021 6:18:59 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 23, 2021 6:19:00 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 23, 2021 6:19:00 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+אוג׳ 23, 2021 6:19:02 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Show all clients in list
+אוג׳ 23, 2021 6:19:02 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Adding firstName='Amit Mizrahi', age='18', gender='male', phoneNumber='0502713302', address='Modiin', problem='bkab baksdbf kjsadfkj bsdakf  to the list
+אוג׳ 23, 2021 6:19:02 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Adding firstName='Zohar Hajaj', age='25', gender='female', phoneNumber='0523879425', address='Kiryat Motzkin', problem='najsnd asdj kansd jkasd to the list
+אוג׳ 23, 2021 6:19:05 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Trying to delete volunteering from Admin screen
+אוג׳ 23, 2021 6:19:05 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Get volunteering firstName='Zohar Hajaj', age='25', gender='female', phoneNumber='0523879425', address='Kiryat Motzkin', problem='najsnd asdj kansd jkasd that selected from list
+אוג׳ 23, 2021 6:19:05 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Get index {} from volunteering
+אוג׳ 23, 2021 6:19:05 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: delete firstName='Zohar Hajaj', age='25', gender='female', phoneNumber='0523879425', address='Kiryat Motzkin', problem='najsnd asdj kansd jkasd from db
+אוג׳ 23, 2021 6:19:05 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: delete firstName='Zohar Hajaj', age='25', gender='female', phoneNumber='0523879425', address='Kiryat Motzkin', problem='najsnd asdj kansd jkasd from list
+אוג׳ 23, 2021 6:19:07 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Trying to delete volunteering from Admin screen
+אוג׳ 23, 2021 6:19:07 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Get volunteering firstName='Amit Mizrahi', age='18', gender='male', phoneNumber='0502713302', address='Modiin', problem='bkab baksdbf kjsadfkj bsdakf  that selected from list
+אוג׳ 23, 2021 6:19:07 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Get index {} from volunteering
+אוג׳ 23, 2021 6:19:07 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: delete firstName='Amit Mizrahi', age='18', gender='male', phoneNumber='0502713302', address='Modiin', problem='bkab baksdbf kjsadfkj bsdakf  from db
+אוג׳ 23, 2021 6:19:07 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: delete firstName='Amit Mizrahi', age='18', gender='male', phoneNumber='0502713302', address='Modiin', problem='bkab baksdbf kjsadfkj bsdakf  from list

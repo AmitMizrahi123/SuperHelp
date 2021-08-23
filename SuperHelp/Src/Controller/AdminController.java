@@ -85,6 +85,7 @@ public class AdminController {
                     Volunteering volunteering = new Volunteering(name, age, gender, phoneNumber, address, problem);
                     _theModel.add(volunteering);
                     _theView.addVolunteeringToList(volunteering);
+                    _theView.clearFields();
                     _theView.displayMessage("Volunteering has been added!");
                     _logger.log(Level.INFO, "{0} has been added", volunteering);
                 } else {

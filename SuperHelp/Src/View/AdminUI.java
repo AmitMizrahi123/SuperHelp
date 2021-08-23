@@ -308,4 +308,13 @@ public class AdminUI extends JFrame {
             updateButton.setEnabled(false);
         }
     }
+
+    public void clearFields() {
+        nameText.setText("");
+        ageCB.setSelectedIndex(0);
+        genderBG.clearSelection();
+        addressCB.setSelectedIndex(0);
+        phoneNumberText.setText("");
+        problemText.setText("");
+    }
 }
