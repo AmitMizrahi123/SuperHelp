@@ -321,4 +321,20 @@ public class AdminUI extends JFrame {
         phoneNumberText.setText("");
         problemText.setText("");
     }
+
+    public void setDetailsVolunteeringForEdit(Volunteering volunteering) {
+        nameText.setText(volunteering.getName());
+        ageCB.setSelectedItem(volunteering.getAge());
+        addressCB.setSelectedItem(volunteering.getAddress());
+        phoneNumberText.setText(volunteering.getPhoneNumber());
+        problemText.setText(volunteering.getProblem());
+
+        if (volunteering.getGender().equals("Male")) {
+            genderMaleRB.setSelected(true);
+            genderFemaleRB.setSelected(false);
+        } else {
+            genderMaleRB.setSelected(false);
+            genderFemaleRB.setSelected(true);
+        }
+    }
 }

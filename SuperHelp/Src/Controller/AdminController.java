@@ -91,7 +91,6 @@ public class AdminController {
                     _theModel.add(volunteering);
                     _theView.addVolunteeringToList(volunteering);
                     _theView.clearFields();
-                    _theView.displayMessage("Volunteering has been added!");
                     _logger.log(Level.INFO, "{0} has been added", volunteering);
 
                     if (_theView.getListSize() > 0) {
@@ -183,7 +182,18 @@ public class AdminController {
     private class UpdateListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-
+            _logger.log(Level.INFO, "Trying to update volunteering from Admin screen");
+            Volunteering volunteering = _theView.getSelectedItem();
+            _theView.setDetailsVolunteeringForEdit(volunteering);
+            try {
+                _theModel.delete(volunteering.getVolunteerId());
+                int index = _theView.getSelectedIndex();
+                _theView.removeItemFromList(index);
+            } catch (Exception exception) {
+                _logger.log(Level.SEVERE, "Cannot update {0} from db", volunteering);
+                _theView.displayErrorMessage("404");
+                exception.printStackTrace();
+            }
         }
     }
 }
