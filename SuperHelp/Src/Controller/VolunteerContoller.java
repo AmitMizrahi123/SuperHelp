@@ -28,6 +28,7 @@ public class VolunteerContoller {
         if (_theView.getListSize() == 0) {
             _theView.enableClearButton(false);
             _theView.enableSearchButton(false);
+            _theView.enableTakeMeButton(false);
         }
 
         _theView.setVisible(true);
@@ -157,6 +158,7 @@ public class VolunteerContoller {
                 if (_theView.getListSize() == 0) {
                     _theView.enableSearchButton(false);
                     _theView.enableClearButton(false);
+                    _theView.enableTakeMeButton(false);
                 }
             } catch (Exception exc) {
                 _logger.log(Level.SEVERE, "Cannot delete {0} from db", volunteering);

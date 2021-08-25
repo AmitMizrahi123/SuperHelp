@@ -141,6 +141,14 @@ public class VolunteerUI extends JFrame {
         }
     }
 
+    public void enableTakeMeButton(boolean enable) {
+        if (enable) {
+            takeVolunteeringButton.setEnabled(true);
+        } else {
+            takeVolunteeringButton.setEnabled(false);
+        }
+    }
+
     public Volunteering getSelectedItem() {
         return (Volunteering)list.getSelectedValue();
     }
