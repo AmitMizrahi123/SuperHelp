@@ -1,0 +1,74 @@
+אוג׳ 24, 2021 8:43:52 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 24, 2021 8:43:52 אחה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 24, 2021 8:43:52 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 24, 2021 8:43:52 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 24, 2021 8:43:52 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+אוג׳ 24, 2021 8:44:08 אחה״צ Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
+אוג׳ 24, 2021 8:44:12 אחה״צ Controller.ContactController$GoBackListener actionPerformed
+INFO: Go Back to Login screen from Contact screen
+אוג׳ 24, 2021 8:44:13 אחה״צ Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+אוג׳ 24, 2021 8:44:18 אחה״צ Controller.RegisterController$GoBackListener actionPerformed
+INFO: Go Back to Login screen from Register screen
+אוג׳ 24, 2021 8:44:26 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 24, 2021 8:44:26 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Manager screen
+אוג׳ 24, 2021 8:44:26 אחה״צ Controller.ManagerController showAllUsers
+INFO: Show all clients in list
+אוג׳ 24, 2021 8:44:26 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Itzik, LastName: Israeli, Address: Yavne, PhoneNumber: 0501112231, Permission: Volunteer to the list
+אוג׳ 24, 2021 8:44:26 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Or, LastName: Ezra, Address: Gan Yavne, PhoneNumber: 0503331111, Permission: Admin to the list
+אוג׳ 24, 2021 8:44:26 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Yossi, LastName: Bengaev, Address: Kfat Shumal, PhoneNumber: 0501113333, Permission: Volunteer to the list
+אוג׳ 24, 2021 8:44:43 אחה״צ Controller.ManagerController$GoBackListener actionPerformed
+INFO: Go back to Login screen from Manager Screnn
+אוג׳ 24, 2021 8:44:55 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 24, 2021 8:44:55 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Admin screen
+אוג׳ 24, 2021 8:44:56 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Show all clients in list
+אוג׳ 24, 2021 8:44:56 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Adding firstName='Zohar Hajaj', age='25', gender='female', phoneNumber='0523879425', address='Tel Aviv', problem='I have annoying boyfriend... to the list
+אוג׳ 24, 2021 8:44:56 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Adding firstName='Amit Mizrahi', age='25', gender='male', phoneNumber='0502713302', address='Modiin', problem='Babaababab to the list
+אוג׳ 24, 2021 8:45:01 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Trying to delete volunteering from Admin screen
+אוג׳ 24, 2021 8:45:01 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Get volunteering firstName='Amit Mizrahi', age='25', gender='male', phoneNumber='0502713302', address='Modiin', problem='Babaababab that selected from list
+אוג׳ 24, 2021 8:45:01 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Get index {} from volunteering
+אוג׳ 24, 2021 8:45:01 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: delete firstName='Amit Mizrahi', age='25', gender='male', phoneNumber='0502713302', address='Modiin', problem='Babaababab from db
+אוג׳ 24, 2021 8:45:01 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: delete firstName='Amit Mizrahi', age='25', gender='male', phoneNumber='0502713302', address='Modiin', problem='Babaababab from list
+אוג׳ 24, 2021 8:45:03 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Trying to delete volunteering from Admin screen
+אוג׳ 24, 2021 8:45:03 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Get volunteering firstName='Zohar Hajaj', age='25', gender='female', phoneNumber='0523879425', address='Tel Aviv', problem='I have annoying boyfriend... that selected from list
+אוג׳ 24, 2021 8:45:03 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: Get index {} from volunteering
+אוג׳ 24, 2021 8:45:03 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: delete firstName='Zohar Hajaj', age='25', gender='female', phoneNumber='0523879425', address='Tel Aviv', problem='I have annoying boyfriend... from db
+אוג׳ 24, 2021 8:45:03 אחה״צ Controller.AdminController$DeleteVolunteeringListener actionPerformed
+INFO: delete firstName='Zohar Hajaj', age='25', gender='female', phoneNumber='0523879425', address='Tel Aviv', problem='I have annoying boyfriend... from list
+אוג׳ 24, 2021 8:46:10 אחה״צ Controller.AdminController$addVolunteeringListener actionPerformed
+INFO: Trying to add new volunteering
+אוג׳ 24, 2021 8:46:10 אחה״צ Controller.AdminController$addVolunteeringListener actionPerformed
+INFO: firstName='Or Ezra', age='26', gender='male', phoneNumber='Yavne', address='0561231231', problem='I need midicin for sqize has been added
+אוג׳ 24, 2021 8:46:20 אחה״צ Controller.AdminController$UpdateListener actionPerformed
+INFO: Trying to update volunteering from Admin screen
+אוג׳ 24, 2021 8:46:34 אחה״צ Controller.AdminController$addVolunteeringListener actionPerformed
+INFO: Trying to add new volunteering
+אוג׳ 24, 2021 8:46:34 אחה״צ Controller.AdminController$addVolunteeringListener actionPerformed
+INFO: firstName='Or Ezra', age='26', gender='male', phoneNumber='Yavne', address='0561113322', problem='I need midicin for sqize has been added
+אוג׳ 24, 2021 8:46:47 אחה״צ Controller.AdminController$logoutListener actionPerformed
+INFO: Go back to Login screen from Admin Screnn
