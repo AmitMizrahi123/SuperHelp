@@ -42,17 +42,19 @@ public class LoginController {
                         permission = _theModel.getClientPermission(email);
 
                         if (permission.equals("Admin")) {
-                            // TODO Admin screen
                             _logger.log(Level.INFO, "Log in success, going to Admin screen");
 
                             AdminUI view = new AdminUI();
                             view.setTitle("Welcome to Super Help - " + email);
                             VolunteeringRepository model = new VolunteeringRepository(_theModel._db);
                             AdminController controller = new AdminController(view, model);
-                        } else if (permission.equals("volunteer")) {
-                            // TODO Volunteer screen
+                        } else if (permission.equals("Volunteer")) {
                             _logger.log(Level.INFO, "Log in success, going to Volunteer screen");
-                            _theView.displaySuccessMessage("Volunteer");
+
+                            VolunteerUI view = new VolunteerUI();
+                            view.setTitle("Welcome to Super Help - " + email);
+                            VolunteeringRepository model = new VolunteeringRepository(_theModel._db);
+                            VolunteerContoller contoller = new VolunteerContoller(view, model);
                         } else if (permission.equals("Manager")) {
                             _logger.log(Level.INFO, "Log in success, going to Manager screen");
 

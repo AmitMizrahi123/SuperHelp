@@ -1,0 +1,12 @@
+אוג׳ 25, 2021 9:35:12 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 25, 2021 9:35:12 אחה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 25, 2021 9:35:12 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 25, 2021 9:35:12 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 25, 2021 9:35:12 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+אוג׳ 25, 2021 9:35:14 אחה״צ Controller.VolunteerContoller showAllVolunteering
+INFO: Show all clients in list
