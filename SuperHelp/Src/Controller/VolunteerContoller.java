@@ -35,6 +35,7 @@ public class VolunteerContoller {
         _theView.addMouseListener(new MouseClick());
         _theView.addSearchListener(new SearchListener());
         _theView.addClearListener(new ClearListener());
+        _theView.addTakeVolunteeringListener(new TakeVolunteeringListener());
     }
 
     private void showAllVolunteering(ArrayList<Volunteering> volunteerings) {
@@ -135,6 +136,33 @@ public class VolunteerContoller {
         @Override
         public void actionPerformed(ActionEvent e) {
             showAllVolunteering(_theModel._volunteerings);
+        }
+    }
+
+    private class TakeVolunteeringListener implements ActionListener {
+        @Override
+        public void actionPerformed(ActionEvent e) {
+            _logger.log(Level.INFO, "Trying to take volunteering from volunteer screen");
+            Volunteering volunteering = _theView.getSelectedItem();
+            _logger.log(Level.INFO, "Get volunteering {0} that selected from list", volunteering);
+            int index = _theView.getSelectedIndex();
+            _logger.log(Level.INFO, "Get index {} from volunteering", index);
+
+            try {
+                _theModel.delete(volunteering.getVolunteerId());
+                _logger.log(Level.INFO, "delete {0} from db", volunteering);
+                _theView.removeItemFromList(index);
+                _logger.log(Level.INFO, "delete {0} from list", volunteering);
+
+                if (_theView.getListSize() == 0) {
+                    _theView.enableSearchButton(false);
+                    _theView.enableClearButton(false);
+                }
+            } catch (Exception exc) {
+                _logger.log(Level.SEVERE, "Cannot delete {0} from db", volunteering);
+                _theView.displayErrorMessage("404");
+                exc.printStackTrace();
+            }
         }
     }
 }

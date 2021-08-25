@@ -99,9 +99,7 @@ public class VolunteerUI extends JFrame {
 
     public void addClearListener(ActionListener clear) { clearButton.addActionListener(clear); }
 
-    public Volunteering getSelectedItem() {
-        return (Volunteering) list.getSelectedValue();
-    }
+    public void addTakeVolunteeringListener(ActionListener takeVolunteering) { takeVolunteeringButton.addActionListener(takeVolunteering); }
 
     public void setListResult() {
         list.setModel(DLM_result);
@@ -141,5 +139,17 @@ public class VolunteerUI extends JFrame {
         } else {
             clearButton.setEnabled(false);
         }
+    }
+
+    public Volunteering getSelectedItem() {
+        return (Volunteering)list.getSelectedValue();
+    }
+
+    public int getSelectedIndex() {
+        return list.getSelectedIndex();
+    }
+
+    public void removeItemFromList(int index) {
+        DLM_result.remove(index);
     }
 }
