@@ -5,7 +5,7 @@ import DB.VolunteeringRepository;
 import Logger.SingletonLogger;
 import Model.Volunteering;
 import View.Login;
-import View.VolunteerUI;
+import View.Volunteer;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -16,11 +16,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class VolunteerContoller {
-    private VolunteerUI _theView;
+    private Volunteer _theView;
     private VolunteeringRepository _theModel;
     private Logger _logger = SingletonLogger.getInstance().configLogger();
 
-    public VolunteerContoller(VolunteerUI view, VolunteeringRepository model) {
+    public VolunteerContoller(Volunteer view, VolunteeringRepository model) {
         _theView = view;
         _theModel = model;
         showAllVolunteering(_theModel._volunteerings);
