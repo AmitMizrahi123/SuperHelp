@@ -9,7 +9,7 @@ import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseListener;
 
-public class VolunteerUI extends JFrame {
+public class Volunteer extends JFrame {
     private JPanel contentPane;
     private JComboBox addressCB;
     private JButton searchButton;
@@ -19,7 +19,7 @@ public class VolunteerUI extends JFrame {
     private JButton takeVolunteeringButton;
     private JButton logoutButton;
 
-    public VolunteerUI() {
+    public Volunteer() {
         SingletonVolunteeringDetails details = SingletonVolunteeringDetails.getInstance();
 
         ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
@@ -124,6 +124,8 @@ public class VolunteerUI extends JFrame {
     public void clearList() {
         DLM_result.removeAllElements();
     }
+
+    public String getNameScreen() { return this.getClass().getSimpleName(); }
 
     public void enableSearchButton(boolean enable) {
         if (enable) {

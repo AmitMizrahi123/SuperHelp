@@ -1,9 +1,7 @@
 import Controller.LoginController;
 import DB.ClientRepository;
 import DB.Utilities;
-import View.Contact;
-import View.Login;
-import View.Register;
+import View.*;
 import org.junit.Assert;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -34,5 +32,42 @@ public class UITestingLogin {
     void verifyLoginToContactScreen() {
         Contact contact = _theView.clickOnContactButton();
         Assert.assertTrue(contact.getNameScreen().equals("Contact"));
+    }
+
+    @Test
+    void invalidLoginNoArgs() {
+        ErrorMessageUI errorMessageScreen = _theView.clickOnLoginButtonInvalidArgs();
+        Assert.assertTrue(errorMessageScreen.getErrorText().equals("Invalid Email"));
+    }
+
+    @Test
+    void invalidLoginErrorPasswoord() {
+        _theView.setEmailField("amit@gmail.com");
+        ErrorMessageUI errorMessageScreen = _theView.clickOnLoginButtonInvalidPassword();
+        Assert.assertTrue(errorMessageScreen.getErrorText().equals("Invalid Password"));
+    }
+
+    @Test
+    void happyPathLoginManager() {
+        _theView.setEmailField("amit@gmail.com");
+        _theView.setPasswordField("Aa123456!");
+        Manager managerScreen = _theView.clickOnLoginButtonValidManager();
+        Assert.assertTrue(managerScreen.getNameScreen().equals("Manager"));
+    }
+
+    @Test
+    void happyPathLoginAdmin() {
+        _theView.setEmailField("or@gmail.com");
+        _theView.setPasswordField("Oo123456!");
+        Admin adminScreen = _theView.clickOnLoginButtonValidAdmin();
+        Assert.assertTrue(adminScreen.getNameScreen().equals("Admin"));
+    }
+
+    @Test
+    void happyPathLoginVolunteer() {
+        _theView.setEmailField("yossi@gmail.com");
+        _theView.setPasswordField("Aa123456!");
+        Volunteer adminScreen = _theView.clickOnLoginButtonValidVolunteer();
+        Assert.assertTrue(adminScreen.getNameScreen().equals("Volunteer"));
     }
 }

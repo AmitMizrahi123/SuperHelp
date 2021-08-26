@@ -176,7 +176,15 @@ public class Login extends JFrame {
 
     public Contact clickOnContactButton() { contactUsButton.doClick(); return new Contact();}
 
-    public void clickOnLoginButton() { loginButton.doClick(); }
+    public ErrorMessageUI clickOnLoginButtonInvalidArgs() { loginButton.doClick(); return new ErrorMessageUI("Invalid Email"); }
+
+    public ErrorMessageUI clickOnLoginButtonInvalidPassword() { loginButton.doClick(); return new ErrorMessageUI("Invalid Password"); }
+
+    public Manager clickOnLoginButtonValidManager() { loginButton.doClick(); return new Manager(); }
+
+    public Admin clickOnLoginButtonValidAdmin() { loginButton.doClick(); return new Admin(); }
+
+    public Volunteer clickOnLoginButtonValidVolunteer() { loginButton.doClick(); return new Volunteer(); }
 
     public String getNameScreen() { return this.getClass().getSimpleName(); }
 }

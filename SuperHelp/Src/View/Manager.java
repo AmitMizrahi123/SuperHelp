@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class ManagerUI extends JFrame {
+public class Manager extends JFrame {
     private DefaultListModel DLM_result;
     private JList list;
     private JScrollPane scrollPane;
@@ -26,7 +26,7 @@ public class ManagerUI extends JFrame {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    ManagerUI frame = new ManagerUI();
+                    Manager frame = new Manager();
                     frame.setVisible(true);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -35,7 +35,7 @@ public class ManagerUI extends JFrame {
         });
     }
 
-    public ManagerUI() {
+    public Manager() {
         ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
         setIconImage(image.getImage());
         setResizable(false);
@@ -168,4 +168,6 @@ public class ManagerUI extends JFrame {
     public int getSelectedIndex() {
         return list.getSelectedIndex();
     }
+
+    public String getNameScreen() { return this.getClass().getSimpleName(); }
 }

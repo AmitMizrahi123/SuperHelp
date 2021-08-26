@@ -3,26 +3,24 @@ package Controller;
 import DB.ClientRepository;
 import DB.VolunteeringRepository;
 import Logger.SingletonLogger;
-import Model.Client;
 import Model.Volunteering;
-import View.AdminUI;
+import View.Admin;
 import View.Login;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
-import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class AdminController {
-    private AdminUI _theView;
+    private Admin _theView;
     private VolunteeringRepository _theModel;
     private Logger _logger = SingletonLogger.getInstance().configLogger();
 
-    public AdminController(AdminUI view, VolunteeringRepository model) {
+    public AdminController(Admin view, VolunteeringRepository model) {
         _theView = view;
         _theModel = model;
         showAllVolunteering(_theModel._volunteerings);

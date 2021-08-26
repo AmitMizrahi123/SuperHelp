@@ -4,12 +4,11 @@ import Model.SingletonVolunteeringDetails;
 import Model.Volunteering;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.*;
 
-public class AdminUI extends JFrame {
+public class Admin extends JFrame {
     private JPanel contentPane;
     private JTextPane mainHeaderText;
     private JLabel nameLabel;
@@ -36,7 +35,7 @@ public class AdminUI extends JFrame {
         EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
-                    AdminUI frame = new AdminUI();
+                    Admin frame = new Admin();
                     frame.setVisible(true);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -49,7 +48,7 @@ public class AdminUI extends JFrame {
 
     private Font labelFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 18); }
 
-    public AdminUI() {
+    public Admin() {
         // The title is been set already - LoginController
 
         SingletonVolunteeringDetails details = SingletonVolunteeringDetails.getInstance();
@@ -295,6 +294,8 @@ public class AdminUI extends JFrame {
     public int getListElementsSize() {
         return DLM_result.size();
     }
+
+    public String getNameScreen() { return this.getClass().getSimpleName(); }
 
     public void enabledDeleteButton(boolean enable) {
         if (enable) {
