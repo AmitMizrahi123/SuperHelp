@@ -1,14 +1,12 @@
 import Controller.AdminController;
 import Controller.LoginController;
+import Controller.ManagerController;
 import Controller.VolunteerContoller;
 import DB.ClientRepository;
 import DB.Utilities;
 import DB.VolunteeringRepository;
-import View.AdminUI;
-import View.Login;
+import View.*;
 import Logger.SingletonLogger;
-import View.ProgressBarPage;
-import View.VolunteerUI;
 
 import java.sql.Connection;
 import java.util.logging.Level;
@@ -38,11 +36,15 @@ public class MainWindow {
             Utilities.createTable(db, tableNameVolunteer, createVoluneeringSql);
         }
 
-        new ProgressBarPage();
+//        new ProgressBarPage();
 
-        Login theView = new Login();
-        ClientRepository theModel = new ClientRepository(db);
-        LoginController theController = new LoginController(theView, theModel);
-        theView.setVisible(true);
+//        Login theView = new Login();
+//        ClientRepository theModel = new ClientRepository(db);
+//        LoginController theController = new LoginController(theView, theModel);
+//        theView.setVisible(true);
+
+        ManagerUI view = new ManagerUI();
+        ClientRepository model = new ClientRepository(db);
+        ManagerController controller = new ManagerController(view, model);
     }
 }

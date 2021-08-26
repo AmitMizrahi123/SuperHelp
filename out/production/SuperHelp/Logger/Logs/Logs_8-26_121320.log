@@ -1,0 +1,2018 @@
+אוג׳ 26, 2021 12:13:20 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 26, 2021 12:13:21 אחה״צ MainWindow main
+INFO: dbso connected
+אוג׳ 26, 2021 12:13:21 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+אוג׳ 26, 2021 12:13:21 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+אוג׳ 26, 2021 12:13:21 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Show all clients in list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111112, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111121, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111211, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112111, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111212, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111213, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111214, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111215, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111216, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111217, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111218, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111219, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111220, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111122, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111221, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111222, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111223, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111224, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111225, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111226, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111227, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111228, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111229, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111230, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111123, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111231, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111232, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111233, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111234, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111235, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111236, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111237, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111238, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111239, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111240, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111124, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111241, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111242, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111243, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111244, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111245, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111246, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111247, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111248, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111249, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111250, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111125, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111251, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111252, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111253, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111254, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111255, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111256, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111257, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111258, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111259, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111260, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111126, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111261, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111262, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111263, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111264, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111265, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111266, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111267, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111268, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111269, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111270, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111127, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111271, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111272, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111273, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111274, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111275, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111276, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111277, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111278, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111279, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111280, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111128, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111281, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111282, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111283, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111284, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111285, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111286, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111287, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111288, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111289, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111290, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111129, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111291, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111292, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111293, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111294, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111295, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111296, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111297, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111298, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111299, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111300, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111130, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111301, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111302, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111303, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111304, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111305, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111306, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111307, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111308, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111309, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111310, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111113, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111131, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111311, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111312, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111313, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111314, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111315, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111316, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111317, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111318, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111319, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111320, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111132, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111321, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111322, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111323, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111324, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111325, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111326, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111327, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111328, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111329, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111330, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111133, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111331, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111332, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111333, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111334, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111335, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111336, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111337, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111338, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111339, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111340, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111134, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111341, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111342, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111343, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111344, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111345, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111346, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111347, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111348, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111349, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111350, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111135, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111351, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111352, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111353, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111354, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111355, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111356, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111357, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111358, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111359, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111360, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111136, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111361, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111362, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111363, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111364, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111365, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111366, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111367, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111368, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111369, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111370, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111137, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111371, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111372, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111373, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111374, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111375, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111376, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111377, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111378, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111379, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111380, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111138, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111381, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111382, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111383, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111384, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111385, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111386, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111387, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111388, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111389, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111390, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111139, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111391, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111392, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111393, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111394, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111395, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111396, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111397, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111398, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111399, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111400, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111140, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111401, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111402, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111403, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111404, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111405, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111406, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111407, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111408, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111409, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111410, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111114, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111141, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111411, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111412, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111413, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111414, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111415, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111416, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111417, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111418, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111419, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111420, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111142, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111421, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111422, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111423, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111424, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111425, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111426, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111427, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111428, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111429, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111430, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111143, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111431, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111432, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111433, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111434, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111435, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111436, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111437, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111438, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111439, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111440, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111144, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111441, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111442, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111443, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111444, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111445, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111446, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111447, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111448, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111449, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111450, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111145, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111451, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111452, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111453, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111454, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111455, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111456, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111457, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111458, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111459, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111460, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111146, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111461, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111462, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111463, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111464, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111465, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111466, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111467, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111468, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111469, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111470, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111147, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111471, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111472, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111473, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111474, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111475, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111476, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111477, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111478, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111479, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111480, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111148, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111481, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111482, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111483, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111484, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111485, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111486, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111487, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111488, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111489, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111490, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111149, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111491, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111492, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111493, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111494, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111495, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111496, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111497, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111498, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111499, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111500, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111150, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111501, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111502, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111503, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111504, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111505, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111506, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111507, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111508, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111509, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111510, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111115, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111151, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111511, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111512, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111513, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111514, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111515, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111516, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111517, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111518, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111519, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111520, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111152, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111521, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111522, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111523, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111524, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111525, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111526, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111527, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111528, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111529, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111530, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111153, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111531, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111532, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111533, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111534, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111535, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111536, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111537, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111538, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111539, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111540, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111154, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111541, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111542, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111543, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111544, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111545, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111546, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111547, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111548, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111549, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111550, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111155, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111551, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111552, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111553, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111554, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111555, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111556, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111557, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111558, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111559, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111560, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111156, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111561, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111562, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111563, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111564, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111565, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111566, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111567, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111568, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111569, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111570, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111157, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111571, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111572, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111573, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111574, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111575, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111576, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111577, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111578, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111579, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111580, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111158, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111581, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111582, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111583, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111584, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111585, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111586, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111587, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111588, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111589, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111590, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111159, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111591, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111592, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111593, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111594, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111595, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111596, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111597, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111598, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111599, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111600, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111160, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111601, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111602, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111603, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111604, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111605, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111606, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111607, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111608, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111609, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111610, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111116, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111161, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111611, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111612, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111613, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111614, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111615, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111616, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111617, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111618, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111619, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111620, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111162, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111621, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111622, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111623, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111624, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111625, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111626, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111627, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111628, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111629, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111630, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111163, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111631, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111632, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111633, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111634, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111635, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111636, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111637, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111638, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111639, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:21 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111640, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111164, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111641, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111642, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111643, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111644, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111645, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111646, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111647, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111648, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111649, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111650, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111165, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111651, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111652, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111653, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111654, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111655, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111656, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111657, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111658, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111659, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111660, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111166, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111661, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111662, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111663, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111664, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111665, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111666, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111667, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111668, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111669, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111670, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111167, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111671, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111672, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111673, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111674, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111675, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111676, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111677, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111678, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111679, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111680, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111168, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111681, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111682, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111683, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111684, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111685, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111686, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111687, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111688, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111689, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111690, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111169, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111691, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111692, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111693, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111694, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111695, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111696, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111697, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111698, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111699, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111700, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111170, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111701, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111702, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111703, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111704, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111705, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111706, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111707, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111708, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111709, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111710, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111117, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111171, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111711, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111712, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111713, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111714, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111715, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111716, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111717, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111718, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111719, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111720, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111172, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111721, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111722, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111723, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111724, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111725, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111726, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111727, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111728, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111729, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111730, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111173, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111731, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111732, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111733, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111734, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111735, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111736, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111737, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111738, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111739, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111740, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111174, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111741, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111742, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111743, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111744, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111745, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111746, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111747, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111748, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111749, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111750, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111175, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111751, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111752, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111753, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111754, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111755, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111756, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111757, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111758, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111759, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111760, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111176, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111761, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111762, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111763, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111764, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111765, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111766, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111767, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111768, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111769, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111770, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111177, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111771, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111772, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111773, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111774, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111775, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111776, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111777, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111778, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111779, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111780, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111178, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111781, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111782, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111783, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111784, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111785, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111786, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111787, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111788, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111789, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111790, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111179, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111791, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111792, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111793, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111794, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111795, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111796, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111797, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111798, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111799, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111800, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111180, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111801, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111802, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111803, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111804, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111805, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111806, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111807, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111808, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111809, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111810, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111118, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111181, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111811, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111812, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111813, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111814, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111815, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111816, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111817, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111818, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111819, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111820, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111182, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111821, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111822, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111823, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111824, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111825, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111826, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111827, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111828, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111829, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111830, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111183, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111831, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111832, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111833, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111834, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111835, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111836, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111837, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111838, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111839, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111840, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111184, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111841, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111842, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111843, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111844, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111845, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111846, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111847, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111848, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111849, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111850, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111185, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111851, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111852, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111853, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111854, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111855, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111856, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111857, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111858, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111859, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111860, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111186, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111861, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111862, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111863, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111864, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111865, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111866, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111867, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111868, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111869, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111870, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111187, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111871, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111872, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111873, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111874, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111875, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111876, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111877, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111878, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111879, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111880, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111188, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111881, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111882, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111883, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111884, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111885, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111886, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111887, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111888, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111889, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111890, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111189, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111891, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111892, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111893, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111894, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111895, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111896, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111897, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111898, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111899, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111900, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111190, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111901, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111902, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111903, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111904, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111905, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111906, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111907, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111908, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111909, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111910, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111119, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111191, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111911, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111912, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111913, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111914, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111915, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111916, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111917, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111918, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111919, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111920, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111192, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111921, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111922, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111923, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111924, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111925, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111926, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111927, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111928, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111929, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111930, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111193, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111931, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111932, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111933, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111934, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111935, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111936, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111937, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111938, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111939, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111940, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111194, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111941, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111942, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111943, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111944, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111945, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111946, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111947, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111948, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111949, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111950, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111195, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111951, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111952, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111953, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111954, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111955, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111956, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111957, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111958, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111959, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111960, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111196, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111961, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111962, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111963, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111964, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111965, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111966, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111967, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111968, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111969, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111970, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111197, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111971, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111972, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111973, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111974, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111975, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111976, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111977, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111978, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111979, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111980, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111198, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111981, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111982, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111983, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111984, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111985, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111986, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111987, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111988, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111989, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111990, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111199, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111991, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111992, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111993, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111994, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111995, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111996, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111997, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111998, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111999, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112000, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111200, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112001, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112002, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112003, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112004, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112005, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112006, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112007, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112008, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112009, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112010, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111120, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111201, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112011, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112012, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112013, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112014, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112015, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112016, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112017, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112018, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112019, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112020, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111202, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112021, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112022, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112023, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112024, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112025, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112026, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112027, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112028, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112029, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112030, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111203, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112031, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112032, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112033, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112034, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112035, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112036, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112037, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112038, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112039, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112040, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111204, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112041, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112042, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112043, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112044, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112045, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112046, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112047, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112048, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112049, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112050, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111205, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112051, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112052, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112053, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112054, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112055, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112056, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112057, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112058, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112059, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112060, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111206, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112061, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112062, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112063, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112064, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112065, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112066, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112067, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112068, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112069, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112070, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111207, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112071, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112072, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112073, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112074, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112075, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112076, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112077, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112078, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112079, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112080, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111208, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112081, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112082, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112083, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112084, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112085, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112086, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112087, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112088, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112089, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112090, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111209, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112091, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112092, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112093, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112094, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112095, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112096, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112097, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112098, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112099, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112100, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591111210, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112101, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112102, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112103, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112104, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112105, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112106, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112107, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112108, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112109, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0591112110, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Itzik, LastName: Israeli, Address: Yavne, PhoneNumber: 0501112231, Permission: Volunteer to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Or, LastName: Ezra, Address: Gan Yavne, PhoneNumber: 0503331111, Permission: Admin to the list
+אוג׳ 26, 2021 12:13:22 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Yossi, LastName: Bengaev, Address: Kfat Shumal, PhoneNumber: 0501113333, Permission: Volunteer to the list
