@@ -181,4 +181,6 @@ public class Login extends JFrame {
     public void clickOnContactButton() { contactUsButton.doClick(); }
 
     public void clickOnLoginButton() { loginButton.doClick(); }
+
+    public String getNameScreen() { return this.getClass().getSimpleName(); }
 }
