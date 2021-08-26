@@ -160,10 +160,6 @@ public class Login extends JFrame {
             JOptionPane.showMessageDialog(this, msg);
     }
 
-    public void displayErrorMessage(String errorMsg) {
-        JOptionPane.showMessageDialog(this, errorMsg);
-    }
-
     public String getEmailField() {
         return emailField.getText();
     }
