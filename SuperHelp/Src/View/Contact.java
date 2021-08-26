@@ -92,4 +92,6 @@ public class Contact extends JFrame {
     public void displayErrorMessage(String errorMsg) {
         JOptionPane.showMessageDialog(this,errorMsg);
     }
+
+    public String getNameScreen() { return this.getClass().getSimpleName(); }
 }
