@@ -171,4 +171,6 @@ public class Login extends JFrame {
     public String getPasswordField() {
         return String.valueOf(passwordField.getPassword());
     }
+
+    public void clickOnRegisterButton() { registerButton.doClick(); }
 }

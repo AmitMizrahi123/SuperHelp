@@ -165,6 +165,7 @@ public class Register extends JFrame {
         contentPane.add(goBackButton);
     }
 
+    //<editor-fold desc="Error Messages">
     public void emailError() {
         emailError = new JLabel("Invalid email");
         emailError.setBounds(650, 60, 500, 100);
@@ -291,6 +292,8 @@ public class Register extends JFrame {
         }
     }
 
+    //</editor-fold>
+
     public void addGoBackListener(ActionListener actionGoBackListener) {
         goBackButton.addActionListener(actionGoBackListener);
     }
@@ -334,4 +337,6 @@ public class Register extends JFrame {
     public void displayErrorMessage(String errorMsg) {
         JOptionPane.showMessageDialog(this,errorMsg);
     }
+
+    public String getNameScreen() { return this.getClass().getSimpleName(); }
 }
