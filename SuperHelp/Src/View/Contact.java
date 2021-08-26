@@ -38,7 +38,7 @@ public class Contact extends JFrame {
 
     public int getAppHeight() { return 240; }
 
-    public Contact() throws IOException {
+    public Contact() {
         ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
         setIconImage(image.getImage());
         setTitle(title());
