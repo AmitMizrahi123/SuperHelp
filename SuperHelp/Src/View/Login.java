@@ -173,4 +173,6 @@ public class Login extends JFrame {
     }
 
     public void clickOnRegisterButton() { registerButton.doClick(); }
+
+    public void clickOnContactButton() { contactUsButton.doClick(); }
 }
