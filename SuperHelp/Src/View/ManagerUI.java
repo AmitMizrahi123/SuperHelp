@@ -16,6 +16,7 @@ import java.util.Map;
 public class ManagerUI extends JFrame {
     private DefaultListModel DLM_result;
     private JList list;
+    private JScrollPane scrollPane;
     private JPanel contentPane;
     private JButton logoutButton;
     private JButton deleteButton;
@@ -52,9 +53,11 @@ public class ManagerUI extends JFrame {
         DLM_result = new DefaultListModel();
 
         list = new JList();
-        list.setBounds(20, 20, 645, 356);
-        list.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
-        contentPane.add(list);
+        list.setVisibleRowCount(10);
+        scrollPane = new JScrollPane(list);
+        scrollPane.setBounds(20, 20, 645, 356);
+        scrollPane.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
+        contentPane.add(scrollPane);
 
         addButton = new JButton("Add");
         addButton.setBounds(80, 395, 120, 30);

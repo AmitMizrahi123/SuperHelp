@@ -65,21 +65,26 @@ public class ManagerController {
     class DeleteClientListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent arg0) {
-            _logger.log(Level.INFO, "Trying to delete client from Manager screen");
-            Client client = _theView.getSelectedItem();
-            _logger.log(Level.INFO, "Get client {0} that selected from list", client);
-            int index = _theView.getSelectedIndex();
-            _logger.log(Level.INFO, "Get index {} from client", index);
+            if (_theView.getSelectedItem() != null) {
+                _logger.log(Level.INFO, "Trying to delete client from Manager screen");
+                Client client = _theView.getSelectedItem();
+                _logger.log(Level.INFO, "Get client {0} that selected from list", client);
+                int index = _theView.getSelectedIndex();
+                _logger.log(Level.INFO, "Get index {} from client", index);
 
-            try {
-                _theModel.delete(client.getEmail());
-                _logger.log(Level.INFO, "delete {0} from db", client);
-                _theView.removeItemFromList(index);
-                _logger.log(Level.INFO, "delete {0} from list", client);
-            } catch (Exception e) {
-                _logger.log(Level.SEVERE, "Cannot delete {0} from db", client);
-                _theView.displayErrorMessage("404");
-                e.printStackTrace();
+                try {
+                    _theModel.delete(client.getEmail());
+                    _logger.log(Level.INFO, "delete {0} from db", client);
+                    _theView.removeItemFromList(index);
+                    _logger.log(Level.INFO, "delete {0} from list", client);
+                } catch (Exception e) {
+                    _logger.log(Level.SEVERE, "Cannot delete {0} from db", client);
+                    _theView.displayErrorMessage("404");
+                    e.printStackTrace();
+                }
+            } else {
+                _logger.log(Level.INFO, "Manager dont selected item");
+                _theView.displayErrorMessage("You dont select item");
             }
         }
     }
