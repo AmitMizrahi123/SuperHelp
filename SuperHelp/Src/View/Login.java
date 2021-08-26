@@ -157,11 +157,11 @@ public class Login extends JFrame {
     }
 
     public void displaySuccessMessage(String msg) {
-        JOptionPane.showMessageDialog(this, msg);
+            JOptionPane.showMessageDialog(this, msg);
     }
 
     public void displayErrorMessage(String errorMsg) {
-        JOptionPane.showMessageDialog(this,errorMsg);
+        JOptionPane.showMessageDialog(this, errorMsg);
     }
 
     public String getEmailField() {
@@ -176,9 +176,9 @@ public class Login extends JFrame {
 
     public void setPasswordField(String password) { passwordField.setText(password); }
 
-    public void clickOnRegisterButton() { registerButton.doClick(); }
+    public Register clickOnRegisterButton() { registerButton.doClick(); return new Register();}
 
-    public void clickOnContactButton() { contactUsButton.doClick(); }
+    public Contact clickOnContactButton() { contactUsButton.doClick(); return new Contact();}
 
     public void clickOnLoginButton() { loginButton.doClick(); }
 
