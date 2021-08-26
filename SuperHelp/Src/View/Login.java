@@ -168,11 +168,17 @@ public class Login extends JFrame {
         return emailField.getText();
     }
 
+    public void setEmailField(String email) { emailField.setText(email); }
+
     public String getPasswordField() {
         return String.valueOf(passwordField.getPassword());
     }
 
+    public void setPasswordField(String password) { passwordField.setText(password); }
+
     public void clickOnRegisterButton() { registerButton.doClick(); }
 
     public void clickOnContactButton() { contactUsButton.doClick(); }
+
+    public void clickOnLoginButton() { loginButton.doClick(); }
 }
