@@ -157,11 +157,11 @@ public class Login extends JFrame {
     }
 
     public void displaySuccessMessage(String msg) {
-            JOptionPane.showConfirmDialog(this, msg);
+            JOptionPane.showMessageDialog(this, msg);
     }
 
     public void displayErrorMessage(String msg) {
-        JOptionPane.showConfirmDialog(this, msg);
+        JOptionPane.showMessageDialog(this, msg);
     }
 
     public String getEmailField() {
