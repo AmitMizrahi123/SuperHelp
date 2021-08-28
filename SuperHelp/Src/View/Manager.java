@@ -170,4 +170,6 @@ public class Manager extends JFrame {
     }
 
     public String getNameScreen() { return this.getClass().getSimpleName(); }
+
+    public Login clickLogout() { logoutButton.doClick(); return new Login(); }
 }
