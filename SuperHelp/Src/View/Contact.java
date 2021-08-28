@@ -28,7 +28,7 @@ public class Contact extends JFrame {
         });
     }
 
-    public String title() { return "SuperHelp"; }
+    public String title() { return "Super Help"; }
 
     public Font labelsFont() { return new Font("Tahoma", Font.PLAIN, 20); }
 

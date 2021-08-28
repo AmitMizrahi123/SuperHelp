@@ -1,6 +1,0 @@
-אוג׳ 26, 2021 4:35:19 אחה״צ DB.Utilities connectToMySql
-INFO: Trying to connect database
-אוג׳ 26, 2021 4:35:21 אחה״צ Controller.LoginController$LoginListener actionPerformed
-INFO: Trying to log in
-אוג׳ 26, 2021 4:35:21 אחה״צ Controller.LoginController$LoginListener actionPerformed
-WARNING: Log in failed, invalid email

@@ -57,7 +57,7 @@ public class ProgressBarPage extends JFrame {
         setLocationRelativeTo(null);
         setLayout(null);
         setVisible(true);
-        setTitle("SuperHelp");
+        setTitle("Super Help");
 
         fill();
 

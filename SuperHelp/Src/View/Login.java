@@ -50,7 +50,7 @@ public class Login extends JFrame {
 
     private Font labelFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 22); }
 
-    public String title() { return "SuperHelp"; }
+    public String title() { return "Super Help"; }
 
     public String mainHeaderText() {
         return "Welcome to Super Help";

@@ -1,0 +1,32 @@
+אוג׳ 28, 2021 3:46:44 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 28, 2021 3:46:45 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 28, 2021 3:46:45 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Manager screen
+אוג׳ 28, 2021 3:46:45 אחה״צ Controller.ManagerController showAllUsers
+INFO: Show all clients in list
+אוג׳ 28, 2021 3:46:45 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Admin, LastName: Admin, Address: Tel Aviv, PhoneNumber: 0000000001, Permission: Admin to the list
+אוג׳ 28, 2021 3:46:45 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Itzik, LastName: Israeli, Address: Yavne, PhoneNumber: 0501112231, Permission: Volunteer to the list
+אוג׳ 28, 2021 3:46:45 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Or, LastName: Ezra, Address: Gan Yavne, PhoneNumber: 0503331111, Permission: Admin to the list
+אוג׳ 28, 2021 3:46:45 אחה״צ Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Yossi, LastName: Bengaev, Address: Kfat Shumal, PhoneNumber: 0501113333, Permission: Volunteer to the list
+אוג׳ 28, 2021 3:46:45 אחה״צ Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
+אוג׳ 28, 2021 3:46:46 אחה״צ Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+אוג׳ 28, 2021 3:46:46 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 28, 2021 3:46:46 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Volunteer screen
+אוג׳ 28, 2021 3:46:48 אחה״צ Controller.VolunteerContoller showAllVolunteering
+INFO: Show all clients in list
+אוג׳ 28, 2021 3:46:48 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+אוג׳ 28, 2021 3:46:48 אחה״צ Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Admin screen
+אוג׳ 28, 2021 3:46:48 אחה״צ Controller.AdminController showAllVolunteering
+INFO: Show all clients in list
