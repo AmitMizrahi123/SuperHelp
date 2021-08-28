@@ -297,6 +297,8 @@ public class Admin extends JFrame {
 
     public String getNameScreen() { return this.getClass().getSimpleName(); }
 
+    public Login clickLogout() { logoutButton.doClick(); return new Login(); }
+
     public void enabledDeleteButton(boolean enable) {
         if (enable) {
             deleteButton.setEnabled(true);

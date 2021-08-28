@@ -162,4 +162,6 @@ public class Volunteer extends JFrame {
     public void removeItemFromList(int index) {
         DLM_result.remove(index);
     }
+
+    public Login clickLogout() { logoutButton.doClick(); return new Login(); }
 }

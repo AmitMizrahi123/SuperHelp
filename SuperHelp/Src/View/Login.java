@@ -180,11 +180,20 @@ public class Login extends JFrame {
 
     public Contact clickOnContactButton() { contactUsButton.doClick(); return new Contact();}
 
-    public Manager clickOnLoginButtonValidManager() { loginButton.doClick(); return new Manager(); }
+    public <T> T clickOnLoginButton(String screen) {
+        loginButton.doClick();
 
-    public Admin clickOnLoginButtonValidAdmin() { loginButton.doClick(); return new Admin(); }
+        switch (screen) {
+            case "Manager":
+                return (T) new Manager();
+            case "Admin":
+                return (T) new Admin();
+            case "Volunteer":
+                return (T) new Volunteer();
+        }
 
-    public Volunteer clickOnLoginButtonValidVolunteer() { loginButton.doClick(); return new Volunteer(); }
+        return null;
+    }
 
     public String getNameScreen() { return this.getClass().getSimpleName(); }
 }

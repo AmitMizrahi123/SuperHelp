@@ -24,37 +24,34 @@ public class UITestingLogin {
 
     @Test
     void verifyLoginToRegisterScreen() {
-        Register register = _theView.clickOnRegisterButton();
-        Assert.assertTrue(register.getNameScreen().equals("Register"));
-    }
-
-    @Test
-    void verifyLoginToContactScreen() {
+        Register registerScreen = _theView.clickOnRegisterButton();
+        Assert.assertTrue(registerScreen.getNameScreen().equals("Register"));
+        registerScreen.clickGoBack();
         Contact contact = _theView.clickOnContactButton();
         Assert.assertTrue(contact.getNameScreen().equals("Contact"));
+        contact.clickGoBack();
+        Assert.assertTrue(_theView.getNameScreen().equals("Login"));
     }
 
     @Test
-    void happyPathLoginManager() {
+    void happyPathLoginForAllUsers() {
         _theView.setEmailField("amit@gmail.com");
         _theView.setPasswordField("Aa123456!");
-        Manager managerScreen = _theView.clickOnLoginButtonValidManager();
+        Manager managerScreen = _theView.clickOnLoginButton("Manager");
         Assert.assertTrue(managerScreen.getNameScreen().equals("Manager"));
-    }
-
-    @Test
-    void happyPathLoginAdmin() {
+        managerScreen.clickLogout();
+        Assert.assertTrue(_theView.getNameScreen().equals("Login"));
         _theView.setEmailField("or@gmail.com");
         _theView.setPasswordField("Oo123456!");
-        Admin adminScreen = _theView.clickOnLoginButtonValidAdmin();
+        Admin adminScreen = _theView.clickOnLoginButton("Admin");
         Assert.assertTrue(adminScreen.getNameScreen().equals("Admin"));
-    }
-
-    @Test
-    void happyPathLoginVolunteer() {
+        adminScreen.clickLogout();
+        Assert.assertTrue(_theView.getNameScreen().equals("Login"));
         _theView.setEmailField("yossi@gmail.com");
         _theView.setPasswordField("Aa123456!");
-        Volunteer adminScreen = _theView.clickOnLoginButtonValidVolunteer();
-        Assert.assertTrue(adminScreen.getNameScreen().equals("Volunteer"));
+        Volunteer volunteerScreen = _theView.clickOnLoginButton("Volunteer");
+        Assert.assertTrue(volunteerScreen.getNameScreen().equals("Volunteer"));
+        volunteerScreen.clickLogout();
+        Assert.assertTrue(_theView.getNameScreen().equals("Login"));
     }
 }
