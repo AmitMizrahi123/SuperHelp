@@ -160,6 +160,10 @@ public class Login extends JFrame {
             JOptionPane.showMessageDialog(this, msg);
     }
 
+    public void displayErrorMessage(String msg) {
+        JOptionPane.showMessageDialog(this, msg);
+    }
+
     public String getEmailField() {
         return emailField.getText();
     }
@@ -175,10 +179,6 @@ public class Login extends JFrame {
     public Register clickOnRegisterButton() { registerButton.doClick(); return new Register();}
 
     public Contact clickOnContactButton() { contactUsButton.doClick(); return new Contact();}
-
-    public ErrorMessageUI clickOnLoginButtonInvalidArgs() { loginButton.doClick(); return new ErrorMessageUI("Invalid Email"); }
-
-    public ErrorMessageUI clickOnLoginButtonInvalidPassword() { loginButton.doClick(); return new ErrorMessageUI("Invalid Password"); }
 
     public Manager clickOnLoginButtonValidManager() { loginButton.doClick(); return new Manager(); }
 

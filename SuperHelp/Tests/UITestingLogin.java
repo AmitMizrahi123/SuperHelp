@@ -35,19 +35,6 @@ public class UITestingLogin {
     }
 
     @Test
-    void invalidLoginNoArgs() {
-        ErrorMessageUI errorMessageScreen = _theView.clickOnLoginButtonInvalidArgs();
-        Assert.assertTrue(errorMessageScreen.getErrorText().equals("Invalid Email"));
-    }
-
-    @Test
-    void invalidLoginErrorPasswoord() {
-        _theView.setEmailField("amit@gmail.com");
-        ErrorMessageUI errorMessageScreen = _theView.clickOnLoginButtonInvalidPassword();
-        Assert.assertTrue(errorMessageScreen.getErrorText().equals("Invalid Password"));
-    }
-
-    @Test
     void happyPathLoginManager() {
         _theView.setEmailField("amit@gmail.com");
         _theView.setPasswordField("Aa123456!");
