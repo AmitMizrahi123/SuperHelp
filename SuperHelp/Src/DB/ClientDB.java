@@ -15,9 +15,8 @@ public class ClientDB {
         ResultSet resultSet = ps.executeQuery();
 
         while (resultSet.next()) {
-            Client client = new Client(resultSet.getString("Email"),
-                    resultSet.getString("Password"),  resultSet.getString("FirstName"),
-                    resultSet.getString("LastName"), resultSet.getString("Address"),
+            Client client = new Client(resultSet.getString("Email"), resultSet.getString("Password"),
+                    resultSet.getString("FirstName"), resultSet.getString("LastName"), resultSet.getString("Address"),
                     resultSet.getString("PhoneNumber"), resultSet.getString("Permission"));
 
             clients.add(client);
