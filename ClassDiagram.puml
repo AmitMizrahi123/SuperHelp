@@ -1,0 +1,435 @@
+@startuml
+
+class Main {
+    +Logger : Logger
+}
+
+class SingletonLogger {
+    +_firstInstance
+    +_logger
+    +_createTemplate
+    -SingletonLogger()
+    -getInstance()
+    -configLogger()
+}
+
+class User {
+    +_email : String
+    +_password : String
+    -User()
+    -getEmail()
+    -setEmail()
+    -getPassword()
+    -setPassword()
+    -toString()
+}
+
+class Client {
+    +FirstName : String
+    +LastName : String
+    +Address : String
+    +Permission : String
+    +PhoneNumber : String
+    -Client()
+    -getFirstName()
+    -getLastName()
+    -getAddress()
+    -getPermission()
+    -getPhoneNumber()
+    -setFirstName()
+    -setLastName()
+    -setAddress()
+    -setPermission()
+    -setPhoneNumber()
+    -toString()
+}
+
+class Volunteering {
+    +VolunteerId : int
+    +Name : String
+    +Age : int
+    +Gender : String
+    +PhoneNumber : String
+    +Address : String
+    +Problem : String
+    +Time : Timestamp
+    -Volunteering()
+    -getVolunteerId()
+    -getName()
+    -getAge()
+    -getGender()
+    -getPhoneNumber()
+    -getAddress()
+    -getProblem()
+    -getTime()
+    -toString()
+}
+
+class SingletonVolunteeringDetails {
+    +FirstInstance : SingletonVolunteeringDetails
+    +Ages : int[]
+    +Locations : List<String>
+    +Gender : String[]
+    -SingletonVolunteeringDetails()
+    -getInstance()
+    -getAges()
+    -setLocations()
+    -getAges()
+    -getLocations()
+    -getGender()
+}
+
+class ContactController {
+    +_theView : Contact
+    +_theModel : ClientRepository
+    +_logger : Logger
+    -addGoBackListener()
+}
+
+class AdminController {
+    +_theView : Admin
+    +_theModel : ClientRepository
+    +_logger : Logger
+    -addGoBackListener()
+    -addLogoutListener()
+    -addVolunteeringListener()
+    -deleteVolunteeringListener()
+    -addMouseListener()
+    -updateVolunteeringListener()
+}
+
+class LoginController {
+    +_theView : Login
+    +_theModel : ClientRepository
+    +_logger : Logger
+    -addLoginListener()
+    -addRegisterListener()
+    -addContactListener()
+}
+
+class ManagerController {
+    +_theView : Manager
+    +_theModel : ClientRepository
+    +_logger : Logger
+    -addGoBackListener()
+    -addClientListener()
+    -deleteClientListener()
+}
+
+class RegisterController {
+    +_theView : Register
+    +_theModel : ClientRepository
+    +_logger : Logger
+    -addGoBackListener()
+    -addRegisterListener()
+}
+
+class VolunteerController {
+    +_theView : Volunteer
+    +_theModel : VolunteeringRepository
+    +_logger : Logger
+    -addLogoutListener()
+    -addMouseListener()
+    -addSearchListener()
+    -addClearListener()
+    -addChooseVolunteerListener()
+}
+
+class Contact {
+    +contentPane : JPanel
+    +phoneLabel : JLabel
+    +emailLabel : JLabel
+    +imageLabel : JLabel
+    +goBackButton : JButton
+    -Contact()
+    -addGoBackListener()
+    -displayErrorMessage()
+}
+
+class Admin {
+    +contentPane : JPanel
+    +mainHeaderText : JTextPane
+    +nameLabel : JLabel
+    +ageLabel : JLabel
+    +genderLabel : JLabel
+    +adressLabel : JLabel
+    +phoneNumberLabel : JLabel
+    +problemText : JTextPane
+    +addButton : JButton
+    +nameText : JTextField
+    +phoneNumberText : JTextField
+    +ageCB : JComboBox<Integer>
+    +genderMaleRB : JRadioButton
+    +genderFemaleRB : JRadioButton
+    +genderBG : ButtonGroup
+    +addressCB : JComboBox<String>
+    +list : JList
+    +dlm : DefaultListModel
+    +deleteButton : JButton
+    +logoutButton : JButton
+    +updateButton : JButton
+    -displayErrorMessage()
+    -displaySuccessMessage()
+    -addLogoutListener()
+    -addVolunteeringListener()
+    -deleteVolunteeringListener()
+    -addMouseListener()
+    -updateVolunteeringListener()
+    -getName()
+    -getGender()
+    -getPhoneNumber()
+    -getAddress()
+    -getProblem()
+    -getAge()
+    -addVolunteeringToList()
+    -setListResult()
+    -getSelectedItem()
+    -getSelectedIndex()
+    -removeItemFromList()
+    -getListElementsSize()
+    -getListSize()
+    -clearFields()
+    -setDetailsVolunteeringForEdit()
+}
+
+class Login {
+    +contentPane : JPanel 
+    +emailField : JTextField 
+    +passwordField : JPasswordField 
+    +loginButton : JButton 
+    +registerButton : JButton 
+    +contactUsButton : JButton 
+    +adLabel : JLabel 
+    +mainHeader : JLabel 
+    +emailLabel : JLabel 
+    +passwordLabel : JLabel 
+    +adImageLabel : JLabel
+    -Login()
+    -addLoginListener()
+    -addRegisterListener()
+    -addContactListener()
+    -displaySuccessMessage()
+    -displayErrorMessage()
+    -getEmailField()
+    -setEmailField()
+    -getPasswordField()
+    -setPasswordField()
+}
+
+class Manager {
+    +dlm : DefaultListModel
+    +list : JList
+    +scrollPane : JScrollPane
+    +contentPane : JPanel
+    +logoutButton : JButton
+    +deleteButton : JButton
+    +addButton : JButton
+    -Manager()
+    -addGoBackListener()
+    -deleteClientListener()
+    -addClientListener()
+    -displayErrorMessage()
+    -setListResult()
+    -addClientToListElement()
+    -getSelectedItem()
+    -removeItemFromList()
+    -getSelectedIndex()
+}
+
+class Register {
+    +contentPane : JPanel
+    +registerHeaderLabel : JLabel
+    +emailLabel : JLabel
+    +passwordLabel : JLabel
+    +firstNameLabel : JLabel
+    +lastNameLabel : JLabel
+    +addressLabel : JLabel
+    +phoneNumberLabel : JLabel
+    +permissionLabel : JLabel
+    +emailError : JLabel
+    +passwordError : JLabel
+    +firstNameError : JLabel
+    +lastNameError : JLabel
+    +addressError : JLabel
+    +phoneNumberError : JLabel
+    +emailField : JTextField
+    +passwordField : JPasswordField
+    +firstNameField : JTextField
+    +lastNameField : JTextField
+    +addressField : JTextField
+    +phoneNumberField : JTextField
+    +permissionComboBox : JComboBox
+    +registerButton : JButton
+    +goBackButton : JButton
+    -Register()
+    -addGoBackListener()
+    -addRegisterListener()
+    -getEmailField()
+    -getPasswordField()
+    -getFirstNameField()
+    -getLastNameField()
+    -getAddressField()
+    -getPhoneNumberField()
+    -getPermissionComboBox()
+    -displaySuccessMessage()
+    -displayErrorMessage()
+}
+
+class Volunteer {
+    +contentPane : JPanel 
+    +addressCB : JComboBox 
+    +searchButton : JButton 
+    +clearButton : JButton 
+    +list : JList 
+    +DLM_result : DefaultListModel 
+    +takeVolunteeringButton : JButton 
+    +logoutButton : JButton
+    -Volunteer()
+    -displayErrorMessage()
+    -displaySucessMessage()
+    -addLogoutListener()
+    -addMouseListener()
+    -addSearchListener()
+    -addClearListener()
+    -addTakeVolunteeringListener()
+    -setListResult()
+    -setListElement()
+    -addVolunteeringToList()
+    -getAddress()
+    -clearList()
+    -getSelectedItem()
+    -getSelectedIndex()
+    -removeItemFromList()
+}
+
+class Utilities {
+    +Logger : Logger
+    -connectToMySql()
+    -createSchema()
+    -checkIfSchemaExists()
+    -createTable()
+    -checkIfTableExists()
+}
+
+class ClientDB {
+    -getAllData()
+    -insertData()
+    -deleteData()
+}
+
+class ClientRepositoryInterface {
+    -getAllClients()
+    -findClientByEmail()
+    -isEmailExist()
+    -add()
+    -delete()
+    -getClientPermission()
+    -validateUserPassword()
+    -isValidEmail()
+    -isValidPassword()
+    -isValidName()
+    -isValidAddress()
+    -isValidPermission()
+    -isValidPhoneNumber()
+}
+
+class ClientRepository {
+    +DB : Connection
+    +Clients : ArrayList<Client>
+    -ClientRepository()
+    -getAllClients()
+    -findClientByEmail()
+    -isEmailExist()
+    -add()
+    -delete()
+    -getClientPermission()
+    -validateUserPassword()
+    -isValidEmail()
+    -isValidPassword()
+    -isValidName()
+    -isValidAddress()
+    -isValidPermission()
+    -isValidPhoneNumber()
+}
+
+class VolunteeringDB {
+    -getAllVolunteeringData()
+    -insertData()
+    -deleteData()
+}
+
+class VolunteeringRepositoryInterface {
+    -getAllVolunteering()
+    -add()
+    -delete()
+    -findVolunteeringById()
+    -getVolunteeringAddress()
+    -isVolunteeringExists()
+    -isValidName()
+    -isValidPhoneNumber()
+}
+
+class VolunteeringRepository {
+    +DB : Connection
+    +Volunteerings : ArrayList<Client>
+    -getAllVolunteering()
+    -add()
+    -delete()
+    -findVolunteeringById()
+    -getVolunteeringAddress()
+    -isVolunteeringExists()
+    -isValidName()
+    -isValidPhoneNumber()
+}
+
+Utilities <|-- Main
+Main <|-- Utilities
+Login <|-- Main
+AdminController <|-- Admin
+Admin <|-- AdminController
+Admin <|-- SingletonVolunteeringDetails
+ContactController <|-- Contact
+Login <|-- ContactController
+Contact <|-- LoginController
+LoginController <|-- Login
+Admin <|-- LoginController
+Manager <|-- LoginController
+Volunteer <|-- LoginController
+Register <|-- LoginController
+Login <|-- AdminController
+Login <|-- ManagerController
+Login <|-- VolunteerController
+Login <|-- RegisterController
+ManagerController <|-- Manager
+RegisterController <|-- Register
+VolunteerController <|-- Volunteer
+ClientRepositoryInterface *-- ClientRepository
+VolunteeringRepositoryInterface *-- VolunteeringRepository
+User *-- Client
+VolunteeringRepository <|-- AdminController
+AdminController <|-- VolunteeringRepository
+ClientRepository <|-- ContactController
+ClientRepository <|-- LoginController
+LoginController <|-- ClientRepository
+ClientRepository <|-- ManagerController
+ManagerController <|-- ClientRepository
+ClientRepository <|-- RegisterController
+RegisterController <|-- ClientRepository
+ClientRepository <|-- VolunteerController
+VolunteerController <|-- ClientRepository
+ClientDB <|-- ClientRepository
+Client <|-- ClientDB
+ClientRepository <|-- ClientDB
+VolunteeringDB <|-- VolunteeringRepository
+Volunteering <|-- VolunteeringDB
+VolunteeringRepository <|-- VolunteeringDB
+ContactController <|-- SingletonLogger
+AdminController <|-- SingletonLogger
+LoginController <|-- SingletonLogger
+ManagerController <|-- SingletonLogger
+RegisterController <|-- SingletonLogger
+VolunteerController <|-- SingletonLogger
+Utilities <|-- SingletonLogger
+Main <|-- SingletonLogger
+
+@enduml
