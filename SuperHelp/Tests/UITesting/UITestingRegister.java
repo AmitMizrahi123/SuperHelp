@@ -6,6 +6,7 @@ import DB.Utilities;
 import View.Login;
 import View.Register;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
@@ -33,6 +34,13 @@ public class UITestingRegister {
 
     @Test
     void invalidRegister() throws InterruptedException {
-
+        _theView.clickRegister();
+        Assert.assertTrue(_theView.emailErrorValid());
+        Assert.assertTrue(_theView.passwordErrorValid());
+        Assert.assertTrue(_theView.firstNameErrorValid());
+        Assert.assertTrue(_theView.lastNameErrorValid());
+        Assert.assertTrue(_theView.addressErrorValid());
+        Assert.assertTrue(_theView.phoneNumberErrorValid());
+        Assert.assertTrue(_theView.getNameScreen().equals("Register"));
     }
 }

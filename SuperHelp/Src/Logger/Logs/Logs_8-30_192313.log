@@ -1,0 +1,4 @@
+אוג׳ 30, 2021 7:23:13 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+אוג׳ 30, 2021 7:23:17 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, input wrong
