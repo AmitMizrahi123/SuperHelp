@@ -33,7 +33,7 @@ public class UITestingRegister {
     }
 
     @Test
-    void invalidRegister() throws InterruptedException {
+    void invalidRegister() {
         _theView.clickRegister();
         Assert.assertTrue(_theView.emailErrorValid());
         Assert.assertTrue(_theView.passwordErrorValid());
@@ -42,5 +42,16 @@ public class UITestingRegister {
         Assert.assertTrue(_theView.addressErrorValid());
         Assert.assertTrue(_theView.phoneNumberErrorValid());
         Assert.assertTrue(_theView.getNameScreen().equals("Register"));
+    }
+
+    @Test
+    void validRegister() {
+        _theView.setEmailField("Zohar@gmail.com");
+        _theView.setPasswordField("Zz123456!");
+        _theView.setFirstNameField("Zohar");
+        _theView.setLastNameField("Hajaj");
+        _theView.setAddressField("Tel Aviv");
+        _theView.setPhoneNumber("0502223311");
+        Login loginScreen = _theView.clickRegister();
     }
 }
