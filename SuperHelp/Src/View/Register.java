@@ -306,24 +306,48 @@ public class Register extends JFrame {
         return emailField.getText();
     }
 
+    public void setEmailField(String email) {
+        emailField.setText(email);
+    }
+
     public String getPasswordField() {
         return String.valueOf(passwordField.getPassword());
+    }
+
+    public void setPasswordField(String password) {
+        passwordField.setText(password);
     }
 
     public String getFirstNameField() {
         return firstNameField.getText();
     }
 
+    public void setFirstNameField(String firstName) {
+        firstNameField.setText(firstName);
+    }
+
     public String getLastNameField() {
         return lastNameField.getText();
+    }
+
+    public void setLastNameField(String lastName) {
+        lastNameField.setText(lastName);
     }
 
     public String getAddressField() {
         return addressField.getText();
     }
 
+    public void setAddressField(String address) {
+        addressField.setText(address);
+    }
+
     public String getPhoneNumberField() {
         return phoneNumberField.getText();
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        phoneNumberField.setText(phoneNumber);
     }
 
     public String getPermissionComboBox() {
