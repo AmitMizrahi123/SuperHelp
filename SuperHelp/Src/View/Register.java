@@ -187,6 +187,10 @@ public class Register extends JFrame {
         }
     }
 
+    public boolean emailErrorValid() {
+        return emailError.isVisible();
+    }
+
     public void passwordError() {
         passwordError = new JLabel("Invalid password");
         passwordError.setBounds(650, 120, 500, 100);
@@ -206,6 +210,10 @@ public class Register extends JFrame {
         } catch (Exception e) {
             // Do Nothing
         }
+    }
+
+    public boolean passwordErrorValid() {
+        return passwordError.isVisible();
     }
 
     public void firstNameError() {
@@ -229,6 +237,10 @@ public class Register extends JFrame {
         }
     }
 
+    public boolean firstNameErrorValid() {
+        return firstNameError.isVisible();
+    }
+
     public void lastNameError() {
         lastNameError = new JLabel("Invalid last name");
         lastNameError.setBounds(650, 240, 500, 100);
@@ -248,6 +260,10 @@ public class Register extends JFrame {
         } catch (Exception e) {
             // Do Nothing
         }
+    }
+
+    public boolean lastNameErrorValid() {
+        return lastNameError.isVisible();
     }
 
     public void addressError() {
@@ -271,6 +287,10 @@ public class Register extends JFrame {
         }
     }
 
+    public boolean addressErrorValid() {
+        return addressError.isVisible();
+    }
+
     public void phoneNumberError() {
         phoneNumberError = new JLabel("Invalid phone number");
         phoneNumberError.setBounds(650, 360, 500, 100);
@@ -290,6 +310,10 @@ public class Register extends JFrame {
         } catch (Exception e) {
             // Do Nothing
         }
+    }
+
+    public boolean phoneNumberErrorValid() {
+        return phoneNumberError.isVisible();
     }
 
     //</editor-fold>

@@ -30,4 +30,9 @@ public class UITestingRegister {
     public static void end() throws SQLException {
         _db.close();
     }
+
+    @Test
+    void invalidRegister() throws InterruptedException {
+
+    }
 }
