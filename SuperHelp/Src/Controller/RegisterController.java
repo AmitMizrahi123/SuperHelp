@@ -105,15 +105,11 @@ public class RegisterController {
                     if (_theModel.isEmailExist(email)) {
                         _theModel.add(new Client(email, password, firstName, lastName, address, phoneNumber, permission));
 
-                        _theView.displaySuccessMessage("You have successfully registered");
+                        _theView.displaySuccessMessage("You have successfully registered\nPlease Login");
 
-                        if (permission.equals("Admin")) {
-                            // Todo admin UI
-                            _theView.displaySuccessMessage("Admin");
-                        } else {
-                            // Todo client UI
-                            _theView.displaySuccessMessage("Client");
-                        }
+                        Login view = new Login();
+                        ClientRepository model = new ClientRepository(_theModel._db);
+                        LoginController controller = new LoginController(view, model);
 
                         _theView.dispose();
                     } else {

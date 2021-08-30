@@ -1,16 +1,18 @@
 package DB;
 
 import Model.Client;
+import Model.SingletonVolunteeringDetails;
 
 import java.sql.Connection;
 import java.util.ArrayList;
-import java.util.Locale;
+import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ClientRepository implements ClientRepositoryInterface {
     public Connection _db;
     public ArrayList<Client> _clients;
+    public List<String> _locations = SingletonVolunteeringDetails.getInstance().getLocation();
 
     public ClientRepository(Connection db) throws Exception {
         _db = db;
@@ -178,21 +180,13 @@ public class ClientRepository implements ClientRepositoryInterface {
 
     @Override
     public boolean isValidAddress(String address) {
-        if (address.contains("@") || address.contains("#")
-                || address.contains("!") || address.contains("~")
-                || address.contains("$") || address.contains("%")
-                || address.contains("^") || address.contains("&")
-                || address.contains("*") || address.contains("(")
-                || address.contains(")") || address.contains("-")
-                || address.contains("+") || address.contains("/")
-                || address.contains(":") || address.contains(".")
-                || address.contains(", ") || address.contains("<")
-                || address.contains(">") || address.contains("?")
-                || address.contains("|") || address.equals("")) {
-            return false;
+        for (String location : _locations) {
+            if (address.equals(location)) {
+                return true;
+            }
         }
 
-        return address != null;
+        return false;
     }
 
     @Override
