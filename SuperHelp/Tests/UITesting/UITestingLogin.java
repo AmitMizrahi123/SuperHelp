@@ -4,11 +4,13 @@ import Controller.LoginController;
 import DB.ClientRepository;
 import DB.Utilities;
 import View.*;
+import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.sql.Connection;
+import java.sql.SQLException;
 
 public class UITestingLogin {
     private static Connection _db;
@@ -22,6 +24,11 @@ public class UITestingLogin {
         _theView = new Login();
         _theModel = new ClientRepository(_db);
         _theController = new LoginController(_theView, _theModel);
+    }
+
+    @AfterClass
+    public static void end() throws SQLException {
+        _db.close();
     }
 
     @Test
