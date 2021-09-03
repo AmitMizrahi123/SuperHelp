@@ -26,6 +26,7 @@ public class Admin extends JFrame {
     private ButtonGroup genderBG;
     private JComboBox<String> addressCB;
     private JList list;
+    private JScrollPane scrollPane;
     private DefaultListModel DLM_result;
     private JButton deleteButton;
     private JButton logoutButton;
@@ -185,9 +186,11 @@ public class Admin extends JFrame {
         DLM_result = new DefaultListModel();
 
         list = new JList();
-        list.setBounds(380, 60, 690, 400);
-        list.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
-        contentPane.add(list);
+        list.setVisibleRowCount(10);
+        scrollPane = new JScrollPane(list);
+        scrollPane.setBounds(380, 60, 690, 400);
+        scrollPane.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
+        contentPane.add(scrollPane);
 
         deleteButton = new JButton("Delete");
         deleteButton.setBounds(820, 480, 200, 50);
