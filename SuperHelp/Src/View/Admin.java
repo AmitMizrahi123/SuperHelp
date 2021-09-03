@@ -36,8 +36,6 @@ public class Admin extends JFrame {
     private Font labelFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 18); }
 
     public Admin() {
-        // The title is been set already - LoginController
-
         SingletonVolunteeringDetails details = SingletonVolunteeringDetails.getInstance();
 
         ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
