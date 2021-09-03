@@ -1,0 +1,12 @@
+ספט׳ 03, 2021 8:52:18 לפנה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+ספט׳ 03, 2021 8:52:19 לפנה״צ MainWindow main
+INFO: dbso connected
+ספט׳ 03, 2021 8:52:19 לפנה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+ספט׳ 03, 2021 8:52:19 לפנה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+ספט׳ 03, 2021 8:52:19 לפנה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+ספט׳ 03, 2021 8:52:38 לפנה״צ Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen

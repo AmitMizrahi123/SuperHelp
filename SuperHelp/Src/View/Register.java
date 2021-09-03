@@ -4,12 +4,8 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionListener;
-import java.io.Serial;
 
 public class Register extends JFrame {
-    @Serial
-    private static final long serialVersionUID = 1L;
-
     JPanel contentPane;
     JLabel registerHeaderLabel;
     JLabel emailLabel;
@@ -27,7 +23,6 @@ public class Register extends JFrame {
     JLabel addressError;
     JLabel phoneNumberError;
 
-
     JTextField emailField;
     JPasswordField passwordField;
     JTextField firstNameField;
@@ -41,19 +36,6 @@ public class Register extends JFrame {
 
     String[] permissions = { "Admin", "Volunteer" };
 
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    Register frame = new Register();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
-
     private Font txtRegisterFont() { return new Font("Tahoma", Font.BOLD, 30); }
 
     private Font txtPanelFont() { return new Font("Tahoma", Font.BOLD, 20); }
@@ -64,8 +46,10 @@ public class Register extends JFrame {
 
     private Color errorColor() { return Color.red; }
 
+    private String iconPath() { return "/Images/icon.jpg"; }
+
     public Register() {
-        ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
+        ImageIcon image = new ImageIcon(Login.class.getResource(iconPath()));
         setIconImage(image.getImage());
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -177,14 +161,7 @@ public class Register extends JFrame {
     }
 
     public void removeEmailError() {
-        try {
-            Container emailParent = emailError.getParent();
-            emailParent.remove(emailError);
-            emailParent.validate();
-            emailParent.repaint();
-        } catch (Exception e) {
-            // Do Nothing
-        }
+        emailError.setVisible(false);
     }
 
     public void passwordError() {
@@ -198,14 +175,7 @@ public class Register extends JFrame {
     }
 
     public void removePasswordError() {
-        try {
-            Container passwordParent = passwordError.getParent();
-            passwordParent.remove(passwordError);
-            passwordParent.validate();
-            passwordParent.repaint();
-        } catch (Exception e) {
-            // Do Nothing
-        }
+        passwordError.setVisible(false);
     }
 
     public void firstNameError() {
@@ -219,14 +189,7 @@ public class Register extends JFrame {
     }
 
     public void removeFirstNameError() {
-        try {
-            Container firstNameParent = firstNameError.getParent();
-            firstNameParent.remove(firstNameError);
-            firstNameParent.validate();
-            firstNameParent.repaint();
-        } catch (Exception e) {
-            // Do Nothing
-        }
+        firstNameError.setVisible(false);
     }
 
     public void lastNameError() {
@@ -240,14 +203,7 @@ public class Register extends JFrame {
     }
 
     public void removeLastNameError() {
-        try {
-            Container lastNameParent = lastNameError.getParent();
-            lastNameParent.remove(lastNameError);
-            lastNameParent.validate();
-            lastNameParent.repaint();
-        } catch (Exception e) {
-            // Do Nothing
-        }
+        lastNameError.setVisible(false);
     }
 
     public void addressError() {
@@ -261,14 +217,7 @@ public class Register extends JFrame {
     }
 
     public void removeAddressError() {
-        try {
-            Container addressParent = addressError.getParent();
-            addressParent.remove(addressError);
-            addressParent.validate();
-            addressParent.repaint();
-        } catch (Exception e) {
-            // Do Nothing
-        }
+        addressError.setVisible(false);
     }
 
     public void phoneNumberError() {
@@ -282,14 +231,7 @@ public class Register extends JFrame {
     }
 
     public void removePhoneNumberError() {
-        try {
-            Container phoneNumberParent = phoneNumberError.getParent();
-            phoneNumberParent.remove(phoneNumberError);
-            phoneNumberParent.validate();
-            phoneNumberParent.repaint();
-        } catch (Exception e) {
-            // Do Nothing
-        }
+        passwordError.setVisible(false);
     }
 
     //</editor-fold>
@@ -301,6 +243,8 @@ public class Register extends JFrame {
     public void addRegisterListener(ActionListener actionRegisterListener) {
         registerButton.addActionListener(actionRegisterListener);
     }
+
+    //<editor-fold desc="Get Data Fields">
 
     public String getEmailField() {
         return emailField.getText();
@@ -329,6 +273,8 @@ public class Register extends JFrame {
     public String getPermissionComboBox() {
         return permissionComboBox.getSelectedItem().toString();
     }
+
+    //</editor-fold>
 
     public void displaySuccessMessage(String msg) {
         JOptionPane.showMessageDialog(this, msg);

@@ -1,7 +1,4 @@
-import Controller.AdminController;
-import Controller.LoginController;
-import Controller.ManagerController;
-import Controller.VolunteerContoller;
+import Controller.*;
 import DB.ClientRepository;
 import DB.Utilities;
 import DB.VolunteeringRepository;
@@ -36,11 +33,16 @@ public class MainWindow {
             Utilities.createTable(db, tableNameVolunteer, createVoluneeringSql);
         }
 
-        new ProgressBarPage();
+//        new ProgressBarPage();
+//
+//        Login theView = new Login();
+//        ClientRepository theModel = new ClientRepository(db);
+//        LoginController theController = new LoginController(theView, theModel);
+//        theView.setVisible(true);
 
-        Login theView = new Login();
+        Register theView = new Register();
         ClientRepository theModel = new ClientRepository(db);
-        LoginController theController = new LoginController(theView, theModel);
+        RegisterController theController = new RegisterController(theView, theModel);
         theView.setVisible(true);
     }
 }
