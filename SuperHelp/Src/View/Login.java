@@ -29,19 +29,6 @@ public class Login extends JFrame {
     JLabel passwordLabel;
     JLabel adImageLabel;
 
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    Login frame = new Login();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
-
     public int getAppWidth() { return 451; }
 
     public int getAppHeight() { return 480; }

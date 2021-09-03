@@ -22,19 +22,6 @@ public class Manager extends JFrame {
     private JButton deleteButton;
     private JButton addButton;
 
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    Manager frame = new Manager();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
-
     public Manager() {
         ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
         setIconImage(image.getImage());

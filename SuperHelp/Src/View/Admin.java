@@ -31,19 +31,6 @@ public class Admin extends JFrame {
     private JButton logoutButton;
     private JButton updateButton;
 
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    Admin frame = new Admin();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
-
     private Font headerFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 28); }
 
     private Font labelFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 18); }
