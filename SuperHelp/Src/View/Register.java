@@ -1,9 +1,19 @@
 package View;
 
+import Model.SingletonVolunteeringDetails;
+
+import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+import javax.swing.event.MouseInputAdapter;
 import java.awt.*;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
 
 public class Register extends JFrame {
     JPanel contentPane;
@@ -34,6 +44,9 @@ public class Register extends JFrame {
     JButton registerButton;
     JButton goBackButton;
 
+    JLabel passwordQuestion;
+    JLabel addressQuestion;
+
     String[] permissions = { "Admin", "Volunteer" };
 
     private Font txtRegisterFont() { return new Font("Tahoma", Font.BOLD, 30); }
@@ -49,6 +62,8 @@ public class Register extends JFrame {
     private String iconPath() { return "/Images/icon.jpg"; }
 
     public Register() {
+        SingletonVolunteeringDetails details = SingletonVolunteeringDetails.getInstance();
+
         ImageIcon image = new ImageIcon(Login.class.getResource(iconPath()));
         setIconImage(image.getImage());
         setResizable(false);
@@ -84,6 +99,32 @@ public class Register extends JFrame {
         passwordField.setBounds(350, 160, 250, 30);
         contentPane.add(passwordField);
 
+        passwordQuestion = new JLabel("");
+        BufferedImage img = null;
+        try {
+            img = ImageIO.read(Login.class.getResource("/Images/question.jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Image dimg = img.getScaledInstance(30, 30, Image.SCALE_SMOOTH);
+        ImageIcon imageIcon = new ImageIcon(dimg);
+        passwordQuestion.setIcon(imageIcon);
+        passwordQuestion.setBounds(630, 110, 445, 130);
+        passwordQuestion.addMouseListener(new MouseInputAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                JOptionPane.showMessageDialog(null,
+                            "Password need contains at least 8 characters and at most 20 characters.\n" +
+                                    "Password need contains at least one digit.\n" +
+                                    "Password need contains at least one upper case alphabet.\n" +
+                                    "Password need contains at least one lower case alphabet.\n" +
+                                    "Password need contains at least one special character which includes !@#$%&*()-+=^.\n" +
+                                    "Password need doesn’t contain any white space."
+                        );
+            }
+        });
+        contentPane.add(passwordQuestion);
+
         firstNameLabel = new JLabel("First Name: ");
         firstNameLabel.setFont(txtPanelFont());
         firstNameLabel.setBounds(30, 220, 500, 30);
@@ -110,6 +151,32 @@ public class Register extends JFrame {
         addressField = new JTextField();
         addressField.setBounds(350, 340, 250, 30);
         contentPane.add(addressField);
+
+        addressQuestion = new JLabel("");
+        BufferedImage addressImg = null;
+        try {
+            addressImg = ImageIO.read(Login.class.getResource("/Images/question.jpg"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Image addressDimg = addressImg.getScaledInstance(30, 30, Image.SCALE_SMOOTH);
+        ImageIcon addressImageIcon = new ImageIcon(addressDimg);
+        addressQuestion.setIcon(addressImageIcon);
+        addressQuestion.setBounds(630, 290, 445, 130);
+        addressQuestion.addMouseListener(new MouseInputAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                StringBuilder sb = new StringBuilder();
+                JList list = new JList(details.getLocation().toArray(new String[details.getLocation().size()]));
+                JScrollPane scrollPane = new JScrollPane(list);
+                int result = JOptionPane.showConfirmDialog(null, scrollPane,"Cities to choose from", JOptionPane.OK_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE);
+
+                if (result == 0) {
+                    addressField.setText(String.valueOf(list.getSelectedValue()));
+                }
+            }
+        });
+        contentPane.add(addressQuestion);
 
         phoneNumberLabel = new JLabel("Phone Number: ");
         phoneNumberLabel.setFont(txtPanelFont());
