@@ -33,16 +33,11 @@ public class MainWindow {
             Utilities.createTable(db, tableNameVolunteer, createVoluneeringSql);
         }
 
-//        new ProgressBarPage();
-//
-//        Login theView = new Login();
-//        ClientRepository theModel = new ClientRepository(db);
-//        LoginController theController = new LoginController(theView, theModel);
-//        theView.setVisible(true);
+        new ProgressBarPage();
 
-        Register theView = new Register();
+        Login theView = new Login();
         ClientRepository theModel = new ClientRepository(db);
-        RegisterController theController = new RegisterController(theView, theModel);
+        LoginController theController = new LoginController(theView, theModel);
         theView.setVisible(true);
     }
 }
