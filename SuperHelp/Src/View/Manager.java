@@ -22,19 +22,6 @@ public class Manager extends JFrame {
     private JButton deleteButton;
     private JButton addButton;
 
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    Manager frame = new Manager();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
-
     public Manager() {
         ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
         setIconImage(image.getImage());
@@ -103,8 +90,9 @@ public class Manager extends JFrame {
 
     public String addClientPassword() {
         JFrame f = new JFrame();
-        String password = JOptionPane.showInputDialog("Enter password");
-        return password;
+        JPasswordField pf = new JPasswordField();
+        JOptionPane.showConfirmDialog(null, pf, "Enter Password", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+        return new String(pf.getPassword());
     }
 
     public String addClientFirstName() {

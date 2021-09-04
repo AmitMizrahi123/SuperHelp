@@ -15,6 +15,7 @@ public class Volunteer extends JFrame {
     private JButton searchButton;
     private JButton clearButton;
     private JList list;
+    private JScrollPane scrollPane;
     private DefaultListModel DLM_result;
     private JButton takeVolunteeringButton;
     private JButton logoutButton;
@@ -35,9 +36,11 @@ public class Volunteer extends JFrame {
 
         list = new JList();
         list.setValueIsAdjusting(true);
+        list.setVisibleRowCount(10);
         list.setBackground(SystemColor.info);
-        list.setBounds(320, 30, 730, 500);
-        contentPane.add(list);
+        scrollPane = new JScrollPane(list);
+        scrollPane.setBounds(320, 30, 730, 500);
+        contentPane.add(scrollPane);
 
         DLM_result = new DefaultListModel();
 

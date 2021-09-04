@@ -26,31 +26,17 @@ public class Admin extends JFrame {
     private ButtonGroup genderBG;
     private JComboBox<String> addressCB;
     private JList list;
+    private JScrollPane scrollPane;
     private DefaultListModel DLM_result;
     private JButton deleteButton;
     private JButton logoutButton;
     private JButton updateButton;
-
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    Admin frame = new Admin();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
 
     private Font headerFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 28); }
 
     private Font labelFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 18); }
 
     public Admin() {
-        // The title is been set already - LoginController
-
         SingletonVolunteeringDetails details = SingletonVolunteeringDetails.getInstance();
 
         ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
@@ -200,9 +186,11 @@ public class Admin extends JFrame {
         DLM_result = new DefaultListModel();
 
         list = new JList();
-        list.setBounds(380, 60, 690, 400);
-        list.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
-        contentPane.add(list);
+        list.setVisibleRowCount(10);
+        scrollPane = new JScrollPane(list);
+        scrollPane.setBounds(380, 60, 690, 400);
+        scrollPane.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
+        contentPane.add(scrollPane);
 
         deleteButton = new JButton("Delete");
         deleteButton.setBounds(820, 480, 200, 50);

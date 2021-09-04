@@ -15,19 +15,6 @@ public class Contact extends JFrame {
     JLabel imageLabel;
     JButton goBackButton;
 
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    Contact frame = new Contact();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
-
     public String title() { return "Super Help"; }
 
     public Font labelsFont() { return new Font("Tahoma", Font.PLAIN, 20); }
