@@ -105,8 +105,6 @@ public class RegisterController {
                     if (_theModel.isEmailExist(email)) {
                         _theModel.add(new Client(email, password, firstName, lastName, address, phoneNumber, permission));
 
-                        _theView.displaySuccessMessage("You have successfully registered\nPlease Login");
-
                         Login view = new Login();
                         ClientRepository model = new ClientRepository(_theModel._db);
                         LoginController controller = new LoginController(view, model);
