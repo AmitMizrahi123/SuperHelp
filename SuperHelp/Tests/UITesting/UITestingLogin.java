@@ -2,65 +2,48 @@ package UITesting;
 
 import Controller.LoginController;
 import DB.ClientRepository;
-import DB.Utilities;
+import Utilites.TestBase;
+import Utilites.SingletonTestResult;
 import View.*;
-import org.junit.AfterClass;
 import org.junit.Assert;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import java.sql.Connection;
-import java.sql.SQLException;
-
-public class UITestingLogin {
-    private static Connection _db;
-    private static Login _theView;
-    private static ClientRepository _theModel;
-    private static LoginController _theController;
-
-    @BeforeAll
-    public static void setUp() throws Exception {
-        _db = Utilities.connectToMySql();
-        _theView = new Login();
-        _theModel = new ClientRepository(_db);
-        _theController = new LoginController(_theView, _theModel);
+public class UITestingLogin extends TestBase {
+    private Login _theView = new Login();
+    private ClientRepository _theModel;
+    {
+        try {
+            _theModel = new ClientRepository(_db);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
-
-    @AfterClass
-    public static void end() throws SQLException {
-        _db.close();
-    }
+    private LoginController _theController = new LoginController(_theView, _theModel);
+    public static SingletonTestResult testResult = SingletonTestResult.getInstance();
 
     @Test
-    void verifyLoginToRegisterScreen() {
+    public void verifyLoginToRegisterScreen() {
         Register registerScreen = _theView.clickOnRegisterButton();
-        Assert.assertTrue(registerScreen.getNameScreen().equals("Register"));
         registerScreen.clickGoBack();
         Contact contact = _theView.clickOnContactButton();
-        Assert.assertTrue(contact.getNameScreen().equals("Contact"));
         contact.clickGoBack();
-        Assert.assertTrue(_theView.getNameScreen().equals("Login"));
+        testResult.setTestResult(true);
     }
 
     @Test
-    void happyPathLoginForAllUsers() {
+    public void happyPathLoginForAllUsers() {
         _theView.setEmailField("amit@gmail.com");
         _theView.setPasswordField("Aa123456!");
         Manager managerScreen = _theView.clickOnLoginButton("Manager");
-        Assert.assertTrue(managerScreen.getNameScreen().equals("Manager"));
         managerScreen.clickLogout();
-        Assert.assertTrue(_theView.getNameScreen().equals("Login"));
         _theView.setEmailField("or@gmail.com");
         _theView.setPasswordField("Oo123456!");
         Admin adminScreen = _theView.clickOnLoginButton("Admin");
-        Assert.assertTrue(adminScreen.getNameScreen().equals("Admin"));
         adminScreen.clickLogout();
-        Assert.assertTrue(_theView.getNameScreen().equals("Login"));
         _theView.setEmailField("yossi@gmail.com");
         _theView.setPasswordField("Aa123456!");
         Volunteer volunteerScreen = _theView.clickOnLoginButton("Volunteer");
-        Assert.assertTrue(volunteerScreen.getNameScreen().equals("Volunteer"));
         volunteerScreen.clickLogout();
-        Assert.assertTrue(_theView.getNameScreen().equals("Login"));
+        testResult.setTestResult(true);
     }
 }
