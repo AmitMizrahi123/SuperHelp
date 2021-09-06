@@ -4,29 +4,28 @@ import DB.ClientRepository;
 import DB.Utilities;
 import Model.Client;
 import org.junit.Assert;
-import org.junit.jupiter.api.*;
+import org.junit.BeforeClass;
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
 
-import javax.sound.midi.Instrument;
 import java.sql.Connection;
-import java.util.Arrays;
 import java.util.Random;
-import java.util.stream.IntStream;
 
-@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class SystemTestClient {
     private static Connection _db;
     private static ClientRepository _model;
     private static int numberOfUsers = 1000;
 
-    @BeforeAll
+    @BeforeClass
     public static void setUp() throws Exception {
         _db = Utilities.connectToMySql();
         _model = new ClientRepository(_db);
     }
 
     @Test
-    @Order(1)
-    void insertAdminData() throws Exception {
+    void test1_insertAdminData() throws Exception {
         Random random = new Random();
         boolean flag = false;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);
@@ -52,8 +51,7 @@ public class SystemTestClient {
     }
 
     @Test
-    @Order(2)
-    void deleteAdminData() throws Exception {
+    void test2_deleteAdminData() throws Exception {
         Random random = new Random();
         boolean flag = true;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);
@@ -77,8 +75,7 @@ public class SystemTestClient {
     }
 
     @Test
-    @Order(3)
-    void insertVolunteeringData() throws Exception {
+    void test3_insertVolunteeringData() throws Exception {
         Random random = new Random();
         boolean flag = false;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);
@@ -104,8 +101,7 @@ public class SystemTestClient {
     }
 
     @Test
-    @Order(4)
-    void deleteVolunteeringData() throws Exception {
+    void test4_deleteVolunteeringData() throws Exception {
         Random random = new Random();
         boolean flag = true;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);

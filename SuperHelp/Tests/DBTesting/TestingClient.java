@@ -5,13 +5,10 @@ import DB.ClientRepository;
 import DB.Utilities;
 import Model.Client;
 import org.junit.Assert;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.BeforeClass;
+import org.junit.Test;
 
 import java.sql.*;
-import java.util.stream.Stream;
 
 public class TestingClient {
     private static String _selectAllDb = "select * from dbso.client";
@@ -26,7 +23,7 @@ public class TestingClient {
     private Client _volunteer = new Client("volunteer@gmail.com", "Vv123456!", "Volunteer",
             "Volunteer", "Tel Aviv", "0000000002", "Volunteer");
 
-    @BeforeAll
+    @BeforeClass
     public static void setUp() throws SQLException {
         _db = Utilities.connectToMySql();
         _stmt = _db.createStatement();

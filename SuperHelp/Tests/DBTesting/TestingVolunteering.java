@@ -1,21 +1,17 @@
 package DBTesting;
 
-import DB.ClientRepository;
 import DB.Utilities;
 import DB.VolunteeringDB;
 import DB.VolunteeringRepository;
-import Model.Client;
 import Model.Volunteering;
 import org.junit.Assert;
 import org.junit.BeforeClass;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import java.sql.*;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.Calendar;
-import java.util.Date;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class TestingVolunteering {
     private static String _selectAllDb = "select * from dbso.volunteering";
@@ -24,7 +20,7 @@ public class TestingVolunteering {
 
     private static Volunteering _volunteering = null;
 
-    @BeforeAll
+    @BeforeClass
     public static void setUp() throws SQLException {
         _db = Utilities.connectToMySql();
         _model = new VolunteeringRepository(_db);
