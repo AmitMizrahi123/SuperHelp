@@ -14,7 +14,7 @@ import java.sql.Connection;
 import java.util.Random;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class SystemTestClient extends TestBase {
+public class SystemTestsClient extends TestBase {
     private static ClientRepository _model;
     static {
         try {
@@ -30,7 +30,8 @@ public class SystemTestClient extends TestBase {
         Random random = new Random();
         boolean flag = false;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);
-        String phoneNumber = "0591111111", randomClient = null;
+        String phoneNumber = "0591111111";
+        String randomClient = String.format("admin%s@gmail.com", rand);
 
         for (int i = 1; i <= numberOfUsers; i++) {
             int phoneNumberValue = Integer.parseInt(phoneNumber) + i;
@@ -41,14 +42,13 @@ public class SystemTestClient extends TestBase {
         Assert.assertTrue("Not all clients entered to DB",numberOfCurrentUsers + numberOfUsers == _model._clients.size());
 
         for (Client client : _model._clients) {
-            randomClient = String.format("admin%s@gmail.com", rand);
             if (client.getEmail().equals(randomClient)) {
                 flag = true;
                 break;
             }
         }
 
-        Assert.assertTrue(String.format("Random client %s not entered to DB", randomClient), flag);
+        Assert.assertTrue("Random client are not entered to DB", flag);
     }
 
     @Test
@@ -56,7 +56,7 @@ public class SystemTestClient extends TestBase {
         Random random = new Random();
         boolean flag = true;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);
-        String randomClient = null;
+        String randomClient = String.format("admin%s@gmail.com", rand);
 
         for (int i = 1; i <= numberOfUsers; i++) {
             _model.delete(String.format("admin%s@gmail.com", i));
@@ -65,14 +65,13 @@ public class SystemTestClient extends TestBase {
         Assert.assertTrue(numberOfCurrentUsers - numberOfUsers == _model._clients.size());
 
         for (Client client : _model._clients) {
-            randomClient = String.format("admin%s@gmail.com", rand);
             if (client.getEmail() == randomClient) {
                 flag = false;
                 break;
             }
         }
 
-        Assert.assertTrue(String.format("Random client %s not entered to DB", randomClient), flag);
+        Assert.assertTrue("Random client are not entered to DB", flag);
     }
 
     @Test
@@ -80,7 +79,8 @@ public class SystemTestClient extends TestBase {
         Random random = new Random();
         boolean flag = false;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);
-        String phoneNumber = "0581111111", randomClient = null;
+        String phoneNumber = "0581111111";
+        String randomClient = String.format("volunteering%s@gmail.com", rand);
 
         for (int i = 1; i <= numberOfUsers; i++) {
             int phoneNumberValue = Integer.parseInt(phoneNumber) + i;
@@ -91,14 +91,13 @@ public class SystemTestClient extends TestBase {
         Assert.assertTrue(numberOfCurrentUsers + numberOfUsers == _model._clients.size());
 
         for (Client client : _model._clients) {
-            randomClient = String.format("volunteering%s@gmail.com", rand);
             if (client.getEmail().equals(randomClient)) {
                 flag = true;
                 break;
             }
         }
 
-        Assert.assertTrue(String.format("Random volunteering %s not entered to DB", randomClient), flag);
+        Assert.assertTrue("Random volunteer are not entered to DB", flag);
     }
 
     @Test
@@ -106,7 +105,7 @@ public class SystemTestClient extends TestBase {
         Random random = new Random();
         boolean flag = true;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);
-        String randomClient = null;
+        String randomClient = String.format("volunteering%s@gmail.com", rand);
 
         for (int i = 1; i <= numberOfUsers; i++) {
             _model.delete(String.format("volunteering%s@gmail.com", i));
@@ -115,13 +114,12 @@ public class SystemTestClient extends TestBase {
         Assert.assertTrue(numberOfCurrentUsers - numberOfUsers == _model._clients.size());
 
         for (Client client : _model._clients) {
-            randomClient = String.format("volunteering%s@gmail.com", rand);
             if (client.getEmail() == randomClient) {
                 flag = false;
                 break;
             }
         }
 
-        Assert.assertTrue(String.format("Random volunteering %s not entered to DB", randomClient), flag);
+        Assert.assertTrue("Random volunteer are not entered to DB", flag);
     }
 }

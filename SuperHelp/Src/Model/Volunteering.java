@@ -126,8 +126,9 @@ public class Volunteering {
         return  "firstName='" + getName() + '\'' +
                 ", age='" + getAge() + '\'' +
                 ", gender='" + getGender() + '\'' +
-                ", phoneNumber='" + getPhoneNumber() + '\'' +
                 ", address='" + getAddress() + '\'' +
-                ", problem='" + getProblem();
+                ", phoneNumber='" + getPhoneNumber() + '\'' +
+                ", problem='" + getProblem() + '\'' +
+                ", time='" + getTime();
     }
 }

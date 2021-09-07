@@ -18,7 +18,7 @@ public class VolunteeringDB {
         while (rs.next()) {
             Volunteering volunteering = new Volunteering(rs.getInt("volunteerid"),
                     rs.getString("Name"), rs.getInt("Age"), rs.getString("Gender"),
-                    rs.getString("Address"), rs.getString("PhoneNumber"),
+                    rs.getString("PhoneNumber"), rs.getString("Address"),
                     rs.getString("Problem"), rs.getTimestamp("Time"));
 
             volunteerings.add(volunteering);
