@@ -3,6 +3,7 @@ package SystemTesting;
 import DB.ClientRepository;
 import DB.Utilities;
 import Model.Client;
+import Utilites.TestBase;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
@@ -13,19 +14,19 @@ import java.sql.Connection;
 import java.util.Random;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class SystemTestClient {
-    private static Connection _db;
+public class SystemTestClient extends TestBase {
     private static ClientRepository _model;
+    static {
+        try {
+            _model = new ClientRepository(_db);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
     private static int numberOfUsers = 1000;
 
-    @BeforeClass
-    public static void setUp() throws Exception {
-        _db = Utilities.connectToMySql();
-        _model = new ClientRepository(_db);
-    }
-
     @Test
-    void test1_insertAdminData() throws Exception {
+    public void test1_insertAdminData() throws Exception {
         Random random = new Random();
         boolean flag = false;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);
@@ -51,7 +52,7 @@ public class SystemTestClient {
     }
 
     @Test
-    void test2_deleteAdminData() throws Exception {
+    public void test2_deleteAdminData() throws Exception {
         Random random = new Random();
         boolean flag = true;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);
@@ -75,7 +76,7 @@ public class SystemTestClient {
     }
 
     @Test
-    void test3_insertVolunteeringData() throws Exception {
+    public void test3_insertVolunteeringData() throws Exception {
         Random random = new Random();
         boolean flag = false;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);
@@ -101,7 +102,7 @@ public class SystemTestClient {
     }
 
     @Test
-    void test4_deleteVolunteeringData() throws Exception {
+    public void test4_deleteVolunteeringData() throws Exception {
         Random random = new Random();
         boolean flag = true;
         int numberOfCurrentUsers = _model._clients.size(), rand = random.nextInt(numberOfUsers);

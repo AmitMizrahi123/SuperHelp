@@ -4,32 +4,41 @@ import DB.ClientDB;
 import DB.ClientRepository;
 import DB.Utilities;
 import Model.Client;
+import Utilites.TestBase;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.sql.*;
 
-public class TestingClient {
+public class TestingClient extends TestBase {
     private static String _selectAllDb = "select * from dbso.client";
-    private static Connection _db;
     private static Statement _stmt;
+    static {
+        try {
+            _stmt = _db.createStatement();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+    }
     private static ResultSet _rs;
+    static {
+        try {
+            _rs = _stmt.executeQuery(_selectAllDb);
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+    }
     private static ResultSetMetaData _rsmd;
+    static {
+        try {
+            _rsmd = _rs.getMetaData();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+    }
     private static ClientRepository _model;
-
-    private Client _admin = new Client("admin@gmail.com", "Aa123456!", "Admin",
-            "Admin", "Tel Aviv", "0000000001", "Admin");
-    private Client _volunteer = new Client("volunteer@gmail.com", "Vv123456!", "Volunteer",
-            "Volunteer", "Tel Aviv", "0000000002", "Volunteer");
-
-    @BeforeClass
-    public static void setUp() throws SQLException {
-        _db = Utilities.connectToMySql();
-        _stmt = _db.createStatement();
-        _rs = _stmt.executeQuery(_selectAllDb);
-        _rsmd = _rs.getMetaData();
-
+    static {
         try {
             _model = new ClientRepository(_db);
         } catch (Exception e) {
@@ -37,14 +46,19 @@ public class TestingClient {
         }
     }
 
+    private Client _admin = new Client("admin@gmail.com", "Aa123456!", "Admin",
+            "Admin", "Tel Aviv", "0000000001", "Admin");
+    private Client _volunteer = new Client("volunteer@gmail.com", "Vv123456!", "Volunteer",
+            "Volunteer", "Tel Aviv", "0000000002", "Volunteer");
+
     @Test
-    void checkNumberOfColumns() throws Exception {
+    public void checkNumberOfColumns() throws Exception {
         int numberOfColumns = _rsmd.getColumnCount();
         assert numberOfColumns == 7 : "Number of coulums need to be 7";
     }
 
     @Test
-    void checkNamesOfColumns() throws Exception {
+    public void checkNamesOfColumns() throws Exception {
         String col1Name = _rsmd.getColumnLabel(1); String col2Name = _rsmd.getColumnLabel(2);
         String col3Name = _rsmd.getColumnLabel(3); String col4Name = _rsmd.getColumnLabel(4);
         String col5Name = _rsmd.getColumnLabel(5); String col6Name = _rsmd.getColumnLabel(6);
@@ -142,7 +156,7 @@ public class TestingClient {
     }
 
     @Test
-    void checkInsertData() throws Exception {
+    public void checkInsertData() throws Exception {
         int flag = 0;
 
         ClientDB.insertData(_db, _admin);
@@ -168,7 +182,7 @@ public class TestingClient {
     }
 
     @Test
-    void checkDeleteData() throws Exception {
+    public void checkDeleteData() throws Exception {
         int flag = 1;
 
         ClientDB.deleteData(_db, _admin);

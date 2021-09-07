@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="com.googlecode.junit-toolbox:junit-toolbox:1.5" type="repository">
+    <properties maven-id="com.googlecode.junit-toolbox:junit-toolbox:1.5" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/junit-toolbox-1.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsr166y-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-library-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mockito-core-1.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/objenesis-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
