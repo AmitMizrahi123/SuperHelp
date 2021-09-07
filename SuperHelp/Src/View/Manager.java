@@ -12,6 +12,8 @@ import java.awt.font.TextAttribute;
 import java.util.HashMap;
 import java.util.Map;
 
+import static javax.swing.JOptionPane.showConfirmDialog;
+
 
 public class Manager extends JFrame {
     private DefaultListModel DLM_result;
@@ -91,7 +93,7 @@ public class Manager extends JFrame {
     public String addClientPassword() {
         JFrame f = new JFrame();
         JPasswordField pf = new JPasswordField();
-        JOptionPane.showConfirmDialog(null, pf, "Enter Password", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
+        showConfirmDialog(null, pf, "Enter Password", JOptionPane.OK_CANCEL_OPTION, JOptionPane.PLAIN_MESSAGE);
         return new String(pf.getPassword());
     }
 
@@ -136,6 +138,8 @@ public class Manager extends JFrame {
     public void displayErrorMessage(String errorMsg) {
         JOptionPane.showMessageDialog(this, errorMsg);
     }
+
+    public int displayQuestionMessage(String message) { return showConfirmDialog(this, message, "Delete Client", JOptionPane.YES_NO_OPTION); }
 
     public void setListResult() {
         list.setModel(DLM_result);

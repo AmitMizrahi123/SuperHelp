@@ -72,15 +72,17 @@ public class ManagerController {
                 int index = _theView.getSelectedIndex();
                 _logger.log(Level.INFO, "Get index {} from client", index);
 
-                try {
-                    _theModel.delete(client.getEmail());
-                    _logger.log(Level.INFO, "delete {0} from db", client);
+                if (_theView.displayQuestionMessage("Are you sure?") == 0) {
+                    try {
+                        _theModel.delete(client.getEmail());
+                        _logger.log(Level.INFO, "delete {0} from db", client);
+                    } catch (Exception e) {
+                        _logger.log(Level.SEVERE, "Cannot delete {0} from db", client);
+                        _theView.displayErrorMessage("404");
+                        e.printStackTrace();
+                    }
                     _theView.removeItemFromList(index);
                     _logger.log(Level.INFO, "delete {0} from list", client);
-                } catch (Exception e) {
-                    _logger.log(Level.SEVERE, "Cannot delete {0} from db", client);
-                    _theView.displayErrorMessage("404");
-                    e.printStackTrace();
                 }
             } else {
                 _logger.log(Level.INFO, "Manager dont selected item");
