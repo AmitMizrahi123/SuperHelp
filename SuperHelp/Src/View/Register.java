@@ -11,9 +11,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.stream.Collectors;
 
 public class Register extends JFrame {
     JPanel contentPane;
@@ -223,16 +220,23 @@ public class Register extends JFrame {
         emailError.setFont(errorFont());
         emailError.setForeground(errorColor());
         contentPane.add(emailError);
-        contentPane.validate();
+        contentPane.revalidate();
         contentPane.repaint();
     }
 
     public void removeEmailError() {
-        emailError.setVisible(false);
+        if (emailErrorVisible()) {
+            contentPane.remove(emailError);
+            contentPane.revalidate();
+            contentPane.repaint();
+        }
     }
 
-    public boolean emailErrorValid() {
-        return emailError.isVisible();
+    public boolean emailErrorVisible() {
+        if (emailError != null) {
+            return emailError.isVisible();
+        }
+        return false;
     }
 
     public void passwordError() {
@@ -241,16 +245,23 @@ public class Register extends JFrame {
         passwordError.setFont(errorFont());
         passwordError.setForeground(errorColor());
         contentPane.add(passwordError);
-        contentPane.validate();
+        contentPane.revalidate();
         contentPane.repaint();
     }
 
     public void removePasswordError() {
-        passwordError.setVisible(false);
+        if (emailErrorVisible()) {
+            contentPane.remove(passwordError);
+            contentPane.revalidate();
+            contentPane.repaint();
+        }
     }
 
-    public boolean passwordErrorValid() {
-        return passwordError.isVisible();
+    public boolean passwordErrorVisible() {
+        if (passwordError != null) {
+            return passwordError.isVisible();
+        }
+        return false;
     }
 
     public void firstNameError() {
@@ -259,16 +270,23 @@ public class Register extends JFrame {
         firstNameError.setFont(errorFont());
         firstNameError.setForeground(errorColor());
         contentPane.add(firstNameError);
-        contentPane.validate();
+        contentPane.revalidate();
         contentPane.repaint();
     }
 
     public void removeFirstNameError() {
-        firstNameError.setVisible(false);
+        if (firstNameErrorVisible()) {
+            contentPane.remove(firstNameError);
+            contentPane.revalidate();
+            contentPane.repaint();
+        }
     }
 
-    public boolean firstNameErrorValid() {
-        return firstNameError.isVisible();
+    public boolean firstNameErrorVisible() {
+        if (firstNameError != null) {
+            return firstNameError.isVisible();
+        }
+        return false;
     }
 
     public void lastNameError() {
@@ -277,16 +295,23 @@ public class Register extends JFrame {
         lastNameError.setFont(errorFont());
         lastNameError.setForeground(errorColor());
         contentPane.add(lastNameError);
-        contentPane.validate();
+        contentPane.revalidate();
         contentPane.repaint();
     }
 
     public void removeLastNameError() {
-        lastNameError.setVisible(false);
+        if (lastNameErrorVisible()) {
+            contentPane.remove(lastNameError);
+            contentPane.revalidate();
+            contentPane.repaint();
+        }
     }
 
-    public boolean lastNameErrorValid() {
-        return lastNameError.isVisible();
+    public boolean lastNameErrorVisible() {
+        if (lastNameError != null) {
+            return lastNameError.isVisible();
+        }
+        return false;
     }
 
     public void addressError() {
@@ -295,16 +320,23 @@ public class Register extends JFrame {
         addressError.setFont(errorFont());
         addressError.setForeground(errorColor());
         contentPane.add(addressError);
-        contentPane.validate();
+        contentPane.revalidate();
         contentPane.repaint();
     }
 
     public void removeAddressError() {
-        addressError.setVisible(false);
+        if (lastNameErrorVisible()) {
+            contentPane.remove(addressError);
+            contentPane.revalidate();
+            contentPane.repaint();
+        }
     }
 
-    public boolean addressErrorValid() {
-        return addressError.isVisible();
+    public boolean addressErrorVisible() {
+        if (addressError != null) {
+            return addressError.isVisible();
+        }
+        return false;
     }
 
     public void phoneNumberError() {
@@ -313,16 +345,23 @@ public class Register extends JFrame {
         phoneNumberError.setFont(errorFont());
         phoneNumberError.setForeground(errorColor());
         contentPane.add(phoneNumberError);
-        contentPane.validate();
+        contentPane.revalidate();
         contentPane.repaint();
     }
 
     public void removePhoneNumberError() {
-        passwordError.setVisible(false);
+        if (lastNameErrorVisible()) {
+            contentPane.remove(phoneNumberError);
+            contentPane.revalidate();
+            contentPane.repaint();
+        }
     }
 
-    public boolean phoneNumberErrorValid() {
-        return phoneNumberError.isVisible();
+    public boolean phoneNumberErrorVisible() {
+        if (phoneNumberError != null) {
+            return phoneNumberError.isVisible();
+        }
+        return false;
     }
 
     //</editor-fold>
