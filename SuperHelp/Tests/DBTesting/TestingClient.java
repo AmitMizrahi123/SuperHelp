@@ -55,6 +55,7 @@ public class TestingClient extends TestBase {
     public void checkNumberOfColumns() throws Exception {
         int numberOfColumns = _rsmd.getColumnCount();
         assert numberOfColumns == 7 : "Number of coulums need to be 7";
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -66,6 +67,7 @@ public class TestingClient extends TestBase {
         assert col1Name != "Email"; assert col2Name != "Password"; assert col3Name != "Fi_rstName";
         assert col4Name != "LastName"; assert col5Name != "Address"; assert col6Name != "PhoneNumber";
         assert col7Name != "Permission";
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -79,6 +81,7 @@ public class TestingClient extends TestBase {
         Assert.assertFalse("Invalid Email", _model.isValidEmail(invalidEmail3));
         Assert.assertTrue("Valid Email", _model.isValidEmail(_admin.getEmail()));
         Assert.assertTrue("Valid Email", _model.isValidEmail(_volunteer.getEmail()));
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -108,6 +111,7 @@ public class TestingClient extends TestBase {
         Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword11));
         Assert.assertTrue("Valid Password", _model.isValidPassword(_admin.getPassword()));
         Assert.assertTrue("Valid Password", _model.isValidPassword(_volunteer.getPassword()));
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -121,6 +125,7 @@ public class TestingClient extends TestBase {
         Assert.assertFalse("Invalid Name", _model.isValidName(invalidName3));
         Assert.assertTrue("Valid Name", _model.isValidName(_admin.getFirstName()));
         Assert.assertTrue("Valid Name", _model.isValidName(_volunteer.getFirstName()));
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -136,6 +141,7 @@ public class TestingClient extends TestBase {
         Assert.assertFalse("Invalid Address", _model.isValidAddress(invalidAddress4));
         Assert.assertTrue("Valid Address", _model.isValidAddress(_admin.getAddress()));
         Assert.assertTrue("Valid Address", _model.isValidAddress(_volunteer.getAddress()));
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -153,6 +159,7 @@ public class TestingClient extends TestBase {
         Assert.assertFalse("Invalid Phone Number", _model.isValidPhoneNumber(invalidNumber5));
         Assert.assertTrue("Valid Phone Number", _model.isValidPhoneNumber(_admin.getPhoneNumber()));
         Assert.assertTrue("Valid Phone Number", _model.isValidPhoneNumber(_volunteer.getPhoneNumber()));
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -179,6 +186,7 @@ public class TestingClient extends TestBase {
         }
 
         assert flag != 0;
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -205,5 +213,6 @@ public class TestingClient extends TestBase {
         }
 
         assert flag != 0;
+        _testResult.setTestResult(true);
     }
 }

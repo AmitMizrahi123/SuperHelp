@@ -21,7 +21,6 @@ public class UITestingRegister extends TestBase {
         }
     }
     private RegisterController _theController = new RegisterController(_theView, _theModel);
-    public static SingletonTestResult testResult = SingletonTestResult.getInstance();
 
     @Test
     public void test2_invalidRegister() {
@@ -33,7 +32,7 @@ public class UITestingRegister extends TestBase {
         Assert.assertTrue(_theView.addressErrorVisible());
         Assert.assertTrue(_theView.phoneNumberErrorVisible());
         Assert.assertTrue(_theView.getNameScreen().equals("Register"));
-        testResult.setTestResult(true);
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -45,6 +44,6 @@ public class UITestingRegister extends TestBase {
         _theView.setAddressField("Akko");
         _theView.setPhoneNumber("0502223311");
         Login loginScreen = _theView.clickRegister();
-        testResult.setTestResult(true);
+        _testResult.setTestResult(true);
     }
 }

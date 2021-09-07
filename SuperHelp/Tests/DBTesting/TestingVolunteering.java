@@ -43,6 +43,7 @@ public class TestingVolunteering extends TestBase {
         }
 
         Assert.assertTrue("Somthing wrong with insert data", flag != 0);
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -61,5 +62,6 @@ public class TestingVolunteering extends TestBase {
         }
 
         Assert.assertTrue("Somthing wrong with delete data", flag == 0);
+        _testResult.setTestResult(true);
     }
 }

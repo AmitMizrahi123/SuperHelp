@@ -17,7 +17,7 @@ import java.sql.SQLException;
 
 public class TestBase {
      public static Connection _db;
-     public static SingletonTestResult testResult = SingletonTestResult.getInstance();
+     public static SingletonTestResult _testResult = SingletonTestResult.getInstance();
      public static ExtentHtmlReporter _htmlReporter;
      public static ExtentReports _extent;
      public static ExtentTest _logger;
@@ -45,12 +45,12 @@ public class TestBase {
      @Before
      public void before() {
           _logger = _extent.createTest(testName.getMethodName());
-          testResult.setTestResult(false);
+          _testResult.setTestResult(false);
      }
 
      @After
      public void after() {
-          if (testResult.getTestResult()) {
+          if (_testResult.getTestResult()) {
                String methodNamePass = testName.getMethodName();
                String logTextPass = "Test Case: " + methodNamePass + " Passed!!";
                Markup m = MarkupHelper.createLabel(logTextPass, ExtentColor.GREEN);
