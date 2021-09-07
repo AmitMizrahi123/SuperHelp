@@ -49,6 +49,7 @@ public class SystemTestsClient extends TestBase {
         }
 
         Assert.assertTrue("Random client are not entered to DB", flag);
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -72,6 +73,7 @@ public class SystemTestsClient extends TestBase {
         }
 
         Assert.assertTrue("Random client are not entered to DB", flag);
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -98,6 +100,7 @@ public class SystemTestsClient extends TestBase {
         }
 
         Assert.assertTrue("Random volunteer are not entered to DB", flag);
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -121,5 +124,6 @@ public class SystemTestsClient extends TestBase {
         }
 
         Assert.assertTrue("Random volunteer are not entered to DB", flag);
+        _testResult.setTestResult(true);
     }
 }

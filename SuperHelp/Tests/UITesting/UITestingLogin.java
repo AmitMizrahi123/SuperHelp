@@ -19,15 +19,14 @@ public class UITestingLogin extends TestBase {
         }
     }
     private LoginController _theController = new LoginController(_theView, _theModel);
-    public static SingletonTestResult testResult = SingletonTestResult.getInstance();
 
     @Test
-    public void verifyLoginToRegisterScreen() {
+    public void verifyLoginToAnotherScreen() {
         Register registerScreen = _theView.clickOnRegisterButton();
         registerScreen.clickGoBack();
         Contact contact = _theView.clickOnContactButton();
         contact.clickGoBack();
-        testResult.setTestResult(true);
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -44,6 +43,6 @@ public class UITestingLogin extends TestBase {
         _theView.setPasswordField("Aa123456!");
         Volunteer volunteerScreen = _theView.clickOnLoginButton("Volunteer");
         volunteerScreen.clickLogout();
-        testResult.setTestResult(true);
+        _testResult.setTestResult(true);
     }
 }

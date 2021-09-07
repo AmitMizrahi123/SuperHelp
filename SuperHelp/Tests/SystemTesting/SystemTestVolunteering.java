@@ -52,6 +52,7 @@ public class SystemTestVolunteering extends TestBase {
         }
 
         Assert.assertTrue("Random volunteering are not entered to DB", flag);
+        _testResult.setTestResult(true);
     }
 
     @Test
@@ -75,5 +76,6 @@ public class SystemTestVolunteering extends TestBase {
         }
 
         Assert.assertTrue("Random volunteering are not entered to DB", flag);
+        _testResult.setTestResult(true);
     }
 }
