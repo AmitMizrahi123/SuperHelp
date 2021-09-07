@@ -1,0 +1,4 @@
+ספט׳ 06, 2021 9:50:16 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 06, 2021 9:50:19 PM Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Failed to get data from user!!

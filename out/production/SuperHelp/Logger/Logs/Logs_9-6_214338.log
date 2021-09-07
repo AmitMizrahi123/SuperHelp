@@ -1,0 +1,30 @@
+ספט׳ 06, 2021 9:43:38 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 06, 2021 9:43:41 PM Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+Sep 06, 2021 9:43:41 PM Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Manager screen
+Sep 06, 2021 9:43:41 PM Controller.ManagerController showAllUsers
+INFO: Show all clients in list
+Sep 06, 2021 9:43:41 PM Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Itzik, LastName: Israeli, Address: Yavne, PhoneNumber: 0501112231, Permission: Volunteer to the list
+Sep 06, 2021 9:43:41 PM Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Or, LastName: Ezra, Address: Gan Yavne, PhoneNumber: 0503331111, Permission: Admin to the list
+Sep 06, 2021 9:43:41 PM Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Yossi, LastName: Bengaev, Address: Kfat Shumal, PhoneNumber: 0501113333, Permission: Volunteer to the list
+Sep 06, 2021 9:43:41 PM Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+Sep 06, 2021 9:43:41 PM Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Admin screen
+Sep 06, 2021 9:43:41 PM Controller.AdminController showAllVolunteering
+INFO: Show all clients in list
+Sep 06, 2021 9:43:41 PM Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+Sep 06, 2021 9:43:41 PM Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Volunteer screen
+Sep 06, 2021 9:43:41 PM Controller.VolunteerContoller showAllVolunteering
+INFO: Show all clients in list
+Sep 06, 2021 9:43:42 PM Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+Sep 06, 2021 9:43:42 PM Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
