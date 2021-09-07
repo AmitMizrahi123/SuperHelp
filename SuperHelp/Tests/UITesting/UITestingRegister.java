@@ -2,16 +2,12 @@ package UITesting;
 
 import Controller.RegisterController;
 import DB.ClientRepository;
-import DB.Utilities;
 import Utilites.SingletonTestResult;
 import Utilites.TestBase;
 import View.Login;
 import View.Register;
 import org.junit.*;
 import org.junit.runners.MethodSorters;
-
-import java.sql.Connection;
-import java.sql.SQLException;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UITestingRegister extends TestBase {
@@ -30,12 +26,12 @@ public class UITestingRegister extends TestBase {
     @Test
     public void test2_invalidRegister() {
         _theView.clickRegister();
-        Assert.assertTrue(_theView.emailErrorValid());
-        Assert.assertTrue(_theView.passwordErrorValid());
-        Assert.assertTrue(_theView.firstNameErrorValid());
-        Assert.assertTrue(_theView.lastNameErrorValid());
-        Assert.assertTrue(_theView.addressErrorValid());
-        Assert.assertTrue(_theView.phoneNumberErrorValid());
+        Assert.assertTrue(_theView.emailErrorVisible());
+        Assert.assertTrue(_theView.passwordErrorVisible());
+        Assert.assertTrue(_theView.firstNameErrorVisible());
+        Assert.assertTrue(_theView.lastNameErrorVisible());
+        Assert.assertTrue(_theView.addressErrorVisible());
+        Assert.assertTrue(_theView.phoneNumberErrorVisible());
         Assert.assertTrue(_theView.getNameScreen().equals("Register"));
         testResult.setTestResult(true);
     }
