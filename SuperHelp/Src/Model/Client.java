@@ -1,11 +1,6 @@
 package Model;
 
-import java.io.Serial;
-
 public class Client extends User {
-    @Serial
-    private static final long serialVersionUID = 1L;
-
     private String FirstName;
     private String LastName;
     private String Address;

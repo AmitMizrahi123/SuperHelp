@@ -1,12 +1,8 @@
 package Model;
 
-import java.io.Serial;
-import java.io.Serializable;
+import com.google.inject.AbstractModule;
 
-public class User implements Serializable {
-    @Serial
-    private static final long serialVersionUID = 1L;
-
+public class User extends AbstractModule {
     private String Email;
     private String Password;
 

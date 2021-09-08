@@ -1,6 +1,7 @@
 package View;
 
 import javax.imageio.ImageIO;
+import javax.inject.Inject;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
@@ -8,15 +9,11 @@ import java.awt.event.ActionListener;
 import java.awt.font.TextAttribute;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
-import java.io.Serial;
 import java.util.HashMap;
 import java.util.Map;
 
 
 public class Login extends JFrame {
-    @Serial
-    private static final long serialVersionUID = 1L;
-
     JPanel contentPane;
     JTextField emailField;
     JPasswordField passwordField;
@@ -43,6 +40,7 @@ public class Login extends JFrame {
         return "Welcome to Super Help";
     }
 
+    @Inject
     public Login() {
         ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
         setIconImage(image.getImage());
