@@ -81,7 +81,11 @@ public class ManagerController {
                         _theView.displayErrorMessage("404");
                         e.printStackTrace();
                     }
-                    _theView.removeItemFromList(index);
+                    try {
+                        _theView.removeItemFromList(index);
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                     _logger.log(Level.INFO, "delete {0} from list", client);
                 }
             } else {

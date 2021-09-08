@@ -1,0 +1,10 @@
+ספט׳ 08, 2021 10:20:54 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 08, 2021 10:20:57 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 08, 2021 10:20:57 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 08, 2021 10:20:57 PM Controller.ManagerController showAllUsers
+INFO: Show all clients in list
+Sep 08, 2021 10:20:57 PM Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Itzik, LastName: Israeli, Address: Yavne, PhoneNumber: 0501112231, Permission: Volunteer to the list
