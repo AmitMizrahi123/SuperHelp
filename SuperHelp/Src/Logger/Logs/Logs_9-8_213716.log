@@ -1,6 +1,0 @@
-ספט׳ 08, 2021 9:37:16 אחה״צ DB.Utilities connectToMySql
-INFO: Trying to connect database
-Sep 08, 2021 9:37:19 PM DB.Utilities connectToMySql
-INFO: Trying to connect database
-Sep 08, 2021 9:37:19 PM Controller.RegisterController$RegisterListener actionPerformed
-WARNING: Register failed, input wrong

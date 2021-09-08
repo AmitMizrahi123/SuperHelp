@@ -26,6 +26,7 @@ public class TestBase {
      public static Login _loginScreen;
      public static Register _registerScreen;
      public static Manager _managerScreen;
+     public static Admin _adminScreen;
      public static ClientRepository _clientRepository;
      public static VolunteeringRepository _volunteeringRepository;
 
@@ -87,6 +88,7 @@ public class TestBase {
           _loginScreen = injector.getInstance(Login.class);
           _registerScreen = injector.getInstance(Register.class);
           _managerScreen = injector.getInstance(Manager.class);
+          _adminScreen = injector.getInstance(Admin.class);
           _clientRepository = injector.getInstance(ClientRepository.class);
           _volunteeringRepository = injector.getInstance(VolunteeringRepository.class);
      }
