@@ -1,15 +1,16 @@
-package Infra.Utilites;
+package Utilites;
 
+import DB.ClientRepository;
 import DB.Utilities;
-import Infra.Utilites.SingletonTestResult;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.Status;
-import com.aventstack.extentreports.markuputils.ExtentColor;
-import com.aventstack.extentreports.markuputils.Markup;
-import com.aventstack.extentreports.markuputils.MarkupHelper;
+import DB.VolunteeringRepository;
+import Model.Client;
+import Model.User;
+import View.*;
+import com.aventstack.extentreports.*;
+import com.aventstack.extentreports.markuputils.*;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import com.google.inject.*;
 import org.junit.*;
 import org.junit.rules.TestName;
 
@@ -23,6 +24,11 @@ public class TestBase {
      public static ExtentReports _extent;
      public static ExtentTest _logger;
      public static String _reportPath = "C:\\Users\\97250\\IdeaProjects\\SuperHelp\\SuperHelp\\Tests\\Reports\\AutomationReport.html";
+
+     public static Login _login;
+     public static Register _register;
+     public static ClientRepository _clientRepository;
+     public static VolunteeringRepository _volunteeringRepository;
 
      @Rule public TestName testName = new TestName();
 
@@ -41,6 +47,8 @@ public class TestBase {
           _extent.setSystemInfo("Automation Tester", "Yossi Bengaev");
           _extent.setSystemInfo("Automation Tester", "Or Ezra");
           _extent.setSystemInfo("Automation Tester", "Itzik Israeli");
+
+          dpi();
      }
 
      @Before
@@ -73,5 +81,13 @@ public class TestBase {
           }
 
           _extent.flush();
+     }
+
+     private static void dpi() {
+          Injector injector = Guice.createInjector();
+          _login = injector.getInstance(Login.class);
+          _register = injector.getInstance(Register.class);
+          _clientRepository = injector.getInstance(ClientRepository.class);
+          _volunteeringRepository = injector.getInstance(VolunteeringRepository.class);
      }
 }

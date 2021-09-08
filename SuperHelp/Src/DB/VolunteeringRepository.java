@@ -12,6 +12,11 @@ public class VolunteeringRepository implements VolunteeringRepositoryInterface {
     public Connection _db;
     public ArrayList<Volunteering> _volunteerings;
 
+    public VolunteeringRepository() throws SQLException {
+        _db = Utilities.connectToMySql();
+        _volunteerings = VolunteeringDB.getAllVolunteeringData(_db);
+    }
+
     public VolunteeringRepository(Connection db) throws SQLException {
         _db = db;
         _volunteerings = VolunteeringDB.getAllVolunteeringData(_db);

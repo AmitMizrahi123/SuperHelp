@@ -7,10 +7,12 @@
       <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Tests" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Logger" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Tests/Tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Src/Images" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Tests/Infra" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Tests/Tests/DBTests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Tests/Tests/SystemTests" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Tests/Tests/UITests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/SuperHelp/Tests/Utilites" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/SuperHelp/Tests/Reports" />
     </content>
     <orderEntry type="inheritedJdk" />
@@ -41,5 +43,6 @@
     <orderEntry type="library" name="com.aventstack:extentreports:4.0.9" level="project" />
     <orderEntry type="library" name="com.googlecode.junit-toolbox:junit-toolbox:1.5" level="project" />
     <orderEntry type="library" name="io.takari.junit:takari-cpsuite:1.2.7" level="project" />
+    <orderEntry type="library" name="com.google.inject:guice:5.0.1" level="project" />
   </component>
 </module>

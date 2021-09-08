@@ -1,4 +1,4 @@
-package Infra.Utilites;
+package Utilites;
 
 public class SingletonTestResult {
     private static SingletonTestResult _firstInstance = new SingletonTestResult();

@@ -3,6 +3,7 @@ package View;
 import Model.SingletonVolunteeringDetails;
 
 import javax.imageio.ImageIO;
+import javax.inject.Inject;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.event.MouseInputAdapter;
@@ -58,6 +59,7 @@ public class Register extends JFrame {
 
     private String iconPath() { return "/Images/icon.jpg"; }
 
+    @Inject
     public Register() {
         SingletonVolunteeringDetails details = SingletonVolunteeringDetails.getInstance();
 

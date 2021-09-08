@@ -1,0 +1,6 @@
+ספט׳ 08, 2021 9:30:02 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 08, 2021 9:30:05 PM Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+Sep 08, 2021 9:30:05 PM Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen

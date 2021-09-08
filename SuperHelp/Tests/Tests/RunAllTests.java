@@ -18,4 +18,5 @@ import org.junit.runners.Suite;
         UITestingLogin.class,
         UITestingRegister.class
 })
+
 public class RunAllTests { }

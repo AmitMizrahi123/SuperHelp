@@ -2,7 +2,7 @@ package Tests.UITests;
 
 import Controller.RegisterController;
 import DB.ClientRepository;
-import Infra.Utilites.TestBase;
+import Utilites.TestBase;
 import View.Login;
 import View.Register;
 import org.junit.*;
@@ -10,39 +10,30 @@ import org.junit.runners.MethodSorters;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class UITestingRegister extends TestBase {
-    private Register _theView = new Register();
-    private ClientRepository _theModel;
-    {
-        try {
-            _theModel = new ClientRepository(_db);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
-    private RegisterController _theController = new RegisterController(_theView, _theModel);
+    private RegisterController _theController = new RegisterController(_register, _clientRepository);
 
     @Test
-    public void test2_invalidRegister() {
-        _theView.clickRegister();
-        Assert.assertTrue(_theView.emailErrorVisible());
-        Assert.assertTrue(_theView.passwordErrorVisible());
-        Assert.assertTrue(_theView.firstNameErrorVisible());
-        Assert.assertTrue(_theView.lastNameErrorVisible());
-        Assert.assertTrue(_theView.addressErrorVisible());
-        Assert.assertTrue(_theView.phoneNumberErrorVisible());
-        Assert.assertTrue(_theView.getNameScreen().equals("Register"));
+    public void test1_invalidRegister() {
+        _register.clickRegister();
+        Assert.assertTrue(_register.emailErrorVisible());
+        Assert.assertTrue(_register.passwordErrorVisible());
+        Assert.assertTrue(_register.firstNameErrorVisible());
+        Assert.assertTrue(_register.lastNameErrorVisible());
+        Assert.assertTrue(_register.addressErrorVisible());
+        Assert.assertTrue(_register.phoneNumberErrorVisible());
+        Assert.assertTrue(_register.getNameScreen().equals("Register"));
         _testResult.setTestResult(true);
     }
 
     @Test
-    public void test1_validRegister() {
-        _theView.setEmailField("zohar@gmail.com");
-        _theView.setPasswordField("Zz123456!");
-        _theView.setFirstNameField("Zohar");
-        _theView.setLastNameField("Hajaj");
-        _theView.setAddressField("Akko");
-        _theView.setPhoneNumber("0502223311");
-        Login loginScreen = _theView.clickRegister();
+    public void test2_validRegister() {
+        _register.setEmailField("zohar@gmail.com");
+        _register.setPasswordField("Zz123456!");
+        _register.setFirstNameField("Zohar");
+        _register.setLastNameField("Hajaj");
+        _register.setAddressField("Akko");
+        _register.setPhoneNumber("0502223311");
+        Login loginScreen = _register.clickRegister();
         _testResult.setTestResult(true);
     }
 }

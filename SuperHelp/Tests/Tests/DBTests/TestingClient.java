@@ -3,7 +3,7 @@ package Tests.DBTests;
 import DB.ClientDB;
 import DB.ClientRepository;
 import Model.Client;
-import Infra.Utilites.TestBase;
+import Utilites.TestBase;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -33,14 +33,6 @@ public class TestingClient extends TestBase {
             _rsmd = _rs.getMetaData();
         } catch (SQLException throwables) {
             throwables.printStackTrace();
-        }
-    }
-    private static ClientRepository _model;
-    static {
-        try {
-            _model = new ClientRepository(_db);
-        } catch (Exception e) {
-            e.printStackTrace();
         }
     }
 
@@ -74,11 +66,11 @@ public class TestingClient extends TestBase {
         String invalidEmail2 = "yovel@";
         String invalidEmail3 = "yovel@stam";
 
-        Assert.assertFalse("Invalid Email", _model.isValidEmail(invalidEmail1));
-        Assert.assertFalse("Invalid Email", _model.isValidEmail(invalidEmail2));
-        Assert.assertFalse("Invalid Email", _model.isValidEmail(invalidEmail3));
-        Assert.assertTrue("Valid Email", _model.isValidEmail(_admin.getEmail()));
-        Assert.assertTrue("Valid Email", _model.isValidEmail(_volunteer.getEmail()));
+        Assert.assertFalse("Invalid Email", _clientRepository.isValidEmail(invalidEmail1));
+        Assert.assertFalse("Invalid Email", _clientRepository.isValidEmail(invalidEmail2));
+        Assert.assertFalse("Invalid Email", _clientRepository.isValidEmail(invalidEmail3));
+        Assert.assertTrue("Valid Email", _clientRepository.isValidEmail(_admin.getEmail()));
+        Assert.assertTrue("Valid Email", _clientRepository.isValidEmail(_volunteer.getEmail()));
         _testResult.setTestResult(true);
     }
 
@@ -96,19 +88,19 @@ public class TestingClient extends TestBase {
         String invalidPassword10 = "1xxxxxxxxxxxxxX";
         String invalidPassword11 = "1xxxxxxxxxxxxxX!";
 
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword1));
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword2));
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword3));
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword4));
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword5));
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword6));
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword7));
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword8));
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword9));
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword10));
-        Assert.assertFalse("Invalid Password", _model.isValidPassword(invalidPassword11));
-        Assert.assertTrue("Valid Password", _model.isValidPassword(_admin.getPassword()));
-        Assert.assertTrue("Valid Password", _model.isValidPassword(_volunteer.getPassword()));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword1));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword2));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword3));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword4));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword5));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword6));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword7));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword8));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword9));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword10));
+        Assert.assertFalse("Invalid Password", _clientRepository.isValidPassword(invalidPassword11));
+        Assert.assertTrue("Valid Password", _clientRepository.isValidPassword(_admin.getPassword()));
+        Assert.assertTrue("Valid Password", _clientRepository.isValidPassword(_volunteer.getPassword()));
         _testResult.setTestResult(true);
     }
 
@@ -118,11 +110,11 @@ public class TestingClient extends TestBase {
         String invalidName2 = "";
         String invalidName3 = "111!";
 
-        Assert.assertFalse("Invalid Name", _model.isValidName(invalidName1));
-        Assert.assertFalse("Invalid Name", _model.isValidName(invalidName2));
-        Assert.assertFalse("Invalid Name", _model.isValidName(invalidName3));
-        Assert.assertTrue("Valid Name", _model.isValidName(_admin.getFirstName()));
-        Assert.assertTrue("Valid Name", _model.isValidName(_volunteer.getFirstName()));
+        Assert.assertFalse("Invalid Name", _clientRepository.isValidName(invalidName1));
+        Assert.assertFalse("Invalid Name", _clientRepository.isValidName(invalidName2));
+        Assert.assertFalse("Invalid Name", _clientRepository.isValidName(invalidName3));
+        Assert.assertTrue("Valid Name", _clientRepository.isValidName(_admin.getFirstName()));
+        Assert.assertTrue("Valid Name", _clientRepository.isValidName(_volunteer.getFirstName()));
         _testResult.setTestResult(true);
     }
 
@@ -133,12 +125,12 @@ public class TestingClient extends TestBase {
         String invalidAddress3 = "!modiin";
         String invalidAddress4 = "mod!iin";
 
-        Assert.assertFalse("Invalid Address", _model.isValidAddress(invalidAddress1));
-        Assert.assertFalse("Invalid Address", _model.isValidAddress(invalidAddress2));
-        Assert.assertFalse("Invalid Address", _model.isValidAddress(invalidAddress3));
-        Assert.assertFalse("Invalid Address", _model.isValidAddress(invalidAddress4));
-        Assert.assertTrue("Valid Address", _model.isValidAddress(_admin.getAddress()));
-        Assert.assertTrue("Valid Address", _model.isValidAddress(_volunteer.getAddress()));
+        Assert.assertFalse("Invalid Address", _clientRepository.isValidAddress(invalidAddress1));
+        Assert.assertFalse("Invalid Address", _clientRepository.isValidAddress(invalidAddress2));
+        Assert.assertFalse("Invalid Address", _clientRepository.isValidAddress(invalidAddress3));
+        Assert.assertFalse("Invalid Address", _clientRepository.isValidAddress(invalidAddress4));
+        Assert.assertTrue("Valid Address", _clientRepository.isValidAddress(_admin.getAddress()));
+        Assert.assertTrue("Valid Address", _clientRepository.isValidAddress(_volunteer.getAddress()));
         _testResult.setTestResult(true);
     }
 
@@ -150,13 +142,13 @@ public class TestingClient extends TestBase {
         String invalidNumber4 = "0501111111a";
         String invalidNumber5 = "0501111111A";
 
-        Assert.assertFalse("Invalid Phone Number", _model.isValidPhoneNumber(invalidNumber1));
-        Assert.assertFalse("Invalid Phone Number", _model.isValidPhoneNumber(invalidNumber2));
-        Assert.assertFalse("Invalid Phone Number", _model.isValidPhoneNumber(invalidNumber3));
-        Assert.assertFalse("Invalid Phone Number", _model.isValidPhoneNumber(invalidNumber4));
-        Assert.assertFalse("Invalid Phone Number", _model.isValidPhoneNumber(invalidNumber5));
-        Assert.assertTrue("Valid Phone Number", _model.isValidPhoneNumber(_admin.getPhoneNumber()));
-        Assert.assertTrue("Valid Phone Number", _model.isValidPhoneNumber(_volunteer.getPhoneNumber()));
+        Assert.assertFalse("Invalid Phone Number", _clientRepository.isValidPhoneNumber(invalidNumber1));
+        Assert.assertFalse("Invalid Phone Number", _clientRepository.isValidPhoneNumber(invalidNumber2));
+        Assert.assertFalse("Invalid Phone Number", _clientRepository.isValidPhoneNumber(invalidNumber3));
+        Assert.assertFalse("Invalid Phone Number", _clientRepository.isValidPhoneNumber(invalidNumber4));
+        Assert.assertFalse("Invalid Phone Number", _clientRepository.isValidPhoneNumber(invalidNumber5));
+        Assert.assertTrue("Valid Phone Number", _clientRepository.isValidPhoneNumber(_admin.getPhoneNumber()));
+        Assert.assertTrue("Valid Phone Number", _clientRepository.isValidPhoneNumber(_volunteer.getPhoneNumber()));
         _testResult.setTestResult(true);
     }
 

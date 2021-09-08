@@ -14,6 +14,11 @@ public class ClientRepository implements ClientRepositoryInterface {
     public ArrayList<Client> _clients;
     public List<String> _locations = SingletonVolunteeringDetails.getInstance().getLocation();
 
+    public ClientRepository() throws Exception {
+        _db = Utilities.connectToMySql();
+        _clients = ClientDB.getAllData(_db);
+    }
+
     public ClientRepository(Connection db) throws Exception {
         _db = db;
         _clients = ClientDB.getAllData(_db);
