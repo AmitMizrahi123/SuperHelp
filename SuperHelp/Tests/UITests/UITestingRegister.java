@@ -1,8 +1,7 @@
-package UITesting;
+package UITests;
 
 import Controller.RegisterController;
 import DB.ClientRepository;
-import Utilites.SingletonTestResult;
 import Utilites.TestBase;
 import View.Login;
 import View.Register;

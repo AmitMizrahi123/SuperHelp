@@ -1,12 +1,10 @@
-package DBTesting;
+package DBTests;
 
 import DB.ClientDB;
 import DB.ClientRepository;
-import DB.Utilities;
 import Model.Client;
 import Utilites.TestBase;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.sql.*;

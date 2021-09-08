@@ -1,16 +1,13 @@
-package SystemTesting;
+package SystemTests;
 
 import DB.ClientRepository;
-import DB.Utilities;
 import Model.Client;
 import Utilites.TestBase;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
 import org.junit.runners.MethodSorters;
 
-import java.sql.Connection;
 import java.util.Random;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)

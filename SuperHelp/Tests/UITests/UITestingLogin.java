@@ -1,11 +1,9 @@
-package UITesting;
+package UITests;
 
 import Controller.LoginController;
 import DB.ClientRepository;
 import Utilites.TestBase;
-import Utilites.SingletonTestResult;
 import View.*;
-import org.junit.Assert;
 import org.junit.Test;
 
 public class UITestingLogin extends TestBase {

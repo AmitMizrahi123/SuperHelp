@@ -1,15 +1,12 @@
-package DBTesting;
+package DBTests;
 
-import DB.Utilities;
 import DB.VolunteeringDB;
 import DB.VolunteeringRepository;
 import Model.Volunteering;
 import Utilites.TestBase;
 import org.junit.Assert;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
-import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
