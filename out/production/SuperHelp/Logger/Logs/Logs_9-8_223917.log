@@ -1,0 +1,14 @@
+ספט׳ 08, 2021 10:39:17 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 08, 2021 10:39:21 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 08, 2021 10:39:21 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 08, 2021 10:39:21 PM Controller.ManagerController showAllUsers
+INFO: Show all clients in list
+Sep 08, 2021 10:39:21 PM Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Itzik, LastName: Israeli, Address: Yavne, PhoneNumber: 0501113331, Permission: Volunteer to the list
+Sep 08, 2021 10:39:21 PM Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Or, LastName: Ezra, Address: Yavne, PhoneNumber: 0501113332, Permission: Admin to the list
+Sep 08, 2021 10:39:21 PM Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Yossi, LastName: Bengaev, Address: Ramla, PhoneNumber: 0501113333, Permission: Admin to the list

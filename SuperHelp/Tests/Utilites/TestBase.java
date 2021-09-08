@@ -3,8 +3,6 @@ package Utilites;
 import DB.ClientRepository;
 import DB.Utilities;
 import DB.VolunteeringRepository;
-import Model.Client;
-import Model.User;
 import View.*;
 import com.aventstack.extentreports.*;
 import com.aventstack.extentreports.markuputils.*;
@@ -25,8 +23,9 @@ public class TestBase {
      public static ExtentTest _logger;
      public static String _reportPath = "C:\\Users\\97250\\IdeaProjects\\SuperHelp\\SuperHelp\\Tests\\Reports\\AutomationReport.html";
 
-     public static Login _login;
-     public static Register _register;
+     public static Login _loginScreen;
+     public static Register _registerScreen;
+     public static Manager _managerScreen;
      public static ClientRepository _clientRepository;
      public static VolunteeringRepository _volunteeringRepository;
 
@@ -85,8 +84,9 @@ public class TestBase {
 
      private static void dpi() {
           Injector injector = Guice.createInjector();
-          _login = injector.getInstance(Login.class);
-          _register = injector.getInstance(Register.class);
+          _loginScreen = injector.getInstance(Login.class);
+          _registerScreen = injector.getInstance(Register.class);
+          _managerScreen = injector.getInstance(Manager.class);
           _clientRepository = injector.getInstance(ClientRepository.class);
           _volunteeringRepository = injector.getInstance(VolunteeringRepository.class);
      }

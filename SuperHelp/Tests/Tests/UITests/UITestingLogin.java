@@ -1,36 +1,35 @@
 package Tests.UITests;
 
 import Controller.LoginController;
-import DB.ClientRepository;
 import Utilites.TestBase;
 import View.*;
 import org.junit.Test;
 
 public class UITestingLogin extends TestBase {
-    private LoginController _theController = new LoginController(_login, _clientRepository);
+    private LoginController _theController = new LoginController(_loginScreen, _clientRepository);
 
     @Test
     public void verifyLoginToAnotherScreen() {
-        Register registerScreen = _login.clickOnRegisterButton();
+        Register registerScreen = _loginScreen.clickOnRegisterButton();
         registerScreen.clickGoBack();
-        Contact contact = _login.clickOnContactButton();
+        Contact contact = _loginScreen.clickOnContactButton();
         contact.clickGoBack();
         _testResult.setTestResult(true);
     }
 
     @Test
     public void happyPathLoginForAllUsers() {
-        _login.setEmailField("amit@gmail.com");
-        _login.setPasswordField("Aa123456!");
-        Manager managerScreen = _login.clickOnLoginButton("Manager");
+        _loginScreen.setEmailField("amit@gmail.com");
+        _loginScreen.setPasswordField("Aa123456!");
+        Manager managerScreen = _loginScreen.clickOnLoginButton("Manager");
         managerScreen.clickLogout();
-        _login.setEmailField("or@gmail.com");
-        _login.setPasswordField("Oo123456!");
-        Admin adminScreen = _login.clickOnLoginButton("Admin");
+        _loginScreen.setEmailField("or@gmail.com");
+        _loginScreen.setPasswordField("Oo123456!");
+        Admin adminScreen = _loginScreen.clickOnLoginButton("Admin");
         adminScreen.clickLogout();
-        _login.setEmailField("yossi@gmail.com");
-        _login.setPasswordField("Aa123456!");
-        Volunteer volunteerScreen = _login.clickOnLoginButton("Volunteer");
+        _loginScreen.setEmailField("yossi@gmail.com");
+        _loginScreen.setPasswordField("Aa123456!");
+        Volunteer volunteerScreen = _loginScreen.clickOnLoginButton("Volunteer");
         volunteerScreen.clickLogout();
         _testResult.setTestResult(true);
     }

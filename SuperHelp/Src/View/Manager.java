@@ -1,10 +1,14 @@
 package View;
 
 import java.awt.*;
+import javax.inject.Inject;
 import javax.swing.*;
 
 import javax.swing.border.EmptyBorder;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
+import DB.ClientRepository;
 import Model.Client;
 
 import java.awt.event.ActionListener;
@@ -24,6 +28,7 @@ public class Manager extends JFrame {
     private JButton deleteButton;
     private JButton addButton;
 
+    @Inject
     public Manager() {
         ImageIcon image = new ImageIcon(Login.class.getResource("/Images/icon.jpg"));
         setIconImage(image.getImage());
@@ -153,13 +158,15 @@ public class Manager extends JFrame {
         return (Client) list.getSelectedValue();
     }
 
-    public void removeItemFromList(int index) {
+    public void removeItemFromList(int index) throws Exception {
         DLM_result.removeElementAt(index);
     }
 
     public int getSelectedIndex() {
         return list.getSelectedIndex();
     }
+
+    public Client getSeletedItemByIndex(int index) { return (Client) DLM_result.getElementAt(index); }
 
     public String getNameScreen() { return this.getClass().getSimpleName(); }
 
