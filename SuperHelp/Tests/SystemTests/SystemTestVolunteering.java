@@ -1,7 +1,6 @@
-package SystemTesting;
+package SystemTests;
 
 import DB.VolunteeringRepository;
-import Model.Client;
 import Model.Volunteering;
 import Utilites.TestBase;
 import org.junit.Assert;
