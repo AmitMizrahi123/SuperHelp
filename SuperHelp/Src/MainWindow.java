@@ -31,15 +31,11 @@ public class MainWindow {
             Utilities.createTable(db, tableNameVolunteer, createVoluneeringSql);
         }
 
-        /*new ProgressBarPage();
+        new ProgressBarPage();
 
         Login theView = new Login();
         ClientRepository theModel = new ClientRepository(db);
         LoginController theController = new LoginController(theView, theModel);
-        theView.setVisible(true);*/
-
-        Volunteer view = new Volunteer();
-        VolunteeringRepository model = new VolunteeringRepository(db);
-        VolunteerContoller contoller = new VolunteerContoller(view, model, "yossi@walla.co.il");
+        theView.setVisible(true);
     }
 }
