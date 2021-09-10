@@ -11,10 +11,12 @@ import java.util.regex.Pattern;
 public class VolunteeringRepository implements VolunteeringRepositoryInterface {
     public Connection _db;
     public ArrayList<Volunteering> _volunteerings;
+    public ArrayList<Volunteering> _userTakeByVolunteering;
 
     public VolunteeringRepository() throws SQLException {
         _db = Utilities.connectToMySql();
         _volunteerings = VolunteeringDB.getAllVolunteeringData(_db);
+        _userTakeByVolunteering = getAllVoluneeringThatUserTake();
     }
 
     public VolunteeringRepository(Connection db) throws SQLException {
@@ -25,6 +27,17 @@ public class VolunteeringRepository implements VolunteeringRepositoryInterface {
     @Override
     public ArrayList<Volunteering> getAllVoluneering() {
         return _volunteerings;
+    }
+
+    @Override
+    public ArrayList<Volunteering> getAllVoluneeringThatUserTake() {
+        for (Volunteering volunteering : getAllVoluneering()) {
+            if (volunteering.getTakingVolunteering()) {
+                _userTakeByVolunteering.add(volunteering);
+            }
+        }
+
+        return _userTakeByVolunteering;
     }
 
     @Override
