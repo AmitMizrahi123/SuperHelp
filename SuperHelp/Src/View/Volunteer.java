@@ -8,6 +8,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseListener;
+import java.util.ArrayList;
 
 public class Volunteer extends JFrame {
     private JPanel contentPane;
@@ -19,6 +20,10 @@ public class Volunteer extends JFrame {
     private DefaultListModel DLM_result;
     private JButton takeVolunteeringButton;
     private JButton logoutButton;
+    private JButton myVolunteeringButton;
+    private JList listMyVolunteering;
+    private JScrollPane scrollPaneMyVolunteering;
+    private DefaultListModel DLMVolunteering;
 
     public Volunteer() {
         SingletonVolunteeringDetails details = SingletonVolunteeringDetails.getInstance();
@@ -73,6 +78,14 @@ public class Volunteer extends JFrame {
         takeVolunteeringButton.setForeground(Color.WHITE);
         contentPane.add(takeVolunteeringButton);
 
+        myVolunteeringButton = new JButton("My Volunteering");
+        myVolunteeringButton.setBounds(30, 200, 270, 30);
+        myVolunteeringButton.setBorderPainted(false);
+        myVolunteeringButton.setFocusPainted(false);
+        myVolunteeringButton.setBackground(SystemColor.activeCaption);
+        myVolunteeringButton.setForeground(Color.WHITE);
+        contentPane.add(myVolunteeringButton);
+
         logoutButton = new JButton("Log Out");
         logoutButton.setBounds(30, 500, 270, 30);
         logoutButton.setBorderPainted(false);
@@ -104,12 +117,10 @@ public class Volunteer extends JFrame {
 
     public void addTakeVolunteeringListener(ActionListener takeVolunteering) { takeVolunteeringButton.addActionListener(takeVolunteering); }
 
+    public void addMyVolunteeringListener(ActionListener myVolunteering) { myVolunteeringButton.addActionListener(myVolunteering); }
+
     public void setListResult() {
         list.setModel(DLM_result);
-    }
-
-    public void setListElement(Volunteering volunteering) {
-        DLM_result.addElement(volunteering);
     }
 
     public void addVolunteeringToList(Volunteering volunteering) {
@@ -167,4 +178,10 @@ public class Volunteer extends JFrame {
     }
 
     public Login clickLogout() { logoutButton.doClick(); return new Login(); }
+
+    public void displayMyVolunteering(ArrayList<Volunteering> myVolunteering) {
+        JList list = new JList((ListModel) myVolunteering);
+        JScrollPane scrollPane = new JScrollPane(list);
+        JOptionPane.showMessageDialog(null, scrollPane, "volunteerings", JOptionPane.OK_CANCEL_OPTION);
+    }
 }

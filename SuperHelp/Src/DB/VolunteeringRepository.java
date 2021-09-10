@@ -1,6 +1,7 @@
 package DB;
 
 import Model.Volunteering;
+import View.Volunteer;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -49,6 +50,20 @@ public class VolunteeringRepository implements VolunteeringRepositoryInterface {
 
         _volunteerings.remove(volunteering);
         VolunteeringDB.deleteData(_db, volunteering);
+    }
+
+    @Override
+    public void updateTakingVolunteering(Volunteering volunteering, String email) throws Exception {
+        if (volunteering == null)
+            throw new Exception("Volunteering musht have a value");
+
+        for (Volunteering vol : _volunteerings) {
+            if (volunteering.getVolunteerId() == vol.getVolunteerId()) {
+                vol.setTakingVolunteering(email);
+            }
+        }
+
+        VolunteeringDB.updateData(_db, volunteering, email);
     }
 
     @Override

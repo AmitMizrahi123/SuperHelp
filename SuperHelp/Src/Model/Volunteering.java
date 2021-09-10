@@ -14,20 +14,23 @@ public class Volunteering {
     private String _address;
     private String _problem;
     private Timestamp _time;
+    private String _takingVolunteering;
 
-    // Cons for get selected item
-    public Volunteering(int volunteerId, String name, int age, String gender, String phoneNumber,
-                        String address, String problem, Timestamp time) {
-        _volunteerId = volunteerId;
-        setName(name);
-        setAge(age);
-        setGender(gender);
-        setPhoneNumber(phoneNumber);
-        setAddress(address);
-        setProblem(problem);
+    // cons for get all volunteering from db
+    public Volunteering(int id, String name, int age, String gender, String phoneNumber,
+                        String address, String problem, Timestamp time, String takingVolunteering) {
+        _volunteerId = id;
+        _name = name;
+        _age = age;
+        _gender = gender;
+        _phoneNumber = phoneNumber;
+        _address = address;
+        _problem = problem;
         _time = time;
+        _takingVolunteering = takingVolunteering;
     }
 
+    // cons to new volunteering
     public Volunteering(String name, int age, String gender, String address,
                         String phoneNumber, String problem) {
         _volunteerId = setVolunteerId();
@@ -38,6 +41,7 @@ public class Volunteering {
         setPhoneNumber(phoneNumber);
         setProblem(problem);
         _time = setTime();
+        setTakingVolunteering(null);
     }
 
     // Cons for testing
@@ -51,6 +55,7 @@ public class Volunteering {
         setAddress(address);
         setProblem(problem);
         _time = setTime();
+        _takingVolunteering = null;
     }
 
     public int setVolunteerId() {
@@ -119,6 +124,14 @@ public class Volunteering {
 
     public void setGender(String _gender) {
         this._gender = _gender;
+    }
+
+    public String getTakingVolunteering() {
+        return _takingVolunteering;
+    }
+
+    public void setTakingVolunteering(String takingVolunteering) {
+        _takingVolunteering = takingVolunteering;
     }
 
     @Override
