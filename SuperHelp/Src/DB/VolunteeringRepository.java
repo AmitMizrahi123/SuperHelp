@@ -51,6 +51,21 @@ public class VolunteeringRepository implements VolunteeringRepositoryInterface {
         VolunteeringDB.deleteData(_db, volunteering);
     }
 
+
+    @Override
+    public void updateTakintVoluneering(Volunteering volunteering) throws Exception {
+        if (volunteering == null)
+            throw new Exception("Volunteering musht have a value");
+
+        for (Volunteering vol : _volunteerings) {
+            if (volunteering.getVolunteerId() == vol.getVolunteerId()) {
+                vol.setTakingVolunteering(volunteering.getTakingVolunteering());
+            }
+        }
+
+        VolunteeringDB.deleteData(_db, volunteering);
+    }
+
     @Override
     public Volunteering findVolunteeringById(int id) {
         for (Volunteering volunteering : _volunteerings) {

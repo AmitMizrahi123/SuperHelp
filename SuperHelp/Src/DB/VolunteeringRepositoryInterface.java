@@ -20,4 +20,6 @@ public interface VolunteeringRepositoryInterface {
     boolean isValidName(String name);
 
     boolean isValidPhoneNumber(String phoneNumber);
+
+    void updateTakintVoluneering(Volunteering volunteering) throws Exception;
 }
