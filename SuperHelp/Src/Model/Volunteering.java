@@ -32,7 +32,7 @@ public class Volunteering {
 
     // cons to new volunteering
     public Volunteering(String name, int age, String gender, String address,
-                        String phoneNumber, String problem, boolean take) {
+                        String phoneNumber, String problem) {
         _volunteerId = setVolunteerId();
         setName(name);
         setAge(age);
@@ -41,7 +41,7 @@ public class Volunteering {
         setPhoneNumber(phoneNumber);
         setProblem(problem);
         _time = setTime();
-        setTakingVolunteering(take);
+        setTakingVolunteering(false);
     }
 
     // Cons for testing
@@ -130,8 +130,8 @@ public class Volunteering {
         return _takingVolunteering;
     }
 
-    public void setTakingVolunteering(Boolean _takingVolunteering) {
-        _takingVolunteering = _takingVolunteering;
+    public void setTakingVolunteering(Boolean takingVolunteering) {
+        _takingVolunteering = takingVolunteering;
     }
 
     @Override
