@@ -1,0 +1,24 @@
+ספט׳ 10, 2021 12:20:02 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+ספט׳ 10, 2021 12:20:03 אחה״צ MainWindow main
+INFO: dbso connected
+ספט׳ 10, 2021 12:20:03 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+ספט׳ 10, 2021 12:20:03 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+ספט׳ 10, 2021 12:20:03 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+ספט׳ 10, 2021 12:20:30 אחה״צ Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
+ספט׳ 10, 2021 12:20:36 אחה״צ Controller.ContactController$GoBackListener actionPerformed
+INFO: Go Back to Login screen from Contact screen
+ספט׳ 10, 2021 12:20:37 אחה״צ Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+ספט׳ 10, 2021 12:23:08 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Failed to get data from user!!
+ספט׳ 10, 2021 12:24:38 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Failed to get data from user!!
+ספט׳ 10, 2021 12:24:42 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Failed to get data from user!!
+ספט׳ 10, 2021 12:24:45 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Failed to get data from user!!

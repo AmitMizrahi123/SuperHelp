@@ -89,6 +89,7 @@ public class AdminController {
                     _theModel.add(volunteering);
                     _theView.addVolunteeringToList(volunteering);
                     _theView.clearFields();
+                    _theView.setListResult();
                     _logger.log(Level.INFO, "{0} has been added", volunteering);
 
                     if (_theView.getListSize() > 0) {

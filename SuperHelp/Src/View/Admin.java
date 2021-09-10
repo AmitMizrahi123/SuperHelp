@@ -3,6 +3,7 @@ package View;
 import Model.SingletonVolunteeringDetails;
 import Model.Volunteering;
 
+import javax.inject.Inject;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
@@ -36,6 +37,7 @@ public class Admin extends JFrame {
 
     private Font labelFont() { return new Font("Georgia", Font.BOLD | Font.ITALIC, 18); }
 
+    @Inject
     public Admin() {
         SingletonVolunteeringDetails details = SingletonVolunteeringDetails.getInstance();
 
@@ -239,25 +241,39 @@ public class Admin extends JFrame {
 
     public String getName() { return nameText.getText(); }
 
+    public void setName(String name) { nameText.setText(name); }
+
     public String getGender() {
         return genderBG.getSelection().getActionCommand();
     }
+
+    public void setGenderMale() { genderMaleRB.setSelected(true); }
+
+    public void setGenderFemale() { genderFemaleRB.setSelected(true); }
 
     public String getPhoneNumber() {
         return phoneNumberText.getText();
     }
 
+    public void setPhoneNumber(String phoneNumber) { phoneNumberText.setText(phoneNumber); }
+
     public String getAddress() {
         return addressCB.getSelectedItem().toString();
     }
+
+    public void setAddress(String address) { addressCB.setSelectedItem(address); }
 
     public String getProblem() {
         return problemText.getText();
     }
 
+    public void setProblem(String problem) { problemText.setText(problem); }
+
     public int getAge() {
         return Integer.parseInt(ageCB.getSelectedItem().toString());
     }
+
+    public void setAge(int age) { ageCB.setSelectedItem(age); }
 
     public void addVolunteeringToList(Volunteering volunteering) {
         DLM_result.addElement(volunteering);
@@ -270,6 +286,8 @@ public class Admin extends JFrame {
     public Volunteering getSelectedItem() {
         return (Volunteering) list.getSelectedValue();
     }
+
+    public Volunteering getSelectedItemByIndeX(int index) { return (Volunteering) DLM_result.get(index); }
 
     public int getSelectedIndex() {
         return list.getSelectedIndex();
@@ -303,6 +321,10 @@ public class Admin extends JFrame {
         }
     }
 
+    public boolean deleteButtonEnable() { return deleteButton.isEnabled(); }
+
+    public boolean updateButtonEnable() { return updateButton.isEnabled(); }
+
     public int getListSize() {
         return DLM_result.size();
     }
@@ -331,4 +353,10 @@ public class Admin extends JFrame {
             genderFemaleRB.setSelected(true);
         }
     }
+
+    public void clickOnAddVolunteering() { addButton.doClick(); }
+
+    public void clickOnUpdateVolunteering() { updateButton.doClick(); }
+
+    public void clickOnDeleteVolunteering() { deleteButton.doClick(); }
 }
