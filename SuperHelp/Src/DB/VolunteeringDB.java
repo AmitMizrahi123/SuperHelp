@@ -20,7 +20,7 @@ public class VolunteeringDB {
                     rs.getString("Name"), rs.getInt("Age"), rs.getString("Gender"),
                     rs.getString("PhoneNumber"), rs.getString("Address"),
                     rs.getString("Problem"), rs.getTimestamp("Time"),
-                    rs.getBoolean("Take"));
+                    rs.getString("Take"));
 
             volunteerings.add(volunteering);
         }
@@ -40,7 +40,7 @@ public class VolunteeringDB {
         ps.setString(6, volunteering.getPhoneNumber());
         ps.setString(7, volunteering.getProblem());
         ps.setTimestamp(8, volunteering.getTime());
-        ps.setBoolean(9, volunteering.getTakingVolunteering());
+        ps.setString(9, volunteering.getTakingVolunteering());
         ps.executeUpdate();
     }
 
@@ -52,11 +52,11 @@ public class VolunteeringDB {
         ps.executeUpdate();
     }
 
-    public static void updateData(Connection db, Volunteering volunteering) throws SQLException {
-        String sql = "update volunteering set Take=? where volunteerId=?;";
+    public static void updateData(Connection db, Volunteering volunteering, String email) throws SQLException {
+        String sql = "update volunteering set Take=(select Email from client where Email=?) where volunteerId=?;";
 
         PreparedStatement ps = db.prepareStatement(sql);
-        ps.setBoolean(1, volunteering.getTakingVolunteering());
+        ps.setString(1, email);
         ps.setInt(2, volunteering.getVolunteerId());
         ps.executeUpdate();
     }

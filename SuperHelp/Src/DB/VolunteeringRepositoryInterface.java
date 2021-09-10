@@ -1,6 +1,7 @@
 package DB;
 
 import Model.Volunteering;
+import View.Volunteer;
 
 import java.util.ArrayList;
 
@@ -11,6 +12,8 @@ public interface VolunteeringRepositoryInterface {
 
     void delete(int id) throws Exception;
 
+    void updateTakingVolunteering(Volunteering volunteering, String email) throws Exception;
+
     Volunteering findVolunteeringById(int id);
 
     String getVoluneeringAddress(int id);
@@ -20,6 +23,4 @@ public interface VolunteeringRepositoryInterface {
     boolean isValidName(String name);
 
     boolean isValidPhoneNumber(String phoneNumber);
-
-    void updateTakintVoluneering(Volunteering volunteering, boolean volunteerTakeVolunteering) throws Exception;
 }

@@ -117,12 +117,10 @@ public class Volunteer extends JFrame {
 
     public void addTakeVolunteeringListener(ActionListener takeVolunteering) { takeVolunteeringButton.addActionListener(takeVolunteering); }
 
+    public void addMyVolunteeringListener(ActionListener myVolunteering) { myVolunteeringButton.addActionListener(myVolunteering); }
+
     public void setListResult() {
         list.setModel(DLM_result);
-    }
-
-    public void setListElement(Volunteering volunteering) {
-        DLM_result.addElement(volunteering);
     }
 
     public void addVolunteeringToList(Volunteering volunteering) {
@@ -180,4 +178,10 @@ public class Volunteer extends JFrame {
     }
 
     public Login clickLogout() { logoutButton.doClick(); return new Login(); }
+
+    public void displayMyVolunteering(ArrayList<Volunteering> myVolunteering) {
+        JList list = new JList((ListModel) myVolunteering);
+        JScrollPane scrollPane = new JScrollPane(list);
+        JOptionPane.showMessageDialog(null, scrollPane, "volunteerings", JOptionPane.OK_CANCEL_OPTION);
+    }
 }

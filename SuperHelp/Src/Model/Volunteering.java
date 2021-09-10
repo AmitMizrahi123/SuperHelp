@@ -14,11 +14,11 @@ public class Volunteering {
     private String _address;
     private String _problem;
     private Timestamp _time;
-    private Boolean _takingVolunteering;
+    private String _takingVolunteering;
 
     // cons for get all volunteering from db
     public Volunteering(int id, String name, int age, String gender, String phoneNumber,
-                        String address, String problem, Timestamp time, Boolean takingVolunteering) {
+                        String address, String problem, Timestamp time, String takingVolunteering) {
         _volunteerId = id;
         _name = name;
         _age = age;
@@ -41,7 +41,7 @@ public class Volunteering {
         setPhoneNumber(phoneNumber);
         setProblem(problem);
         _time = setTime();
-        setTakingVolunteering(false);
+        setTakingVolunteering(null);
     }
 
     // Cons for testing
@@ -55,7 +55,7 @@ public class Volunteering {
         setAddress(address);
         setProblem(problem);
         _time = setTime();
-        _takingVolunteering = false;
+        _takingVolunteering = null;
     }
 
     public int setVolunteerId() {
@@ -126,11 +126,11 @@ public class Volunteering {
         this._gender = _gender;
     }
 
-    public Boolean getTakingVolunteering() {
+    public String getTakingVolunteering() {
         return _takingVolunteering;
     }
 
-    public void setTakingVolunteering(Boolean takingVolunteering) {
+    public void setTakingVolunteering(String takingVolunteering) {
         _takingVolunteering = takingVolunteering;
     }
 

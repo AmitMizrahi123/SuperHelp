@@ -40,6 +40,6 @@ public class MainWindow {
 
         Volunteer view = new Volunteer();
         VolunteeringRepository model = new VolunteeringRepository(db);
-        VolunteerContoller contoller = new VolunteerContoller(view, model);
+        VolunteerContoller contoller = new VolunteerContoller(view, model, "yossi@walla.co.il");
     }
 }

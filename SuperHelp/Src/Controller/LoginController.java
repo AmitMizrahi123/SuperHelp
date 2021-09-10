@@ -53,7 +53,7 @@ public class LoginController {
                             Volunteer view = new Volunteer();
                             view.setTitle("Welcome to Super Help - " + email);
                             VolunteeringRepository model = new VolunteeringRepository(_theModel._db);
-                            VolunteerContoller contoller = new VolunteerContoller(view, model);
+                            VolunteerContoller contoller = new VolunteerContoller(view, model, email);
                         } else if (permission.equals("Manager")) {
                             _logger.log(Level.INFO, "Log in success, going to Manager screen");
 
