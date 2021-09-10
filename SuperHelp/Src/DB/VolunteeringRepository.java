@@ -53,17 +53,17 @@ public class VolunteeringRepository implements VolunteeringRepositoryInterface {
 
 
     @Override
-    public void updateTakintVoluneering(Volunteering volunteering) throws Exception {
+    public void updateTakintVoluneering(Volunteering volunteering, boolean volunteerTakeVolunteering) throws Exception {
         if (volunteering == null)
             throw new Exception("Volunteering musht have a value");
 
         for (Volunteering vol : _volunteerings) {
             if (volunteering.getVolunteerId() == vol.getVolunteerId()) {
-                vol.setTakingVolunteering(volunteering.getTakingVolunteering());
+                vol.setTakingVolunteering(volunteerTakeVolunteering);
             }
         }
 
-        VolunteeringDB.deleteData(_db, volunteering);
+        VolunteeringDB.updateData(_db, volunteering);
     }
 
     @Override

@@ -159,10 +159,10 @@ public class VolunteerContoller {
             _logger.log(Level.INFO, "Get index {} from volunteering", index);
 
             try {
-                _theModel.delete(volunteering.getVolunteerId());
-                _logger.log(Level.INFO, "delete {0} from db", volunteering);
+                _theModel.updateTakintVoluneering(volunteering, true);
+                _logger.log(Level.INFO, "update {0} from db", volunteering);
                 _theView.removeItemFromList(index);
-                _logger.log(Level.INFO, "delete {0} from list", volunteering);
+                _logger.log(Level.INFO, "remove {0} from list", volunteering);
 
                 if (_theView.getListSize() == 0) {
                     _theView.enableSearchButton(false);
