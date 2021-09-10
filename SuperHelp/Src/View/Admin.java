@@ -287,6 +287,8 @@ public class Admin extends JFrame {
         return (Volunteering) list.getSelectedValue();
     }
 
+    public Volunteering getSelectedItemByIndeX(int index) { return (Volunteering) DLM_result.get(index); }
+
     public int getSelectedIndex() {
         return list.getSelectedIndex();
     }

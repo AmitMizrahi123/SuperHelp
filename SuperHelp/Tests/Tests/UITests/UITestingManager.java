@@ -3,11 +3,11 @@ package Tests.UITests;
 import Controller.ManagerController;
 import Model.Client;
 import Utilites.TestBase;
+import View.Login;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.Random;
-import java.util.stream.Stream;
 
 public class UITestingManager extends TestBase {
     private ManagerController _theController = new ManagerController(_managerScreen, _clientRepository);
@@ -23,6 +23,14 @@ public class UITestingManager extends TestBase {
         int clientSizeAfter = clientSize - 1;
         Assert.assertTrue("Remove client failed!", clientSizeBefore != clientSizeAfter + 1);
         _clientRepository.add(removeClient);
+        _testResult.setTestResult(true);
+    }
+
+    @Test
+    public void verifyGoBackToLogin()
+    {
+        Login login = _managerScreen.clickLogout();
+        Assert.assertTrue(login.getNameScreen().equals("Login"));
         _testResult.setTestResult(true);
     }
 }

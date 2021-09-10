@@ -1,10 +1,13 @@
 package Tests.UITests;
 
 import Controller.AdminController;
+import Model.Volunteering;
 import Utilites.TestBase;
 import View.Login;
 import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.Random;
 
 public class UITestingAdmin extends TestBase {
     AdminController _theController = new AdminController(_adminScreen, _volunteeringRepository);
@@ -30,7 +33,7 @@ public class UITestingAdmin extends TestBase {
     }
 
     @Test
-    public void verifyReturnToLogin() {
+    public void verifyGoBackToLogin() {
         Login login = _adminScreen.clickLogout();
         Assert.assertTrue("Return to login failed!", login.getNameScreen().equals("Login"));
     }
