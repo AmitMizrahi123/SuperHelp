@@ -43,9 +43,12 @@ public class VolunteerContoller {
         _logger.log(Level.INFO, "Show all clients in list");
         if(!volunteerings.isEmpty()) {
             for(Volunteering volunteering : volunteerings) {
-                _logger.log(Level.INFO, "Adding {0} to the list", volunteering);
-                _theView.addVolunteeringToList(volunteering);
+                if (!volunteering.getTakingVolunteering()) {
+                    _logger.log(Level.INFO, "Adding {0} to the list", volunteering);
+                    _theView.addVolunteeringToList(volunteering);
+                }
             }
+
             _theView.setListResult();
         }
     }
