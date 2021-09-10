@@ -51,4 +51,13 @@ public class VolunteeringDB {
         ps.setInt(1, volunteering.getVolunteerId());
         ps.executeUpdate();
     }
+
+    public static void updateData(Connection db, Volunteering volunteering) throws SQLException {
+        String sql = "update volunteering set Take=? where volunteerId=?;";
+
+        PreparedStatement ps = db.prepareStatement(sql);
+        ps.setBoolean(1, volunteering.getTakingVolunteering());
+        ps.setInt(2, volunteering.getVolunteerId());
+        ps.executeUpdate();
+    }
 }
