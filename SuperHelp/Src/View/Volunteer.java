@@ -8,6 +8,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseListener;
+import java.util.ArrayList;
 
 public class Volunteer extends JFrame {
     private JPanel contentPane;
@@ -19,6 +20,10 @@ public class Volunteer extends JFrame {
     private DefaultListModel DLM_result;
     private JButton takeVolunteeringButton;
     private JButton logoutButton;
+    private JButton myVolunteeringButton;
+    private JList listMyVolunteering;
+    private JScrollPane scrollPaneMyVolunteering;
+    private DefaultListModel DLMVolunteering;
 
     public Volunteer() {
         SingletonVolunteeringDetails details = SingletonVolunteeringDetails.getInstance();
@@ -72,6 +77,14 @@ public class Volunteer extends JFrame {
         takeVolunteeringButton.setBackground(SystemColor.activeCaption);
         takeVolunteeringButton.setForeground(Color.WHITE);
         contentPane.add(takeVolunteeringButton);
+
+        myVolunteeringButton = new JButton("My Volunteering");
+        myVolunteeringButton.setBounds(30, 200, 270, 30);
+        myVolunteeringButton.setBorderPainted(false);
+        myVolunteeringButton.setFocusPainted(false);
+        myVolunteeringButton.setBackground(SystemColor.activeCaption);
+        myVolunteeringButton.setForeground(Color.WHITE);
+        contentPane.add(myVolunteeringButton);
 
         logoutButton = new JButton("Log Out");
         logoutButton.setBounds(30, 500, 270, 30);

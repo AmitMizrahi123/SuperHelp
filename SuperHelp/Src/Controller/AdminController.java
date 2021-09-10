@@ -85,7 +85,7 @@ public class AdminController {
                 age = _theView.getAge();
 
                 if (_theModel.isValidName(name) && _theModel.isValidPhoneNumber(phoneNumber) && !problem.equals("")) {
-                    Volunteering volunteering = new Volunteering(name, age, gender, phoneNumber, address, problem);
+                    Volunteering volunteering = new Volunteering(name, age, gender, phoneNumber, address, problem, false);
                     _theModel.add(volunteering);
                     _theView.addVolunteeringToList(volunteering);
                     _theView.clearFields();

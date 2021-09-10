@@ -13,7 +13,7 @@ public class MainWindow {
     public static void main(String[] args) throws Exception {
         final String databaseName = "dbso", tableNameClient = "client", tableNameVolunteer = "volunteering",
                 createClientSql = " (Email varchar(40) primary key not null unique, Password varchar(40) not null, FirstName varchar(40) not null, LastName varchar(40) not null, Address varchar(40) not null, PhoneNumber varchar(40) unique not null, Permission varchar(40) not null)",
-                createVoluneeringSql = " (volunteerId int primary key not null unique, Name varchar(40) not null, Age int not null, Gender varchar(6) not null, Address varchar(40) not null, PhoneNumber varchar(40) not null, Problem varchar(255) not null, Time DateTime not null)";
+                createVoluneeringSql = " (volunteerId int primary key not null unique, Name varchar(40) not null, Age int not null, Gender varchar(6) not null, Address varchar(40) not null, PhoneNumber varchar(40) not null, Problem varchar(255) not null, Time DateTime not null, Take Boolean not null)";
 
         Connection db = Utilities.connectToMySql();
 
@@ -31,11 +31,15 @@ public class MainWindow {
             Utilities.createTable(db, tableNameVolunteer, createVoluneeringSql);
         }
 
-        new ProgressBarPage();
+        /*new ProgressBarPage();
 
         Login theView = new Login();
         ClientRepository theModel = new ClientRepository(db);
         LoginController theController = new LoginController(theView, theModel);
-        theView.setVisible(true);
+        theView.setVisible(true);*/
+
+        Volunteer view = new Volunteer();
+        VolunteeringRepository model = new VolunteeringRepository(db);
+        VolunteerContoller contoller = new VolunteerContoller(view, model);
     }
 }

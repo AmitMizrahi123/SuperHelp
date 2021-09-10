@@ -14,22 +14,25 @@ public class Volunteering {
     private String _address;
     private String _problem;
     private Timestamp _time;
+    private Boolean _takingVolunteering;
 
-    // Cons for get selected item
-    public Volunteering(int volunteerId, String name, int age, String gender, String phoneNumber,
-                        String address, String problem, Timestamp time) {
-        _volunteerId = volunteerId;
-        setName(name);
-        setAge(age);
-        setGender(gender);
-        setPhoneNumber(phoneNumber);
-        setAddress(address);
-        setProblem(problem);
+    // cons for get all volunteering from db
+    public Volunteering(int id, String name, int age, String gender, String phoneNumber,
+                        String address, String problem, Timestamp time, Boolean takingVolunteering) {
+        _volunteerId = id;
+        _name = name;
+        _age = age;
+        _gender = gender;
+        _phoneNumber = phoneNumber;
+        _address = address;
+        _problem = problem;
         _time = time;
+        _takingVolunteering = takingVolunteering;
     }
 
+    // cons to new volunteering
     public Volunteering(String name, int age, String gender, String address,
-                        String phoneNumber, String problem) {
+                        String phoneNumber, String problem, boolean take) {
         _volunteerId = setVolunteerId();
         setName(name);
         setAge(age);
@@ -38,6 +41,7 @@ public class Volunteering {
         setPhoneNumber(phoneNumber);
         setProblem(problem);
         _time = setTime();
+        setTakingVolunteering(take);
     }
 
     // Cons for testing
@@ -51,6 +55,7 @@ public class Volunteering {
         setAddress(address);
         setProblem(problem);
         _time = setTime();
+        _takingVolunteering = false;
     }
 
     public int setVolunteerId() {
@@ -119,6 +124,14 @@ public class Volunteering {
 
     public void setGender(String _gender) {
         this._gender = _gender;
+    }
+
+    public Boolean getTakingVolunteering() {
+        return _takingVolunteering;
+    }
+
+    public void setTakingVolunteering(Boolean _takingVolunteering) {
+        _takingVolunteering = _takingVolunteering;
     }
 
     @Override

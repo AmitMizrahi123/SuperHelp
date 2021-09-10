@@ -143,6 +143,12 @@ public class VolunteerContoller {
     private class TakeVolunteeringListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
+            if (_theView.getSelectedItem() == null) {
+                _logger.log(Level.INFO, "The volunteer dont select any volunteering!");
+                _theView.displayErrorMessage("You dont select volunteeing!");
+                return;
+            }
+
             _logger.log(Level.INFO, "Trying to take volunteering from volunteer screen");
             Volunteering volunteering = _theView.getSelectedItem();
             _logger.log(Level.INFO, "Get volunteering {0} that selected from list", volunteering);
