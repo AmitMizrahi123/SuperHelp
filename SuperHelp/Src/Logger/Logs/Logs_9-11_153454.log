@@ -1,0 +1,64 @@
+ספט׳ 11, 2021 3:34:54 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:34:57 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:34:57 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:34:57 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:34:57 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:34:57 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:34:57 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:34:58 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:34:58 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:35:18 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:35:18 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:35:18 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:35:19 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:35:19 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:35:19 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:35:19 PM Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+Sep 11, 2021 3:35:19 PM Controller.LoginController$LoginListener actionPerformed
+INFO: Log in success, going to Manager screen
+Sep 11, 2021 3:35:19 PM Controller.ManagerController showAllUsers
+INFO: Show all clients in list
+Sep 11, 2021 3:35:19 PM Controller.ManagerController showAllUsers
+INFO: Adding FirstName: Yossi, LastName: Bengaev, Address: Ramla, PhoneNumber: 0526861102, Permission: Admin to the list
+Sep 11, 2021 3:35:19 PM Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+Sep 11, 2021 3:35:19 PM Controller.LoginController$LoginListener actionPerformed
+WARNING: Log in failed, invalid email
+Sep 11, 2021 3:35:26 PM Controller.LoginController$LoginListener actionPerformed
+INFO: Trying to log in
+Sep 11, 2021 3:35:27 PM Controller.LoginController$LoginListener actionPerformed
+WARNING: Log in failed, invalid password
+Sep 11, 2021 3:35:27 PM Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+Sep 11, 2021 3:35:27 PM Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+Sep 11, 2021 3:35:28 PM Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
+Sep 11, 2021 3:35:28 PM Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
+Sep 11, 2021 3:35:28 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:35:28 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:35:28 PM DB.Utilities connectToMySql
+INFO: Trying to connect database
+Sep 11, 2021 3:35:28 PM Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, input wrong
+Sep 11, 2021 3:35:29 PM Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, email exists

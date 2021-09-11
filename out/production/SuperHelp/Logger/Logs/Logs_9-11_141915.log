@@ -1,0 +1,8 @@
+ספט׳ 11, 2021 2:19:15 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+ספט׳ 11, 2021 2:19:15 אחה״צ MainWindow main
+INFO: dbso connected
+ספט׳ 11, 2021 2:19:15 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+ספט׳ 11, 2021 2:19:15 אחה״צ DB.Utilities createSchema
+INFO: Trying to create dbso schema
