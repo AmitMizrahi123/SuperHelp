@@ -2,6 +2,7 @@ package DB;
 
 import Logger.SingletonLogger;
 
+import java.lang.module.FindException;
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -38,16 +39,14 @@ public class Utilities {
     public static boolean checkIfSchemaExists(Connection conn, String schemaName) throws SQLException {
         _logger.log(Level.INFO, "Check if {0} schema exists", schemaName);
         ResultSet rs = conn.getMetaData().getCatalogs();
-        int counter = 1;
+        int searchShemaIndex = 1;
 
         while (rs.next()) {
-            String catalog = rs.getString(counter);
+            String catalog = rs.getString(searchShemaIndex);
 
             if (schemaName.equals(catalog)) {
                 return true;
             }
-
-            counter++;
         }
 
         return false;
