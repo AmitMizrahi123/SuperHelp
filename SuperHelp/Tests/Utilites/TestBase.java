@@ -21,7 +21,7 @@ public class TestBase {
      public static ExtentHtmlReporter _htmlReporter;
      public static ExtentReports _extent;
      public static ExtentTest _logger;
-     public static String _reportPath = "C:\\Users\\97250\\IdeaProjects\\SuperHelp\\SuperHelp\\Tests\\Reports\\AutomationReport.html";
+     public static String _reportPath = System.getProperty("user.dir") + "\\SuperHelp\\Tests\\Reports\\AutomationReport.html";
 
      public static Login _loginScreen;
      public static Register _registerScreen;
