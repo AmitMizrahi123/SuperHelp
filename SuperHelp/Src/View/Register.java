@@ -67,7 +67,7 @@ public class Register extends JFrame {
         setIconImage(image.getImage());
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setBounds(100, 100, 840, 660);
+        setBounds(100, 100, 870, 660);
         setTitle("Super Help");
         setLocationRelativeTo(null);
         contentPane = new JPanel();
@@ -218,7 +218,7 @@ public class Register extends JFrame {
     //<editor-fold desc="Error Messages">
     public void emailError() {
         emailError = new JLabel("Invalid email");
-        emailError.setBounds(650, 60, 500, 100);
+        emailError.setBounds(680, 60, 500, 100);
         emailError.setFont(errorFont());
         emailError.setForeground(errorColor());
         contentPane.add(emailError);
@@ -243,7 +243,7 @@ public class Register extends JFrame {
 
     public void passwordError() {
         passwordError = new JLabel("Invalid password");
-        passwordError.setBounds(650, 120, 500, 100);
+        passwordError.setBounds(680, 120, 500, 100);
         passwordError.setFont(errorFont());
         passwordError.setForeground(errorColor());
         contentPane.add(passwordError);
@@ -268,7 +268,7 @@ public class Register extends JFrame {
 
     public void firstNameError() {
         firstNameError = new JLabel("Invalid first name");
-        firstNameError.setBounds(650, 180, 500, 100);
+        firstNameError.setBounds(680, 180, 500, 100);
         firstNameError.setFont(errorFont());
         firstNameError.setForeground(errorColor());
         contentPane.add(firstNameError);
@@ -293,7 +293,7 @@ public class Register extends JFrame {
 
     public void lastNameError() {
         lastNameError = new JLabel("Invalid last name");
-        lastNameError.setBounds(650, 240, 500, 100);
+        lastNameError.setBounds(680, 240, 500, 100);
         lastNameError.setFont(errorFont());
         lastNameError.setForeground(errorColor());
         contentPane.add(lastNameError);
@@ -318,7 +318,7 @@ public class Register extends JFrame {
 
     public void addressError() {
         addressError = new JLabel("Invalid address");
-        addressError.setBounds(650, 300, 500, 100);
+        addressError.setBounds(680, 300, 500, 100);
         addressError.setFont(errorFont());
         addressError.setForeground(errorColor());
         contentPane.add(addressError);
@@ -343,7 +343,7 @@ public class Register extends JFrame {
 
     public void phoneNumberError() {
         phoneNumberError = new JLabel("Invalid phone number");
-        phoneNumberError.setBounds(650, 360, 500, 100);
+        phoneNumberError.setBounds(680, 360, 500, 100);
         phoneNumberError.setFont(errorFont());
         phoneNumberError.setForeground(errorColor());
         contentPane.add(phoneNumberError);
