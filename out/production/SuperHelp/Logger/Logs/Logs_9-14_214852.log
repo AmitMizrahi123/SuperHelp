@@ -1,0 +1,22 @@
+ספט׳ 14, 2021 9:48:52 אחה״צ DB.Utilities connectToMySql
+INFO: Trying to connect database
+ספט׳ 14, 2021 9:48:53 אחה״צ MainWindow main
+INFO: dbso connected
+ספט׳ 14, 2021 9:48:53 אחה״צ DB.Utilities checkIfSchemaExists
+INFO: Check if dbso schema exists
+ספט׳ 14, 2021 9:48:53 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if client table exists
+ספט׳ 14, 2021 9:48:53 אחה״צ DB.Utilities checkIfTableExists
+INFO: Check if volunteering table exists
+ספט׳ 14, 2021 9:49:57 אחה״צ Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+ספט׳ 14, 2021 9:49:59 אחה״צ Controller.RegisterController$GoBackListener actionPerformed
+INFO: Go Back to Login screen from Register screen
+ספט׳ 14, 2021 9:50:00 אחה״צ Controller.LoginController$ContactListener actionPerformed
+INFO: Going to Contact screen
+ספט׳ 14, 2021 9:50:09 אחה״צ Controller.ContactController$GoBackListener actionPerformed
+INFO: Go Back to Login screen from Contact screen
+ספט׳ 14, 2021 9:50:33 אחה״צ Controller.LoginController$RegisterListener actionPerformed
+INFO: Going to Register screen
+ספט׳ 14, 2021 9:52:13 אחה״צ Controller.RegisterController$RegisterListener actionPerformed
+WARNING: Register failed, input wrong
