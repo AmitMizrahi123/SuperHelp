@@ -21,7 +21,7 @@ public class SingletonLogger {
 
     public Logger configLogger() {
         if (_createTemplate) {
-            String path = "C:\\Users\\97250\\IdeaProjects\\SuperHelp\\SuperHelp\\Src\\Logger\\Logs";
+            String path = System.getProperty("user.dir") + "\\SuperHelp\\Src\\Logger\\Logs";
             FileHandler fh = null;
             SimpleDateFormat format = new SimpleDateFormat("M-d_HHmmss");
 

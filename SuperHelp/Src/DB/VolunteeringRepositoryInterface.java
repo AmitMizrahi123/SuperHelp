@@ -1,6 +1,7 @@
 package DB;
 
 import Model.Volunteering;
+import View.Volunteer;
 
 import java.util.ArrayList;
 
@@ -10,6 +11,8 @@ public interface VolunteeringRepositoryInterface {
     void add(Volunteering volunteering) throws Exception;
 
     void delete(int id) throws Exception;
+
+    void updateTakingVolunteering(Volunteering volunteering, String email) throws Exception;
 
     Volunteering findVolunteeringById(int id);
 

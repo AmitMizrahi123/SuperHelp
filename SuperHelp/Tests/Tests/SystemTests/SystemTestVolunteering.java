@@ -20,7 +20,7 @@ public class SystemTestVolunteering extends TestBase {
         Random random = new Random();
         boolean flag = false;
         int numberOfCurrentVolunteering = _volunteeringRepository._volunteerings.size();
-        int randomAge = random.nextInt(50);
+        int randomAge = 16 + random.nextInt(50);
         int randonVolunteering = random.nextInt(numberOfVolunteering);
         String phoneNumber = "1111111111";
 
@@ -28,7 +28,7 @@ public class SystemTestVolunteering extends TestBase {
             int phoneNumberValue = Integer.parseInt(phoneNumber) + i;
             _volunteeringRepository.add(new Volunteering(i, String.format("Admin%s", i), randomAge, "Male"
                     , String.valueOf(phoneNumberValue), "Akko", "stam..."));
-            randomAge = random.nextInt(50);
+            randomAge = 16 + random.nextInt(50);
         }
 
         Assert.assertTrue("Not all clients entered to DB",numberOfCurrentVolunteering + numberOfVolunteering == _volunteeringRepository._volunteerings.size());
